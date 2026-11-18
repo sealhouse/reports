@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "last_collected_at": null,
+  "last_attempt_at": "2026-11-18T19:30:02Z",
+  "days": [
+    {
+      "date": "2026-11-17",
+      "status": "failed",
+      "run": "https://github.com/sealhouse/ci/actions/runs/44381141670"
+    }
+  ],
+  "alphas": [],
+  "incidents": [],
+  "nightly": [],
+  "soak": [],
+  "vulns": [],
+  "behind": [],
+  "open_prs": [],
+  "carries": [],
+  "alpha": null
+}

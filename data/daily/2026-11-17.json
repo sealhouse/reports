@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "date": "2026-11-17",
+  "status": "failed",
+  "run": {
+    "id": "44381141670",
+    "url": "https://github.com/sealhouse/ci/actions/runs/44381141670",
+    "ci": "cfc649e6cc3b6e0a95a07b63f078022f3d26f513",
+    "collected_at": "2026-11-18T19:30:02Z"
+  }
+}
