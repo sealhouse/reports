@@ -1,0 +1,1282 @@
+{
+  "schema": 1,
+  "date": "2026-11-20",
+  "status": "ok",
+  "window": {
+    "from": "2026-11-20T00:00:00Z",
+    "to": "2026-11-21T00:00:00Z"
+  },
+  "run": {
+    "id": "44941836244",
+    "url": "https://github.com/sealhouse/ci/actions/runs/44941836244",
+    "ci": "61886129aa360c7ac83e933e8a29446b4cb01129",
+    "collected_at": "2026-11-21T19:37:12Z"
+  },
+  "syncs": [
+    {
+      "repo": "cosign",
+      "pr": 27,
+      "opened_at": "2026-11-20T15:29:17Z",
+      "closed_at": "2026-11-20T15:35:17Z",
+      "merged": true,
+      "upstream": {
+        "count": 5,
+        "newest_at": "2026-11-20T01:00:52Z",
+        "oldest_at": "2026-11-19T20:18:17Z",
+        "from": "0743bfcff5f81ec49ffcea2f61b98938f6ba70ec",
+        "to": "339a3ca85413b4d89a49daf1eb554591c93ee365"
+      }
+    },
+    {
+      "repo": "dex",
+      "pr": 13,
+      "opened_at": "2026-11-20T15:29:26Z",
+      "closed_at": "2026-11-20T15:33:11Z",
+      "merged": true,
+      "upstream": {
+        "count": 1,
+        "newest_at": "2026-11-19T23:44:29Z",
+        "oldest_at": "2026-11-19T23:44:29Z",
+        "from": "b595dd8a9284cda457e573ed5ce457a921b4ec80",
+        "to": "c895237f60a176a6ec3fa1c02f4f75716a296ced"
+      }
+    },
+    {
+      "repo": "go-tuf",
+      "pr": 17,
+      "opened_at": "2026-11-20T15:29:38Z",
+      "closed_at": "2026-11-20T15:33:18Z",
+      "merged": true,
+      "upstream": {
+        "count": 3,
+        "newest_at": "2026-11-20T14:29:17Z",
+        "oldest_at": "2026-11-19T21:27:26Z",
+        "from": "b08d92883bfb518125de174b152a1aa2ca6b2e96",
+        "to": "ebbf0e903e0f6dbd0dabee0bd1d1d369b1a1bf5d"
+      }
+    },
+    {
+      "repo": "rekor-tiles",
+      "pr": 17,
+      "opened_at": "2026-11-20T15:29:47Z",
+      "closed_at": "2026-11-20T15:33:23Z",
+      "merged": true,
+      "upstream": {
+        "count": 2,
+        "newest_at": "2026-11-20T09:18:59Z",
+        "oldest_at": "2026-11-20T09:14:00Z",
+        "from": "7782b76b934b4f1b13212edeb21726e40668def2",
+        "to": "18df084fe9b6926871b35035e7d41d8db55566b2"
+      }
+    }
+  ],
+  "images": [
+    {
+      "repo": "rekor-tiles",
+      "commit": "49e3cb0a084ed8bc82837ced613f8c7b26e39385",
+      "branch": "rhtas/main",
+      "image": "rekor-v3",
+      "pushed": true,
+      "digest": "sha256:0989fdc877f22d4b4254e6c3efef5cfcf429ebda96e45fc657740fe5f6458189",
+      "at": "2026-11-20T15:35:36Z",
+      "run": "https://github.com/sealhouse/rekor-tiles/actions/runs/44764446078"
+    },
+    {
+      "repo": "dex",
+      "commit": "e5d9951297daf1d00b9793ee92a295f963ea755d",
+      "branch": "rhtas/main",
+      "image": "dex",
+      "pushed": true,
+      "digest": "sha256:55e8ad6aa8ac7d93c297f355ee656124b0aa4939187ec6b56bf69112bc88830e",
+      "at": "2026-11-20T15:36:19Z",
+      "run": "https://github.com/sealhouse/dex/actions/runs/44764409900"
+    },
+    {
+      "repo": "cosign",
+      "commit": "a476c4e4b5f560cbd4f8ff72d6bebb9ebad2c84e",
+      "branch": "rhtas/main",
+      "image": "cosign",
+      "pushed": true,
+      "digest": "sha256:aa769adaea8437ed06a73c949998c103f12b3575a512689f8290b5d7d5feb3df",
+      "at": "2026-11-20T15:39:10Z",
+      "run": "https://github.com/sealhouse/cosign/actions/runs/44764771613"
+    }
+  ],
+  "prs": [
+    {
+      "repo": "cosign",
+      "pr": 27,
+      "title": "Sync upstream main 339a3ca8",
+      "kind": "sync",
+      "author": "sealhouse-sync[bot]",
+      "opened_at": "2026-11-20T15:29:17Z",
+      "closed_at": "2026-11-20T15:35:17Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
+      "repo": "dex",
+      "pr": 13,
+      "title": "Sync upstream master c895237f",
+      "kind": "sync",
+      "author": "sealhouse-sync[bot]",
+      "opened_at": "2026-11-20T15:29:26Z",
+      "closed_at": "2026-11-20T15:33:11Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
+      "repo": "go-tuf",
+      "pr": 17,
+      "title": "Sync upstream master ebbf0e9",
+      "kind": "sync",
+      "author": "sealhouse-sync[bot]",
+      "opened_at": "2026-11-20T15:29:38Z",
+      "closed_at": "2026-11-20T15:33:18Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
+      "repo": "rekor-tiles",
+      "pr": 17,
+      "title": "Sync upstream main 18df084",
+      "kind": "sync",
+      "author": "sealhouse-sync[bot]",
+      "opened_at": "2026-11-20T15:29:47Z",
+      "closed_at": "2026-11-20T15:33:23Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    }
+  ],
+  "alphas": [],
+  "runs": [
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-sync",
+      "id": 44696939172,
+      "event": "schedule",
+      "branch": "main",
+      "sha": "61886129aa360c7ac83e933e8a29446b4cb01129",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-20T07:42:26Z",
+      "updated_at": "2026-11-20T07:42:43Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/44696939172",
+      "steps": {
+        "sync / Set up job": "success",
+        "sync / Scripts": "success",
+        "sync / Finish green syncs": "success",
+        "sync / Hand off": "success",
+        "sync / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 44697317013,
+      "event": "schedule",
+      "branch": "main",
+      "sha": "61886129aa360c7ac83e933e8a29446b4cb01129",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-20T07:45:30Z",
+      "updated_at": "2026-11-20T07:45:50Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/44697317013",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-sync",
+      "id": 44763674994,
+      "event": "schedule",
+      "branch": "main",
+      "sha": "61886129aa360c7ac83e933e8a29446b4cb01129",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-20T15:28:50Z",
+      "updated_at": "2026-11-20T15:29:59Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/44763674994",
+      "steps": {
+        "sync / Set up job": "success",
+        "sync / Scripts": "success",
+        "sync / Finish green syncs": "success",
+        "sync / Hand off": "success",
+        "sync / Start syncs": "success",
+        "sync / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-sync",
+      "id": 44764361829,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "61886129aa360c7ac83e933e8a29446b4cb01129",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-20T15:32:55Z",
+      "updated_at": "2026-11-20T15:33:34Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/44764361829",
+      "steps": {
+        "sync / Set up job": "success",
+        "sync / Scripts": "success",
+        "sync / Finish green syncs": "success",
+        "sync / Hand off": "success",
+        "sync / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-sync",
+      "id": 44764379457,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "61886129aa360c7ac83e933e8a29446b4cb01129",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-20T15:33:01Z",
+      "updated_at": "2026-11-20T15:33:56Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/44764379457",
+      "steps": {
+        "sync / Set up job": "success",
+        "sync / Scripts": "success",
+        "sync / Finish green syncs": "success",
+        "sync / Hand off": "success",
+        "sync / Complete job": "success"
+      }
+    },
+    {
+      "repo": "dex",
+      "workflow": "sealhouse-merge",
+      "id": 44764409900,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "e5d9951297daf1d00b9793ee92a295f963ea755d",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-20T15:33:12Z",
+      "updated_at": "2026-11-20T15:36:19Z",
+      "url": "https://github.com/sealhouse/dex/actions/runs/44764409900",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Registry": "success",
+        "merge / merge / Image": "success",
+        "merge / merge / Hand off": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "go-tuf",
+      "workflow": "sealhouse-merge",
+      "id": 44764427962,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "3619f0ea0a7f57497ea9fb993bad705bab79e3a4",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-20T15:33:18Z",
+      "updated_at": "2026-11-20T15:33:55Z",
+      "url": "https://github.com/sealhouse/go-tuf/actions/runs/44764427962",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "rekor-tiles",
+      "workflow": "sealhouse-merge",
+      "id": 44764446078,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "49e3cb0a084ed8bc82837ced613f8c7b26e39385",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-20T15:33:24Z",
+      "updated_at": "2026-11-20T15:35:36Z",
+      "url": "https://github.com/sealhouse/rekor-tiles/actions/runs/44764446078",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Registry": "success",
+        "merge / merge / Image": "success",
+        "merge / merge / Hand off": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 44764462181,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "61886129aa360c7ac83e933e8a29446b4cb01129",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-20T15:33:31Z",
+      "updated_at": "2026-11-20T15:33:47Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/44764462181",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-sync",
+      "id": 44764729433,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "61886129aa360c7ac83e933e8a29446b4cb01129",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-20T15:35:04Z",
+      "updated_at": "2026-11-20T15:35:35Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/44764729433",
+      "steps": {
+        "sync / Set up job": "success",
+        "sync / Scripts": "success",
+        "sync / Finish green syncs": "success",
+        "sync / Hand off": "success",
+        "sync / Complete job": "success"
+      }
+    },
+    {
+      "repo": "cosign",
+      "workflow": "sealhouse-merge",
+      "id": 44764771613,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "a476c4e4b5f560cbd4f8ff72d6bebb9ebad2c84e",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-20T15:35:18Z",
+      "updated_at": "2026-11-20T15:39:10Z",
+      "url": "https://github.com/sealhouse/cosign/actions/runs/44764771613",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Registry": "success",
+        "merge / merge / Image": "success",
+        "merge / merge / Hand off": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump",
+      "id": 44764812002,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "61886129aa360c7ac83e933e8a29446b4cb01129",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-20T15:35:31Z",
+      "updated_at": "2026-11-20T15:35:45Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/44764812002",
+      "steps": {
+        "bump / Set up job": "success",
+        "bump / Scripts": "success",
+        "bump / Toolchain": "success",
+        "bump / Bump": "success",
+        "bump / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 44764812460,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "61886129aa360c7ac83e933e8a29446b4cb01129",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-20T15:35:31Z",
+      "updated_at": "2026-11-20T15:35:53Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/44764812460",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump",
+      "id": 44764933541,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "61886129aa360c7ac83e933e8a29446b4cb01129",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-20T15:36:14Z",
+      "updated_at": "2026-11-20T15:36:28Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/44764933541",
+      "steps": {
+        "bump / Set up job": "success",
+        "bump / Scripts": "success",
+        "bump / Toolchain": "success",
+        "bump / Bump": "success",
+        "bump / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump",
+      "id": 44765401921,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "61886129aa360c7ac83e933e8a29446b4cb01129",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-20T15:39:05Z",
+      "updated_at": "2026-11-20T15:39:16Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/44765401921",
+      "steps": {
+        "bump / Set up job": "success",
+        "bump / Scripts": "success",
+        "bump / Toolchain": "success",
+        "bump / Bump": "success",
+        "bump / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-replaces",
+      "id": 44771503919,
+      "event": "schedule",
+      "branch": "main",
+      "sha": "61886129aa360c7ac83e933e8a29446b4cb01129",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-20T16:15:21Z",
+      "updated_at": "2026-11-20T16:15:52Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/44771503919",
+      "steps": {
+        "replaces / Set up job": "success",
+        "replaces / Scripts": "success",
+        "replaces / Release what changed": "success",
+        "replaces / Consumers": "success",
+        "replaces / Removable": "success",
+        "replaces / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-nightly",
+      "id": 44781253868,
+      "event": "schedule",
+      "branch": "main",
+      "sha": "61886129aa360c7ac83e933e8a29446b4cb01129",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-11-20T17:13:46Z",
+      "updated_at": "2026-11-20T17:19:10Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/44781253868",
+      "steps": {
+        "report / Set up job": "success",
+        "report / Scripts": "success",
+        "report / Fresh": "success",
+        "report / Complete job": "success",
+        "vulns / Set up job": "success",
+        "vulns / Scripts": "success",
+        "vulns / Toolchain": "success",
+        "vulns / Scan": "success",
+        "vulns / Record": "success",
+        "vulns / Complete job": "success",
+        "watch / Set up job": "success",
+        "watch / Scripts": "success",
+        "watch / Toolchain": "success",
+        "watch / MicroShift": "failure",
+        "watch / Complete job": "success",
+        "changes / Set up job": "success",
+        "changes / Scripts": "success",
+        "changes / Toolchain": "success",
+        "changes / Inputs": "success",
+        "changes / Plan": "success",
+        "changes / Complete job": "success",
+        "rebuild (dex) / Set up job": "success",
+        "rebuild (dex) / Scripts": "success",
+        "rebuild (dex) / Toolchain": "success",
+        "rebuild (dex) / Registry": "success",
+        "rebuild (dex) / Rebuild": "success",
+        "rebuild (dex) / Complete job": "success",
+        "rebuild (cosign) / Set up job": "success",
+        "rebuild (cosign) / Scripts": "success",
+        "rebuild (cosign) / Toolchain": "success",
+        "rebuild (cosign) / Registry": "success",
+        "rebuild (cosign) / Rebuild": "success",
+        "rebuild (cosign) / Complete job": "success",
+        "rebuild (timestamp-authority) / Set up job": "success",
+        "rebuild (timestamp-authority) / Scripts": "success",
+        "rebuild (timestamp-authority) / Toolchain": "success",
+        "rebuild (timestamp-authority) / Registry": "success",
+        "rebuild (timestamp-authority) / Rebuild": "success",
+        "rebuild (timestamp-authority) / Complete job": "success",
+        "rebuild (fulcio) / Set up job": "success",
+        "rebuild (fulcio) / Scripts": "success",
+        "rebuild (fulcio) / Toolchain": "success",
+        "rebuild (fulcio) / Registry": "success",
+        "rebuild (fulcio) / Rebuild": "success",
+        "rebuild (fulcio) / Complete job": "success",
+        "rebuild (rekor-tiles) / Set up job": "success",
+        "rebuild (rekor-tiles) / Scripts": "success",
+        "rebuild (rekor-tiles) / Toolchain": "success",
+        "rebuild (rekor-tiles) / Registry": "success",
+        "rebuild (rekor-tiles) / Rebuild": "success",
+        "rebuild (rekor-tiles) / Complete job": "success",
+        "record / Set up job": "success",
+        "record / Scripts": "success",
+        "record / Record": "success",
+        "record / Complete job": "success"
+      }
+    },
+    {
+      "repo": "secure-sign-pqc-operator",
+      "workflow": "sealhouse-resilience",
+      "id": 44788402425,
+      "event": "schedule",
+      "branch": "main",
+      "sha": "a7067009d68d2860bfc1d24c56ef749f5b608627",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-20T17:58:51Z",
+      "updated_at": "2026-11-20T18:18:46Z",
+      "url": "https://github.com/sealhouse/secure-sign-pqc-operator/actions/runs/44788402425",
+      "steps": {
+        "resilience / Set up job": "success",
+        "resilience / Initialize containers": "success",
+        "resilience / Checkout": "success",
+        "resilience / Tree before": "success",
+        "resilience / Toolchain": "success",
+        "resilience / Tools": "success",
+        "resilience / Resilience scenarios": "success",
+        "resilience / Generated and formatted files unchanged": "success",
+        "resilience / Stop containers": "success",
+        "resilience / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-report",
+      "id": 44812958606,
+      "event": "schedule",
+      "branch": "main",
+      "sha": "61886129aa360c7ac83e933e8a29446b4cb01129",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-20T20:36:54Z",
+      "updated_at": "2026-11-20T20:38:07Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/44812958606",
+      "steps": {
+        "report / Set up job": "success",
+        "report / Scripts": "success",
+        "report / Go": "success",
+        "report / Toolchain": "success",
+        "report / Collect": "success",
+        "report / Publish": "success",
+        "report / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-sync",
+      "id": 44813619826,
+      "event": "schedule",
+      "branch": "main",
+      "sha": "61886129aa360c7ac83e933e8a29446b4cb01129",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-20T20:41:26Z",
+      "updated_at": "2026-11-20T20:41:48Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/44813619826",
+      "steps": {
+        "sync / Set up job": "success",
+        "sync / Scripts": "success",
+        "sync / Finish green syncs": "success",
+        "sync / Hand off": "success",
+        "sync / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 44813955810,
+      "event": "schedule",
+      "branch": "main",
+      "sha": "61886129aa360c7ac83e933e8a29446b4cb01129",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-20T20:43:42Z",
+      "updated_at": "2026-11-20T20:43:58Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/44813955810",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    }
+  ],
+  "nightly": [
+    {
+      "id": 44781253868,
+      "conclusion": "failure",
+      "created_at": "2026-11-20T17:13:46Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/44781253868",
+      "jobs": [
+        {
+          "name": "changes",
+          "conclusion": "success"
+        },
+        {
+          "name": "kind",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "microshift",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "rebuild (cosign)",
+          "conclusion": "success"
+        },
+        {
+          "name": "rebuild (dex)",
+          "conclusion": "success"
+        },
+        {
+          "name": "rebuild (fulcio)",
+          "conclusion": "success"
+        },
+        {
+          "name": "rebuild (rekor-tiles)",
+          "conclusion": "success"
+        },
+        {
+          "name": "rebuild (timestamp-authority)",
+          "conclusion": "success"
+        },
+        {
+          "name": "record",
+          "conclusion": "success"
+        },
+        {
+          "name": "report",
+          "conclusion": "success"
+        },
+        {
+          "name": "soak",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "vulns",
+          "conclusion": "success"
+        },
+        {
+          "name": "watch",
+          "conclusion": "failure"
+        }
+      ]
+    }
+  ],
+  "soak": [],
+  "vulns": [
+    {
+      "date": "2026-11-20T17:14:17Z",
+      "repo": "cosign",
+      "osv": "GO-2026-6859",
+      "module": "stdlib",
+      "version": "v1.27.3",
+      "fixed": "v1.27.4"
+    },
+    {
+      "date": "2026-11-20T17:14:17Z",
+      "repo": "dex",
+      "osv": "GO-2026-6859",
+      "module": "stdlib",
+      "version": "v1.27.3",
+      "fixed": "v1.27.4"
+    },
+    {
+      "date": "2026-11-20T17:14:17Z",
+      "repo": "dex",
+      "osv": "GO-2026-6859",
+      "module": "stdlib",
+      "version": "v1.27.3",
+      "fixed": "v1.27.4"
+    },
+    {
+      "date": "2026-11-20T17:14:17Z",
+      "repo": "dex",
+      "osv": "GO-2026-6859",
+      "module": "stdlib",
+      "version": "v1.27.3",
+      "fixed": "v1.27.4"
+    },
+    {
+      "date": "2026-11-20T17:14:17Z",
+      "repo": "fulcio",
+      "osv": "GO-2026-6859",
+      "module": "stdlib",
+      "version": "v1.27.3",
+      "fixed": "v1.27.4"
+    },
+    {
+      "date": "2026-11-20T17:14:17Z",
+      "repo": "go-oidc",
+      "osv": "GO-2026-6859",
+      "module": "stdlib",
+      "version": "v1.27.3",
+      "fixed": "v1.27.4"
+    },
+    {
+      "date": "2026-11-20T17:14:17Z",
+      "repo": "go-tuf",
+      "osv": "GO-2026-6859",
+      "module": "stdlib",
+      "version": "v1.27.3",
+      "fixed": "v1.27.4"
+    },
+    {
+      "date": "2026-11-20T17:14:17Z",
+      "repo": "protobuf-specs",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": ""
+    },
+    {
+      "date": "2026-11-20T17:14:17Z",
+      "repo": "rekor-tiles",
+      "osv": "GO-2026-6859",
+      "module": "stdlib",
+      "version": "v1.27.3",
+      "fixed": "v1.27.4"
+    },
+    {
+      "date": "2026-11-20T17:14:17Z",
+      "repo": "rekor-tiles",
+      "osv": "GO-2026-6865",
+      "module": "github.com/klauspost/compress",
+      "version": "v1.20.1",
+      "fixed": "v1.20.2"
+    },
+    {
+      "date": "2026-11-20T17:14:17Z",
+      "repo": "sigstore",
+      "osv": "GO-2026-6859",
+      "module": "stdlib",
+      "version": "v1.27.3",
+      "fixed": "v1.27.4"
+    },
+    {
+      "date": "2026-11-20T17:14:17Z",
+      "repo": "sigstore",
+      "osv": "GO-2026-6859",
+      "module": "stdlib",
+      "version": "v1.27.3",
+      "fixed": "v1.27.4"
+    },
+    {
+      "date": "2026-11-20T17:14:17Z",
+      "repo": "sigstore",
+      "osv": "GO-2026-6859",
+      "module": "stdlib",
+      "version": "v1.27.3",
+      "fixed": "v1.27.4"
+    },
+    {
+      "date": "2026-11-20T17:14:17Z",
+      "repo": "sigstore",
+      "osv": "GO-2026-6859",
+      "module": "stdlib",
+      "version": "v1.27.3",
+      "fixed": "v1.27.4"
+    },
+    {
+      "date": "2026-11-20T17:14:17Z",
+      "repo": "sigstore",
+      "osv": "GO-2026-6859",
+      "module": "stdlib",
+      "version": "v1.27.3",
+      "fixed": "v1.27.4"
+    },
+    {
+      "date": "2026-11-20T17:14:17Z",
+      "repo": "sigstore-go",
+      "osv": "GO-2026-6859",
+      "module": "stdlib",
+      "version": "v1.27.3",
+      "fixed": "v1.27.4"
+    },
+    {
+      "date": "2026-11-20T17:14:17Z",
+      "repo": "sigstore-go",
+      "osv": "GO-2026-6859",
+      "module": "stdlib",
+      "version": "v1.27.3",
+      "fixed": "v1.27.4"
+    },
+    {
+      "date": "2026-11-20T17:14:17Z",
+      "repo": "sigstore-go",
+      "osv": "GO-2026-6865",
+      "module": "github.com/klauspost/compress",
+      "version": "v1.20.1",
+      "fixed": "v1.20.2"
+    },
+    {
+      "date": "2026-11-20T17:14:17Z",
+      "repo": "timestamp-authority",
+      "osv": "GO-2026-6859",
+      "module": "stdlib",
+      "version": "v1.27.3",
+      "fixed": "v1.27.4"
+    },
+    {
+      "date": "2026-11-20T17:14:17Z",
+      "repo": "secure-sign-pqc-operator",
+      "osv": "GO-2026-6859",
+      "module": "stdlib",
+      "version": "v1.27.3",
+      "fixed": "v1.27.4"
+    },
+    {
+      "date": "2026-11-20T17:14:17Z",
+      "repo": "secure-sign-pqc-operator",
+      "osv": "GO-2026-6859",
+      "module": "stdlib",
+      "version": "v1.27.3",
+      "fixed": "v1.27.4"
+    }
+  ],
+  "snapshot": {
+    "at": "2026-11-21T19:37:12Z",
+    "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.15",
+    "behind": [
+      {
+        "repo": "cosign",
+        "behind": 0,
+        "oldest_at": null
+      },
+      {
+        "repo": "dex",
+        "behind": 0,
+        "oldest_at": null
+      },
+      {
+        "repo": "fulcio",
+        "behind": 0,
+        "oldest_at": null
+      },
+      {
+        "repo": "go-oidc",
+        "behind": 0,
+        "oldest_at": null
+      },
+      {
+        "repo": "go-tuf",
+        "behind": 0,
+        "oldest_at": null
+      },
+      {
+        "repo": "protobuf-specs",
+        "behind": 0,
+        "oldest_at": null
+      },
+      {
+        "repo": "rekor-tiles",
+        "behind": 0,
+        "oldest_at": null
+      },
+      {
+        "repo": "sigstore",
+        "behind": 0,
+        "oldest_at": null
+      },
+      {
+        "repo": "sigstore-go",
+        "behind": 0,
+        "oldest_at": null
+      },
+      {
+        "repo": "timestamp-authority",
+        "behind": 0,
+        "oldest_at": null
+      }
+    ],
+    "carries": [
+      {
+        "repo": "cosign",
+        "commits": [
+          {
+            "sha": "92806eb83a98f33779cd097a60e21458685ed3f2",
+            "at": "2026-10-31T15:27:38Z",
+            "label": "carry",
+            "title": "Hummingbird FIPS image build for the cosign CLI"
+          },
+          {
+            "sha": "e19e054fe29e3cd525ac24d6e61b194096405aa5",
+            "at": "2026-10-31T15:27:38Z",
+            "label": "carry",
+            "title": "sealhouse CI callers"
+          },
+          {
+            "sha": "2b4902d9ed55260722befe62dfbe88bed1392081",
+            "at": "2026-11-05T14:14:40Z",
+            "label": "carry",
+            "title": "Remove the Dependabot config"
+          },
+          {
+            "sha": "46d784a6a400a5cfd0643c1dcce9e780431164d8",
+            "at": "2026-11-06T00:09:15Z",
+            "label": "carry",
+            "title": "Hand the PR lane off to ci"
+          },
+          {
+            "sha": "fba6404111e0aed31f455010e98bb28e7419af4c",
+            "at": "2026-11-18T01:33:45Z",
+            "label": "drop",
+            "title": "Pin ci b20bde1fb3ca"
+          }
+        ]
+      },
+      {
+        "repo": "dex",
+        "commits": [
+          {
+            "sha": "5545a2aebc12ef6204f037cbe797604624eb975e",
+            "at": "2026-11-10T01:40:59Z",
+            "label": "carry",
+            "title": "sealhouse CI callers"
+          },
+          {
+            "sha": "53ceb74e2ae8f96c4bd8a1ccb7ad055e7a68a80b",
+            "at": "2026-11-10T01:40:59Z",
+            "label": "carry",
+            "title": "Remove the Dependabot config"
+          },
+          {
+            "sha": "a0520cee5f52da8c62c95c75f3865e7c97726be5",
+            "at": "2026-11-10T17:58:30Z",
+            "label": "carry",
+            "title": "Hummingbird FIPS image build for dex (#1)"
+          },
+          {
+            "sha": "4f416400aab3a0ddf75f0e7a6636941153c95551",
+            "at": "2026-11-18T01:33:21Z",
+            "label": "drop",
+            "title": "Pin ci b20bde1fb3ca"
+          }
+        ]
+      },
+      {
+        "repo": "fulcio",
+        "commits": [
+          {
+            "sha": "6a62b5836709123d27b7e6a4a687ed5a0d9cec31",
+            "at": "2026-10-31T15:24:51Z",
+            "label": "carry",
+            "title": "Hummingbird FIPS image build for fulcio-server"
+          },
+          {
+            "sha": "4103c353125785ea032270e498d331cb4b904536",
+            "at": "2026-10-31T15:24:51Z",
+            "label": "carry",
+            "title": "sealhouse CI callers"
+          },
+          {
+            "sha": "e669bb8a48ce6244e4a841d9b7eaae892ed8eff3",
+            "at": "2026-11-05T14:14:47Z",
+            "label": "carry",
+            "title": "Remove the Dependabot config"
+          },
+          {
+            "sha": "4baa950c3557f20229feda7567d9a158a2f88ce8",
+            "at": "2026-11-06T00:09:19Z",
+            "label": "carry",
+            "title": "Hand the PR lane off to ci"
+          },
+          {
+            "sha": "fea2d01a518a700cca601d0762458ec6eebe841b",
+            "at": "2026-11-10T17:01:59Z",
+            "label": "drop",
+            "title": "Pin ci 75a727d99331"
+          },
+          {
+            "sha": "c73858e943387a94908d92e88c34c95b9d4e3aa7",
+            "at": "2026-11-18T01:31:31Z",
+            "label": "drop",
+            "title": "Pin ci b20bde1fb3ca"
+          }
+        ]
+      },
+      {
+        "repo": "go-oidc",
+        "commits": [
+          {
+            "sha": "e457883d835d6f5fc6942397f217045f8843ea8d",
+            "at": "2026-11-10T14:28:02Z",
+            "label": "carry",
+            "title": "sealhouse CI callers"
+          },
+          {
+            "sha": "c8bf123b574f186384b0a169f67093c1c17d2cb6",
+            "at": "2026-11-10T14:28:02Z",
+            "label": "carry",
+            "title": "Remove the Dependabot config"
+          },
+          {
+            "sha": "7a132a67c4975aa92707e3723f1804cddf767717",
+            "at": "2026-11-10T17:02:06Z",
+            "label": "drop",
+            "title": "Pin ci 75a727d99331"
+          },
+          {
+            "sha": "fcb65dc7375c631c5e24679e13e5236de3988455",
+            "at": "2026-11-10T17:58:47Z",
+            "label": "carry",
+            "title": "make test and lint for the sealhouse PR lane (#1)"
+          },
+          {
+            "sha": "02267b2cd003e5137fde484f512fc960811de903",
+            "at": "2026-11-18T01:29:50Z",
+            "label": "drop",
+            "title": "Pin ci b20bde1fb3ca"
+          }
+        ]
+      },
+      {
+        "repo": "go-tuf",
+        "commits": [
+          {
+            "sha": "8860a244e7c9852980b363afe5552b22cf93e9da",
+            "at": "2026-10-31T15:31:27Z",
+            "label": "carry",
+            "title": "sealhouse CI callers"
+          },
+          {
+            "sha": "fa5f89cdf46d01e7f43c18bfec3e6b036aeb4737",
+            "at": "2026-11-05T14:14:52Z",
+            "label": "carry",
+            "title": "Remove the Dependabot config"
+          },
+          {
+            "sha": "93b1b534a9ade6962871ca781e4376aed706e765",
+            "at": "2026-11-06T00:09:23Z",
+            "label": "carry",
+            "title": "Hand the PR lane off to ci"
+          },
+          {
+            "sha": "3619f0ea0a7f57497ea9fb993bad705bab79e3a4",
+            "at": "2026-11-18T01:31:37Z",
+            "label": "drop",
+            "title": "Pin ci b20bde1fb3ca"
+          }
+        ]
+      },
+      {
+        "repo": "protobuf-specs",
+        "commits": [
+          {
+            "sha": "0a5558457b769da604a12512b9099fa3291afc1e",
+            "at": "2026-10-31T15:31:19Z",
+            "label": "carry",
+            "title": "sealhouse CI callers"
+          },
+          {
+            "sha": "f6d67e986bc6cbbb6a7f290fad4f99ec9287359d",
+            "at": "2026-11-05T14:14:59Z",
+            "label": "carry",
+            "title": "Remove the Dependabot config"
+          },
+          {
+            "sha": "be51a18b0ecfbc0f8f1ac3ed3d4cca0fec549474",
+            "at": "2026-11-06T00:09:27Z",
+            "label": "carry",
+            "title": "Hand the PR lane off to ci"
+          },
+          {
+            "sha": "aa7f7e99f020b343f49b80c968b4f59a5b68444f",
+            "at": "2026-11-18T01:29:58Z",
+            "label": "drop",
+            "title": "Pin ci b20bde1fb3ca"
+          }
+        ]
+      },
+      {
+        "repo": "rekor-tiles",
+        "commits": [
+          {
+            "sha": "ef35f570a0ffafb4e5169d71f073932a1fdb294b",
+            "at": "2026-10-31T15:26:12Z",
+            "label": "carry",
+            "title": "Hummingbird FIPS image build for rekor-server (POSIX) and sealhouse CI callers"
+          },
+          {
+            "sha": "6238c30ac8b4c09ec4c95aaf540c806e1235059a",
+            "at": "2026-11-05T14:15:04Z",
+            "label": "carry",
+            "title": "Remove the Dependabot config"
+          },
+          {
+            "sha": "9036df882d5eac7ce2b21e7302832d8b09b8e1f3",
+            "at": "2026-11-06T00:09:31Z",
+            "label": "carry",
+            "title": "Hand the PR lane off to ci"
+          },
+          {
+            "sha": "49e3cb0a084ed8bc82837ced613f8c7b26e39385",
+            "at": "2026-11-18T01:32:42Z",
+            "label": "drop",
+            "title": "Pin ci b20bde1fb3ca"
+          }
+        ]
+      },
+      {
+        "repo": "sigstore",
+        "commits": [
+          {
+            "sha": "d80580f6e10b07a49ad32743c47ab80797f07cc2",
+            "at": "2026-10-31T15:30:39Z",
+            "label": "carry",
+            "title": "sealhouse CI callers"
+          },
+          {
+            "sha": "275e33c8634678603f220036819f6e2d242e2318",
+            "at": "2026-10-31T15:30:39Z",
+            "label": "carry",
+            "title": "make test skips hack/tools, which has no packages to test"
+          },
+          {
+            "sha": "28fbee291f5bed375d40f64ca1a326058cf5d708",
+            "at": "2026-11-05T14:15:10Z",
+            "label": "carry",
+            "title": "Remove the Dependabot config"
+          },
+          {
+            "sha": "c9ecb8943d7b19e29607921049e6541f12b3204b",
+            "at": "2026-11-06T00:09:36Z",
+            "label": "carry",
+            "title": "Hand the PR lane off to ci"
+          },
+          {
+            "sha": "731e603264e0cd6ca8642f7d78ac1a19ca562ae8",
+            "at": "2026-11-18T01:31:45Z",
+            "label": "drop",
+            "title": "Pin ci b20bde1fb3ca"
+          }
+        ]
+      },
+      {
+        "repo": "sigstore-go",
+        "commits": [
+          {
+            "sha": "dbd574ac2efd2837448f095691afe936c04ac52f",
+            "at": "2026-10-31T15:30:14Z",
+            "label": "carry",
+            "title": "sealhouse CI callers"
+          },
+          {
+            "sha": "58999b452dcaaed06c4bae33362b681a8d4a2b29",
+            "at": "2026-11-05T14:15:15Z",
+            "label": "carry",
+            "title": "Remove the Dependabot config"
+          },
+          {
+            "sha": "82b6ec59143b680f0b440945049f716ee3b323a3",
+            "at": "2026-11-06T00:09:41Z",
+            "label": "carry",
+            "title": "Hand the PR lane off to ci"
+          },
+          {
+            "sha": "64d9faa23012d5be594eef2e04fa9317553565ce",
+            "at": "2026-11-18T01:31:51Z",
+            "label": "drop",
+            "title": "Pin ci b20bde1fb3ca"
+          }
+        ]
+      },
+      {
+        "repo": "timestamp-authority",
+        "commits": [
+          {
+            "sha": "6d22feef3394b92e5ad3bc2e007906d032f12a66",
+            "at": "2026-10-31T15:09:07Z",
+            "label": "carry",
+            "title": "Hummingbird FIPS image build for timestamp-server"
+          },
+          {
+            "sha": "e0185eecfbe34f8868f7bf3499a871913e55dc54",
+            "at": "2026-10-31T15:09:07Z",
+            "label": "carry",
+            "title": "sealhouse CI callers"
+          },
+          {
+            "sha": "5cfcc0530293ed5e81a691a34fd91a34b4495197",
+            "at": "2026-11-05T14:15:21Z",
+            "label": "carry",
+            "title": "Remove the Dependabot config"
+          },
+          {
+            "sha": "700589fa5e15cf6165158b69a107a98dd4249949",
+            "at": "2026-11-06T00:09:45Z",
+            "label": "carry",
+            "title": "Hand the PR lane off to ci"
+          },
+          {
+            "sha": "3966c29a9cfce3bd3f61d67cda30be0a7b18df4a",
+            "at": "2026-11-10T17:04:01Z",
+            "label": "drop",
+            "title": "Pin ci 75a727d99331"
+          },
+          {
+            "sha": "67d4b9cfa6e5b200622a355d7d31cabd1a9d573c",
+            "at": "2026-11-18T01:33:32Z",
+            "label": "drop",
+            "title": "Pin ci b20bde1fb3ca"
+          }
+        ]
+      }
+    ],
+    "open_prs": []
+  }
+}
