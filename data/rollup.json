@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "first": "2026-11-17",
-  "last": "2026-11-20",
-  "last_collected_at": "2026-11-21T19:37:12Z",
-  "last_attempt_at": "2026-11-21T19:37:12Z",
+  "last": "2026-11-21",
+  "last_collected_at": "2026-11-22T19:55:05Z",
+  "last_attempt_at": "2026-11-22T19:55:05Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -59,6 +59,20 @@
       "prs": 4,
       "hands_off": 4,
       "runs": 21,
+      "runs_failed": 1
+    },
+    {
+      "date": "2026-11-21",
+      "status": "ok",
+      "run": "https://github.com/sealhouse/ci/actions/runs/45063368168",
+      "syncs": 3,
+      "syncs_closed": 0,
+      "upstream_commits": 9,
+      "images": 2,
+      "alphas": 0,
+      "prs": 3,
+      "hands_off": 3,
+      "runs": 18,
       "runs_failed": 1
     }
   ],
@@ -258,6 +272,23 @@
         "vulns": "success",
         "watch": "failure"
       }
+    },
+    {
+      "date": "2026-11-21",
+      "conclusion": "failure",
+      "url": "https://github.com/sealhouse/ci/actions/runs/44924195728",
+      "jobs": {
+        "changes": "success",
+        "kind": "skipped",
+        "microshift": "skipped",
+        "rebuild (cosign)": "success",
+        "rebuild (dex)": "success",
+        "record": "success",
+        "report": "success",
+        "soak": "skipped",
+        "vulns": "success",
+        "watch": "failure"
+      }
     }
   ],
   "soak": [
@@ -291,6 +322,12 @@
     },
     {
       "date": "2026-11-20",
+      "fix": 12,
+      "nofix": 0,
+      "repos": 11
+    },
+    {
+      "date": "2026-11-21",
       "fix": 12,
       "nofix": 0,
       "repos": 11
@@ -536,6 +573,66 @@
       "repo": "timestamp-authority",
       "behind": 0,
       "age_hours": null
+    },
+    {
+      "date": "2026-11-22",
+      "repo": "cosign",
+      "behind": 1,
+      "age_hours": 0.76
+    },
+    {
+      "date": "2026-11-22",
+      "repo": "dex",
+      "behind": 0,
+      "age_hours": null
+    },
+    {
+      "date": "2026-11-22",
+      "repo": "fulcio",
+      "behind": 1,
+      "age_hours": 1.42
+    },
+    {
+      "date": "2026-11-22",
+      "repo": "go-oidc",
+      "behind": 0,
+      "age_hours": null
+    },
+    {
+      "date": "2026-11-22",
+      "repo": "go-tuf",
+      "behind": 0,
+      "age_hours": null
+    },
+    {
+      "date": "2026-11-22",
+      "repo": "protobuf-specs",
+      "behind": 0,
+      "age_hours": null
+    },
+    {
+      "date": "2026-11-22",
+      "repo": "rekor-tiles",
+      "behind": 3,
+      "age_hours": 1.45
+    },
+    {
+      "date": "2026-11-22",
+      "repo": "sigstore",
+      "behind": 1,
+      "age_hours": 1.6
+    },
+    {
+      "date": "2026-11-22",
+      "repo": "sigstore-go",
+      "behind": 1,
+      "age_hours": 1.05
+    },
+    {
+      "date": "2026-11-22",
+      "repo": "timestamp-authority",
+      "behind": 1,
+      "age_hours": 0.86
     }
   ],
   "open_prs": [],
