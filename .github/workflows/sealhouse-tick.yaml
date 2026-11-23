@@ -1,0 +1,23 @@
+# Starts ci's sealhouse-timer, which starts every scheduled workflow, every 15 minutes. The schedule lives here because
+# GitHub turns a repository's schedules off after 60 days without a commit, and the hourly report commits here.
+name: sealhouse-tick
+
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Start the timer
+        env:
+          DISPATCH_APP_ID: ${{ secrets.SEALHOUSE_DISPATCH_APP_ID }}
+          DISPATCH_APP_KEY: ${{ secrets.SEALHOUSE_DISPATCH_APP_KEY }}
+        run: |
+          git clone -q --depth 1 https://github.com/sealhouse/ci.git ci
+          ci/hack/request-lane.sh sealhouse-timer.yaml
