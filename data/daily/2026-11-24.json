@@ -8,10 +8,10 @@
     "to": "2026-11-25T00:00:00Z"
   },
   "run": {
-    "id": "45323316036",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45323316036",
+    "id": "45352356385",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45352356385",
     "ci": "fac535de6418b460ec86c5cd779ded7009165001",
-    "collected_at": "2026-11-24T04:00:53Z"
+    "collected_at": "2026-11-24T08:00:55Z"
   },
   "syncs": [],
   "images": [],
@@ -285,7 +285,7 @@
     }
   ],
   "snapshot": {
-    "at": "2026-11-24T04:00:53Z",
+    "at": "2026-11-24T08:00:55Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.23",
     "behind": [
       {
@@ -315,8 +315,8 @@
       },
       {
         "repo": "protobuf-specs",
-        "behind": 0,
-        "oldest_at": null
+        "behind": 1,
+        "oldest_at": "2026-11-24T07:41:35Z"
       },
       {
         "repo": "rekor-tiles",
