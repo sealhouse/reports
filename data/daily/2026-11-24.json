@@ -8,10 +8,10 @@
     "to": "2026-11-25T00:00:00Z"
   },
   "run": {
-    "id": "45420442420",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45420442420",
+    "id": "45432004292",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45432004292",
     "ci": "fac535de6418b460ec86c5cd779ded7009165001",
-    "collected_at": "2026-11-24T15:01:19Z"
+    "collected_at": "2026-11-24T16:00:59Z"
   },
   "syncs": [],
   "images": [],
@@ -394,12 +394,12 @@
     }
   ],
   "snapshot": {
-    "at": "2026-11-24T15:01:19Z",
+    "at": "2026-11-24T16:00:59Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.23",
     "behind": [
       {
         "repo": "cosign",
-        "behind": 6,
+        "behind": 9,
         "oldest_at": "2026-11-24T14:24:24Z"
       },
       {
