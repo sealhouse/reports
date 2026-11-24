@@ -8,10 +8,10 @@
     "to": "2026-11-25T00:00:00Z"
   },
   "run": {
-    "id": "45361039450",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45361039450",
+    "id": "45380068288",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45380068288",
     "ci": "fac535de6418b460ec86c5cd779ded7009165001",
-    "collected_at": "2026-11-24T09:00:43Z"
+    "collected_at": "2026-11-24T11:00:57Z"
   },
   "syncs": [],
   "images": [],
@@ -170,6 +170,16 @@
       "goroutines": "139",
       "heap_mib": "11.7",
       "sys_mib": "26.1",
+      "kills": "14",
+      "result": "pass"
+    },
+    {
+      "date": "2026-11-24T10:09:33Z",
+      "commit": "454a6e517ab7",
+      "csv": "secure-sign-pqc-operator.v0.1.0-alpha.23",
+      "goroutines": "139",
+      "heap_mib": "13",
+      "sys_mib": "29.9",
       "kills": "14",
       "result": "pass"
     }
@@ -384,7 +394,7 @@
     }
   ],
   "snapshot": {
-    "at": "2026-11-24T09:00:43Z",
+    "at": "2026-11-24T11:00:57Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.23",
     "behind": [
       {

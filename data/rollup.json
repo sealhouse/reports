@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-24",
-  "last_collected_at": "2026-11-24T09:00:43Z",
-  "last_attempt_at": "2026-11-24T09:00:43Z",
+  "last_collected_at": "2026-11-24T11:00:57Z",
+  "last_attempt_at": "2026-11-24T11:00:57Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -114,7 +114,7 @@
       "date": "2026-11-24",
       "status": "ok",
       "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/45361039450",
+      "run": "https://github.com/sealhouse/ci/actions/runs/45380068288",
       "syncs": 0,
       "syncs_closed": 0,
       "upstream_commits": 0,
@@ -498,6 +498,16 @@
       "goroutines": "139",
       "heap_mib": "11.7",
       "sys_mib": "26.1",
+      "kills": "14",
+      "result": "pass"
+    },
+    {
+      "date": "2026-11-24T10:09:33Z",
+      "commit": "454a6e517ab7",
+      "csv": "secure-sign-pqc-operator.v0.1.0-alpha.23",
+      "goroutines": "139",
+      "heap_mib": "13",
+      "sys_mib": "29.9",
       "kills": "14",
       "result": "pass"
     }
@@ -941,7 +951,7 @@
       "date": "2026-11-24",
       "repo": "protobuf-specs",
       "behind": 1,
-      "age_hours": 1.32
+      "age_hours": 3.32
     },
     {
       "date": "2026-11-24",
