@@ -2,16 +2,16 @@
   "schema": 1,
   "date": "2026-11-23",
   "status": "ok",
-  "partial": true,
+  "partial": false,
   "window": {
     "from": "2026-11-23T00:00:00Z",
     "to": "2026-11-24T00:00:00Z"
   },
   "run": {
-    "id": "45276544299",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45276544299",
-    "ci": "7688b21c6ae5e7b2e293c70d8302a953cf481aee",
-    "collected_at": "2026-11-23T22:10:48Z"
+    "id": "45310704601",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45310704601",
+    "ci": "a2843a75d5b975da341684880b8e2158a2302933",
+    "collected_at": "2026-11-24T02:14:33Z"
   },
   "syncs": [
     {
@@ -346,6 +346,30 @@
       "author": "knrc",
       "opened_at": "2026-11-23T21:28:47Z",
       "closed_at": "2026-11-23T21:35:00Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": false
+    },
+    {
+      "repo": "ci",
+      "pr": 18,
+      "title": "Take a module fix in every module that uses it, nested modules first",
+      "kind": "other",
+      "author": "knrc",
+      "opened_at": "2026-11-23T22:22:59Z",
+      "closed_at": "2026-11-23T22:31:31Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": false
+    },
+    {
+      "repo": "ci",
+      "pr": 19,
+      "title": "Say which alphas the lead-time chart leaves out, and mark rebuilds in…",
+      "kind": "other",
+      "author": "knrc",
+      "opened_at": "2026-11-23T22:47:30Z",
+      "closed_at": "2026-11-23T22:49:32Z",
       "merged": true,
       "approved_by": [],
       "hands_off": false
@@ -3625,6 +3649,16 @@
       "sys_mib": "29.8",
       "kills": "14",
       "result": "pass"
+    },
+    {
+      "date": "2026-11-23T23:31:18Z",
+      "commit": "4278915154ef",
+      "csv": "secure-sign-pqc-operator.v0.1.0-alpha.21",
+      "goroutines": "138",
+      "heap_mib": "12.9",
+      "sys_mib": "29.8",
+      "kills": "15",
+      "result": "pass"
     }
   ],
   "vulns": [
@@ -3726,10 +3760,118 @@
       "version": "",
       "fixed": "",
       "due": ""
+    },
+    {
+      "date": "2026-11-23T22:07:46Z",
+      "repo": "cosign",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-23T22:07:46Z",
+      "repo": "dex",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-23T22:07:46Z",
+      "repo": "fulcio",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-23T22:07:46Z",
+      "repo": "go-oidc",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-23T22:07:46Z",
+      "repo": "go-tuf",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-23T22:07:46Z",
+      "repo": "protobuf-specs",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-23T22:07:46Z",
+      "repo": "rekor-tiles",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-23T22:07:46Z",
+      "repo": "sigstore",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-23T22:07:46Z",
+      "repo": "sigstore-go",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-23T22:07:46Z",
+      "repo": "timestamp-authority",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-23T22:07:46Z",
+      "repo": "secure-sign-pqc-operator",
+      "osv": "GO-2026-6974",
+      "module": "go.opentelemetry.io/otel/sdk",
+      "version": "v1.46.0",
+      "fixed": "v1.47.0",
+      "due": "2026-10-09"
+    },
+    {
+      "date": "2026-11-23T22:07:46Z",
+      "repo": "secure-sign-pqc-operator",
+      "osv": "GO-2026-6974",
+      "module": "go.opentelemetry.io/otel/trace",
+      "version": "v1.46.0",
+      "fixed": "v1.47.0",
+      "due": "2026-10-09"
     }
   ],
   "snapshot": {
-    "at": "2026-11-23T22:10:48Z",
+    "at": "2026-11-24T02:14:33Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.21",
     "behind": [
       {
@@ -4189,6 +4331,15 @@
         ]
       }
     ],
-    "open_prs": []
+    "open_prs": [
+      {
+        "repo": "secure-sign-pqc-operator",
+        "pr": 25,
+        "title": "Fix GO-2026-6974",
+        "author": "sealhouse-bot[bot]",
+        "opened_at": "2026-11-23T22:12:01Z",
+        "kind": "vulns"
+      }
+    ]
   }
 }

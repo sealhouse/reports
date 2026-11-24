@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-23",
-  "last_collected_at": "2026-11-23T22:10:48Z",
-  "last_attempt_at": "2026-11-23T22:10:48Z",
+  "last_collected_at": "2026-11-24T02:14:33Z",
+  "last_attempt_at": "2026-11-24T02:14:33Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -98,14 +98,14 @@
     {
       "date": "2026-11-23",
       "status": "ok",
-      "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/45276544299",
+      "partial": false,
+      "run": "https://github.com/sealhouse/ci/actions/runs/45310704601",
       "syncs": 6,
       "syncs_closed": 0,
       "upstream_commits": 11,
       "images": 15,
       "alphas": 4,
-      "prs": 48,
+      "prs": 50,
       "hands_off": 41,
       "runs": 114,
       "runs_failed": 0
@@ -459,6 +459,16 @@
       "sys_mib": "29.8",
       "kills": "14",
       "result": "pass"
+    },
+    {
+      "date": "2026-11-23T23:31:18Z",
+      "commit": "4278915154ef",
+      "csv": "secure-sign-pqc-operator.v0.1.0-alpha.21",
+      "goroutines": "138",
+      "heap_mib": "12.9",
+      "sys_mib": "29.8",
+      "kills": "15",
+      "result": "pass"
     }
   ],
   "vulns": [
@@ -492,7 +502,7 @@
     },
     {
       "date": "2026-11-23",
-      "fix": 2,
+      "fix": 3,
       "baking": 0,
       "nofix": 0,
       "repos": 11
@@ -858,9 +868,78 @@
       "repo": "timestamp-authority",
       "behind": 0,
       "age_hours": null
+    },
+    {
+      "date": "2026-11-24",
+      "repo": "cosign",
+      "behind": 0,
+      "age_hours": null
+    },
+    {
+      "date": "2026-11-24",
+      "repo": "dex",
+      "behind": 0,
+      "age_hours": null
+    },
+    {
+      "date": "2026-11-24",
+      "repo": "fulcio",
+      "behind": 0,
+      "age_hours": null
+    },
+    {
+      "date": "2026-11-24",
+      "repo": "go-oidc",
+      "behind": 0,
+      "age_hours": null
+    },
+    {
+      "date": "2026-11-24",
+      "repo": "go-tuf",
+      "behind": 0,
+      "age_hours": null
+    },
+    {
+      "date": "2026-11-24",
+      "repo": "protobuf-specs",
+      "behind": 0,
+      "age_hours": null
+    },
+    {
+      "date": "2026-11-24",
+      "repo": "rekor-tiles",
+      "behind": 0,
+      "age_hours": null
+    },
+    {
+      "date": "2026-11-24",
+      "repo": "sigstore",
+      "behind": 0,
+      "age_hours": null
+    },
+    {
+      "date": "2026-11-24",
+      "repo": "sigstore-go",
+      "behind": 0,
+      "age_hours": null
+    },
+    {
+      "date": "2026-11-24",
+      "repo": "timestamp-authority",
+      "behind": 0,
+      "age_hours": null
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "repo": "secure-sign-pqc-operator",
+      "pr": 25,
+      "title": "Fix GO-2026-6974",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-23T22:12:01Z",
+      "kind": "vulns"
+    }
+  ],
   "carries": [
     {
       "repo": "cosign",
