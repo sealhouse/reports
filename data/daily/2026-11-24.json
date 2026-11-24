@@ -8,13 +8,24 @@
     "to": "2026-11-25T00:00:00Z"
   },
   "run": {
-    "id": "45496642396",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45496642396",
+    "id": "45506073171",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45506073171",
     "ci": "fa2b6feda9e8f5384b21989727769271564a1a5c",
-    "collected_at": "2026-11-24T22:00:53Z"
+    "collected_at": "2026-11-24T23:01:00Z"
   },
   "syncs": [],
-  "images": [],
+  "images": [
+    {
+      "repo": "fulcio",
+      "commit": "6d91336a68ea96757ddf845df342b8370b1b54a8",
+      "branch": "rhtas/main",
+      "image": "fulcio",
+      "pushed": true,
+      "digest": "sha256:229272155abb4434dadbb8389aa708cd4b7e6e3362456fa536e127c27cdbd1b7",
+      "at": "2026-11-24T22:43:02Z",
+      "run": "https://github.com/sealhouse/fulcio/actions/runs/45503227914"
+    }
+  ],
   "prs": [
     {
       "repo": "ci",
@@ -48,6 +59,18 @@
       "author": "knrc",
       "opened_at": "2026-11-24T21:16:23Z",
       "closed_at": "2026-11-24T21:30:02Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": false
+    },
+    {
+      "repo": "fulcio",
+      "pr": 31,
+      "title": "UPSTREAM: <carry>: Smoke-test the image with an ML-DSA CA",
+      "kind": "other",
+      "author": "knrc",
+      "opened_at": "2026-11-24T22:35:45Z",
+      "closed_at": "2026-11-24T22:41:06Z",
       "merged": true,
       "approved_by": [],
       "hands_off": false
@@ -170,6 +193,52 @@
         "update / Merge bot PRs": "success",
         "update / Update bump PRs": "success",
         "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "fulcio",
+      "workflow": "sealhouse-merge",
+      "id": 45503227914,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "6d91336a68ea96757ddf845df342b8370b1b54a8",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-24T22:41:09Z",
+      "updated_at": "2026-11-24T22:43:02Z",
+      "url": "https://github.com/sealhouse/fulcio/actions/runs/45503227914",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Registry": "success",
+        "merge / merge / Image": "success",
+        "merge / merge / Hand off": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump",
+      "id": 45503502065,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "fa2b6feda9e8f5384b21989727769271564a1a5c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-24T22:42:58Z",
+      "updated_at": "2026-11-24T22:43:28Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45503502065",
+      "steps": {
+        "bump / Set up job": "success",
+        "bump / Scripts": "success",
+        "bump / Toolchain": "success",
+        "bump / Bump": "success",
+        "bump / Complete job": "success"
       }
     }
   ],
@@ -406,7 +475,7 @@
     }
   ],
   "snapshot": {
-    "at": "2026-11-24T22:00:53Z",
+    "at": "2026-11-24T23:01:00Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.23",
     "behind": [
       {
@@ -575,6 +644,12 @@
             "at": "2026-11-23T15:23:30Z",
             "label": "drop",
             "title": "Pin ci e8906322470f"
+          },
+          {
+            "sha": "6d91336a68ea96757ddf845df342b8370b1b54a8",
+            "at": "2026-11-24T22:41:05Z",
+            "label": "carry",
+            "title": "Smoke-test the image with an ML-DSA CA (#31)"
           }
         ]
       },

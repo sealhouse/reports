@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-24",
-  "last_collected_at": "2026-11-24T22:00:53Z",
-  "last_attempt_at": "2026-11-24T22:00:53Z",
+  "last_collected_at": "2026-11-24T23:01:00Z",
+  "last_attempt_at": "2026-11-24T23:01:00Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -114,15 +114,15 @@
       "date": "2026-11-24",
       "status": "ok",
       "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/45496642396",
+      "run": "https://github.com/sealhouse/ci/actions/runs/45506073171",
       "syncs": 0,
       "syncs_closed": 0,
       "upstream_commits": 0,
-      "images": 0,
+      "images": 1,
       "alphas": 1,
-      "prs": 4,
+      "prs": 5,
       "hands_off": 1,
-      "runs": 4,
+      "runs": 6,
       "runs_failed": 0
     }
   ],
@@ -921,7 +921,7 @@
       "date": "2026-11-24",
       "repo": "cosign",
       "behind": 9,
-      "age_hours": 7.61
+      "age_hours": 8.61
     },
     {
       "date": "2026-11-24",
@@ -933,7 +933,7 @@
       "date": "2026-11-24",
       "repo": "fulcio",
       "behind": 6,
-      "age_hours": 9.3
+      "age_hours": 10.3
     },
     {
       "date": "2026-11-24",
@@ -951,13 +951,13 @@
       "date": "2026-11-24",
       "repo": "protobuf-specs",
       "behind": 1,
-      "age_hours": 14.32
+      "age_hours": 15.32
     },
     {
       "date": "2026-11-24",
       "repo": "rekor-tiles",
       "behind": 1,
-      "age_hours": 0.96
+      "age_hours": 1.96
     },
     {
       "date": "2026-11-24",
@@ -1094,6 +1094,12 @@
           "at": "2026-11-23T15:23:30Z",
           "label": "drop",
           "title": "Pin ci e8906322470f"
+        },
+        {
+          "sha": "6d91336a68ea96757ddf845df342b8370b1b54a8",
+          "at": "2026-11-24T22:41:05Z",
+          "label": "carry",
+          "title": "Smoke-test the image with an ML-DSA CA (#31)"
         }
       ]
     },
