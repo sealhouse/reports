@@ -8,10 +8,10 @@
     "to": "2026-11-25T00:00:00Z"
   },
   "run": {
-    "id": "45352356385",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45352356385",
+    "id": "45361039450",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45361039450",
     "ci": "fac535de6418b460ec86c5cd779ded7009165001",
-    "collected_at": "2026-11-24T08:00:55Z"
+    "collected_at": "2026-11-24T09:00:43Z"
   },
   "syncs": [],
   "images": [],
@@ -282,10 +282,109 @@
       "version": "v1.46.0",
       "fixed": "v1.47.0",
       "due": "2026-10-09"
+    },
+    {
+      "date": "2026-11-24T08:45:35Z",
+      "repo": "cosign",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-24T08:45:35Z",
+      "repo": "dex",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-24T08:45:35Z",
+      "repo": "fulcio",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-24T08:45:35Z",
+      "repo": "go-oidc",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-24T08:45:35Z",
+      "repo": "go-tuf",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-24T08:45:35Z",
+      "repo": "protobuf-specs",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-24T08:45:35Z",
+      "repo": "rekor-tiles",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-24T08:45:35Z",
+      "repo": "sigstore",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-24T08:45:35Z",
+      "repo": "sigstore-go",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-24T08:45:35Z",
+      "repo": "timestamp-authority",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-24T08:45:35Z",
+      "repo": "secure-sign-pqc-operator",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
     }
   ],
   "snapshot": {
-    "at": "2026-11-24T08:00:55Z",
+    "at": "2026-11-24T09:00:43Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.23",
     "behind": [
       {
