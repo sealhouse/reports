@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-24",
-  "last_collected_at": "2026-11-24T02:14:54Z",
-  "last_attempt_at": "2026-11-24T02:14:54Z",
+  "last_collected_at": "2026-11-24T03:03:53Z",
+  "last_attempt_at": "2026-11-24T03:03:53Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -114,15 +114,15 @@
       "date": "2026-11-24",
       "status": "ok",
       "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/45310704601",
+      "run": "https://github.com/sealhouse/ci/actions/runs/45316753009",
       "syncs": 0,
       "syncs_closed": 0,
       "upstream_commits": 0,
       "images": 0,
-      "alphas": 0,
-      "prs": 1,
-      "hands_off": 0,
-      "runs": 0,
+      "alphas": 1,
+      "prs": 3,
+      "hands_off": 1,
+      "runs": 4,
       "runs_failed": 0
     }
   ],
@@ -215,6 +215,12 @@
           }
         }
       ]
+    },
+    {
+      "csv": "secure-sign-pqc-operator.v0.1.0-alpha.23",
+      "at": "2026-11-24T02:53:12Z",
+      "operator_commit": "454a6e517ab73c803c91325d4e77f155b8999693",
+      "components": []
     }
   ],
   "incidents": [
@@ -518,6 +524,13 @@
     {
       "date": "2026-11-23",
       "fix": 3,
+      "baking": 0,
+      "nofix": 0,
+      "repos": 11
+    },
+    {
+      "date": "2026-11-24",
+      "fix": 1,
       "baking": 0,
       "nofix": 0,
       "repos": 11
@@ -945,16 +958,7 @@
       "age_hours": null
     }
   ],
-  "open_prs": [
-    {
-      "repo": "secure-sign-pqc-operator",
-      "pr": 25,
-      "title": "Fix GO-2026-6974",
-      "author": "sealhouse-bot[bot]",
-      "opened_at": "2026-11-23T22:12:01Z",
-      "kind": "vulns"
-    }
-  ],
+  "open_prs": [],
   "carries": [
     {
       "repo": "cosign",
@@ -1361,5 +1365,5 @@
       ]
     }
   ],
-  "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.21"
+  "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.23"
 }

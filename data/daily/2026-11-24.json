@@ -8,10 +8,10 @@
     "to": "2026-11-25T00:00:00Z"
   },
   "run": {
-    "id": "45310704601",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45310704601",
-    "ci": "a2843a75d5b975da341684880b8e2158a2302933",
-    "collected_at": "2026-11-24T02:14:54Z"
+    "id": "45316753009",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45316753009",
+    "ci": "fac535de6418b460ec86c5cd779ded7009165001",
+    "collected_at": "2026-11-24T03:03:53Z"
   },
   "syncs": [],
   "images": [],
@@ -27,16 +27,255 @@
       "merged": true,
       "approved_by": [],
       "hands_off": false
+    },
+    {
+      "repo": "ci",
+      "pr": 21,
+      "title": "Start each timer link on the quarter hour",
+      "kind": "other",
+      "author": "knrc",
+      "opened_at": "2026-11-24T02:42:54Z",
+      "closed_at": "2026-11-24T02:48:33Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": false
+    },
+    {
+      "repo": "secure-sign-pqc-operator",
+      "pr": 25,
+      "title": "Fix GO-2026-6974",
+      "kind": "vulns",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-23T22:12:01Z",
+      "closed_at": "2026-11-24T02:16:20Z",
+      "merged": false,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
+      "repo": "secure-sign-pqc-operator",
+      "pr": 26,
+      "title": "Fix GO-2026-6974",
+      "kind": "vulns",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-24T02:16:36Z",
+      "closed_at": "2026-11-24T02:29:39Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
     }
   ],
-  "alphas": [],
-  "runs": [],
+  "alphas": [
+    {
+      "csv": "secure-sign-pqc-operator.v0.1.0-alpha.23",
+      "at": "2026-11-24T02:53:12Z",
+      "operator_commit": "454a6e517ab73c803c91325d4e77f155b8999693",
+      "components": []
+    }
+  ],
+  "runs": [
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45312728261,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "a2843a75d5b975da341684880b8e2158a2302933",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-24T02:29:17Z",
+      "updated_at": "2026-11-24T02:29:44Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45312728261",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "secure-sign-pqc-operator",
+      "workflow": "sealhouse-merge",
+      "id": 45312778991,
+      "event": "push",
+      "branch": "main",
+      "sha": "454a6e517ab73c803c91325d4e77f155b8999693",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-24T02:29:43Z",
+      "updated_at": "2026-11-24T02:53:01Z",
+      "url": "https://github.com/sealhouse/secure-sign-pqc-operator/actions/runs/45312778991",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Registry": "success",
+        "merge / merge / Publish": "success",
+        "merge / merge / Hand off": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-catalog",
+      "id": 45315561745,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "fac535de6418b460ec86c5cd779ded7009165001",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-24T02:52:55Z",
+      "updated_at": "2026-11-24T02:53:16Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45315561745",
+      "steps": {
+        "catalog / Set up job": "success",
+        "catalog / Scripts": "success",
+        "catalog / Toolchain": "success",
+        "catalog / Record": "success",
+        "catalog / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45315565274,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "fac535de6418b460ec86c5cd779ded7009165001",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-24T02:52:57Z",
+      "updated_at": "2026-11-24T02:53:14Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45315565274",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    }
+  ],
   "nightly": [],
   "soak": [],
-  "vulns": [],
+  "vulns": [
+    {
+      "date": "2026-11-24T02:13:15Z",
+      "repo": "cosign",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-24T02:13:15Z",
+      "repo": "dex",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-24T02:13:15Z",
+      "repo": "fulcio",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-24T02:13:15Z",
+      "repo": "go-oidc",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-24T02:13:15Z",
+      "repo": "go-tuf",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-24T02:13:15Z",
+      "repo": "protobuf-specs",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-24T02:13:15Z",
+      "repo": "rekor-tiles",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-24T02:13:15Z",
+      "repo": "sigstore",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-24T02:13:15Z",
+      "repo": "sigstore-go",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-24T02:13:15Z",
+      "repo": "timestamp-authority",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-24T02:13:15Z",
+      "repo": "secure-sign-pqc-operator",
+      "osv": "GO-2026-6974",
+      "module": "go.opentelemetry.io/otel/sdk",
+      "version": "v1.46.0",
+      "fixed": "v1.47.0",
+      "due": "2026-10-09"
+    },
+    {
+      "date": "2026-11-24T02:13:15Z",
+      "repo": "secure-sign-pqc-operator",
+      "osv": "GO-2026-6974",
+      "module": "go.opentelemetry.io/otel/trace",
+      "version": "v1.46.0",
+      "fixed": "v1.47.0",
+      "due": "2026-10-09"
+    }
+  ],
   "snapshot": {
-    "at": "2026-11-24T02:14:54Z",
-    "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.21",
+    "at": "2026-11-24T03:03:53Z",
+    "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.23",
     "behind": [
       {
         "repo": "cosign",
@@ -495,15 +734,6 @@
         ]
       }
     ],
-    "open_prs": [
-      {
-        "repo": "secure-sign-pqc-operator",
-        "pr": 25,
-        "title": "Fix GO-2026-6974",
-        "author": "sealhouse-bot[bot]",
-        "opened_at": "2026-11-23T22:12:01Z",
-        "kind": "vulns"
-      }
-    ]
+    "open_prs": []
   }
 }
