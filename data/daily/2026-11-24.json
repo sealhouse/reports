@@ -8,10 +8,10 @@
     "to": "2026-11-25T00:00:00Z"
   },
   "run": {
-    "id": "45432004292",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45432004292",
-    "ci": "fac535de6418b460ec86c5cd779ded7009165001",
-    "collected_at": "2026-11-24T16:00:59Z"
+    "id": "45496642396",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45496642396",
+    "ci": "fa2b6feda9e8f5384b21989727769271564a1a5c",
+    "collected_at": "2026-11-24T22:00:53Z"
   },
   "syncs": [],
   "images": [],
@@ -36,6 +36,18 @@
       "author": "knrc",
       "opened_at": "2026-11-24T02:42:54Z",
       "closed_at": "2026-11-24T02:48:33Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": false
+    },
+    {
+      "repo": "ci",
+      "pr": 22,
+      "title": "Count each day's last vulnerability scan",
+      "kind": "other",
+      "author": "knrc",
+      "opened_at": "2026-11-24T21:16:23Z",
+      "closed_at": "2026-11-24T21:30:02Z",
       "merged": true,
       "approved_by": [],
       "hands_off": false
@@ -394,7 +406,7 @@
     }
   ],
   "snapshot": {
-    "at": "2026-11-24T16:00:59Z",
+    "at": "2026-11-24T22:00:53Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.23",
     "behind": [
       {
@@ -429,8 +441,8 @@
       },
       {
         "repo": "rekor-tiles",
-        "behind": 0,
-        "oldest_at": null
+        "behind": 1,
+        "oldest_at": "2026-11-24T21:03:20Z"
       },
       {
         "repo": "sigstore",
