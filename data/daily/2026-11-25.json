@@ -8,10 +8,10 @@
     "to": "2026-11-26T00:00:00Z"
   },
   "run": {
-    "id": "45640212219",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45640212219",
+    "id": "45682116963",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45682116963",
     "ci": "7a9fd1a94a2aecffdc0dd80c762cde3e0382e883",
-    "collected_at": "2026-11-25T15:02:10Z"
+    "collected_at": "2026-11-25T19:09:14Z"
   },
   "syncs": [
     {
@@ -778,6 +778,46 @@
         "update / Update bump PRs": "success",
         "update / Complete job": "success"
       }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-sync",
+      "id": 45682102131,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "7a9fd1a94a2aecffdc0dd80c762cde3e0382e883",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-25T19:07:54Z",
+      "updated_at": "2026-11-25T19:08:15Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45682102131",
+      "steps": {
+        "sync / Set up job": "success",
+        "sync / Scripts": "success",
+        "sync / Finish green syncs": "success",
+        "sync / Hand off": "success",
+        "sync / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45682108314,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "7a9fd1a94a2aecffdc0dd80c762cde3e0382e883",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-25T19:07:56Z",
+      "updated_at": "2026-11-25T19:08:11Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45682108314",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
     }
   ],
   "nightly": [
@@ -976,7 +1016,7 @@
     }
   ],
   "snapshot": {
-    "at": "2026-11-25T15:02:10Z",
+    "at": "2026-11-25T19:09:14Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.23",
     "behind": [
       {
