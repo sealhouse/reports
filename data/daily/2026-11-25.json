@@ -8,10 +8,10 @@
     "to": "2026-11-26T00:00:00Z"
   },
   "run": {
-    "id": "45709400869",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45709400869",
+    "id": "45717861304",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45717861304",
     "ci": "d2a0f9e52082c9ce202821e87b8d6cfda18c0e66",
-    "collected_at": "2026-11-25T22:00:58Z"
+    "collected_at": "2026-11-25T23:01:08Z"
   },
   "syncs": [
     {
@@ -187,9 +187,28 @@
       "merged": true,
       "approved_by": [],
       "hands_off": true
+    },
+    {
+      "repo": "secure-sign-pqc-operator",
+      "pr": 27,
+      "title": "Rotate the TSA root and intermediate CAs",
+      "kind": "other",
+      "author": "knrc",
+      "opened_at": "2026-11-25T21:39:35Z",
+      "closed_at": "2026-11-25T22:17:36Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": false
     }
   ],
-  "alphas": [],
+  "alphas": [
+    {
+      "csv": "secure-sign-pqc-operator.v0.1.0-alpha.24",
+      "at": "2026-11-25T22:37:07Z",
+      "operator_commit": "e530fff194fb26cea76dd97e6500d254dd587a57",
+      "components": []
+    }
+  ],
   "runs": [
     {
       "repo": "ci",
@@ -830,6 +849,72 @@
         "update / Update bump PRs": "success",
         "update / Complete job": "success"
       }
+    },
+    {
+      "repo": "secure-sign-pqc-operator",
+      "workflow": "sealhouse-merge",
+      "id": 45711973741,
+      "event": "push",
+      "branch": "main",
+      "sha": "e530fff194fb26cea76dd97e6500d254dd587a57",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-25T22:17:39Z",
+      "updated_at": "2026-11-25T22:37:00Z",
+      "url": "https://github.com/sealhouse/secure-sign-pqc-operator/actions/runs/45711973741",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Registry": "success",
+        "merge / merge / Publish": "success",
+        "merge / merge / Hand off": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-catalog",
+      "id": 45714736133,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "d2a0f9e52082c9ce202821e87b8d6cfda18c0e66",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-25T22:36:54Z",
+      "updated_at": "2026-11-25T22:37:12Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45714736133",
+      "steps": {
+        "catalog / Set up job": "success",
+        "catalog / Scripts": "success",
+        "catalog / Toolchain": "success",
+        "catalog / Record": "success",
+        "catalog / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45714742465,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "d2a0f9e52082c9ce202821e87b8d6cfda18c0e66",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-25T22:36:56Z",
+      "updated_at": "2026-11-25T22:37:13Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45714742465",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
     }
   ],
   "nightly": [
@@ -1028,8 +1113,8 @@
     }
   ],
   "snapshot": {
-    "at": "2026-11-25T22:00:58Z",
-    "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.23",
+    "at": "2026-11-25T23:01:08Z",
+    "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.24",
     "behind": [
       {
         "repo": "cosign",
@@ -1476,15 +1561,6 @@
         ]
       }
     ],
-    "open_prs": [
-      {
-        "repo": "secure-sign-pqc-operator",
-        "pr": 27,
-        "title": "Rotate the TSA root and intermediate CAs",
-        "author": "knrc",
-        "opened_at": "2026-11-25T21:39:35Z",
-        "kind": "other"
-      }
-    ]
+    "open_prs": []
   }
 }
