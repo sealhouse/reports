@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-25",
-  "last_collected_at": "2026-11-25T09:00:47Z",
-  "last_attempt_at": "2026-11-25T09:00:47Z",
+  "last_collected_at": "2026-11-25T11:00:41Z",
+  "last_attempt_at": "2026-11-25T11:00:41Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -129,7 +129,7 @@
       "date": "2026-11-25",
       "status": "ok",
       "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/45581262844",
+      "run": "https://github.com/sealhouse/ci/actions/runs/45600279393",
       "syncs": 4,
       "syncs_closed": 0,
       "upstream_commits": 17,
@@ -524,6 +524,16 @@
       "heap_mib": "13",
       "sys_mib": "29.9",
       "kills": "14",
+      "result": "pass"
+    },
+    {
+      "date": "2026-11-25T10:09:31Z",
+      "commit": "454a6e517ab7",
+      "csv": "secure-sign-pqc-operator.v0.1.0-alpha.23",
+      "goroutines": "138",
+      "heap_mib": "11.7",
+      "sys_mib": "30.1",
+      "kills": "12",
       "result": "pass"
     }
   ],
@@ -1003,13 +1013,13 @@
       "date": "2026-11-25",
       "repo": "cosign",
       "behind": 1,
-      "age_hours": 1.21
+      "age_hours": 3.2
     },
     {
       "date": "2026-11-25",
       "repo": "dex",
-      "behind": 0,
-      "age_hours": null
+      "behind": 5,
+      "age_hours": 0.84
     },
     {
       "date": "2026-11-25",

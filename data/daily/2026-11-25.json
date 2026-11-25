@@ -8,10 +8,10 @@
     "to": "2026-11-26T00:00:00Z"
   },
   "run": {
-    "id": "45581262844",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45581262844",
+    "id": "45600279393",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45600279393",
     "ci": "fa2b6feda9e8f5384b21989727769271564a1a5c",
-    "collected_at": "2026-11-25T09:00:47Z"
+    "collected_at": "2026-11-25T11:00:41Z"
   },
   "syncs": [
     {
@@ -438,7 +438,18 @@
     }
   ],
   "nightly": [],
-  "soak": [],
+  "soak": [
+    {
+      "date": "2026-11-25T10:09:31Z",
+      "commit": "454a6e517ab7",
+      "csv": "secure-sign-pqc-operator.v0.1.0-alpha.23",
+      "goroutines": "138",
+      "heap_mib": "11.7",
+      "sys_mib": "30.1",
+      "kills": "12",
+      "result": "pass"
+    }
+  ],
   "vulns": [
     {
       "date": "2026-11-25T08:45:41Z",
@@ -541,7 +552,7 @@
     }
   ],
   "snapshot": {
-    "at": "2026-11-25T09:00:47Z",
+    "at": "2026-11-25T11:00:41Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.23",
     "behind": [
       {
@@ -551,8 +562,8 @@
       },
       {
         "repo": "dex",
-        "behind": 0,
-        "oldest_at": null
+        "behind": 5,
+        "oldest_at": "2026-11-25T10:10:31Z"
       },
       {
         "repo": "fulcio",
