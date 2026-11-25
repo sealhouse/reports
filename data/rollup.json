@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-25",
-  "last_collected_at": "2026-11-25T00:01:36Z",
-  "last_attempt_at": "2026-11-25T00:01:36Z",
+  "last_collected_at": "2026-11-25T07:00:52Z",
+  "last_attempt_at": "2026-11-25T07:00:52Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -129,15 +129,15 @@
       "date": "2026-11-25",
       "status": "ok",
       "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/45514571969",
-      "syncs": 0,
+      "run": "https://github.com/sealhouse/ci/actions/runs/45564753525",
+      "syncs": 4,
       "syncs_closed": 0,
-      "upstream_commits": 0,
-      "images": 0,
+      "upstream_commits": 17,
+      "images": 3,
       "alphas": 0,
-      "prs": 0,
-      "hands_off": 0,
-      "runs": 0,
+      "prs": 4,
+      "hands_off": 4,
+      "runs": 13,
       "runs_failed": 0
     }
   ],
@@ -995,8 +995,8 @@
     {
       "date": "2026-11-25",
       "repo": "cosign",
-      "behind": 9,
-      "age_hours": 9.62
+      "behind": 0,
+      "age_hours": null
     },
     {
       "date": "2026-11-25",
@@ -1007,8 +1007,8 @@
     {
       "date": "2026-11-25",
       "repo": "fulcio",
-      "behind": 6,
-      "age_hours": 11.31
+      "behind": 0,
+      "age_hours": null
     },
     {
       "date": "2026-11-25",
@@ -1025,14 +1025,14 @@
     {
       "date": "2026-11-25",
       "repo": "protobuf-specs",
-      "behind": 1,
-      "age_hours": 16.33
+      "behind": 0,
+      "age_hours": null
     },
     {
       "date": "2026-11-25",
       "repo": "rekor-tiles",
-      "behind": 1,
-      "age_hours": 2.97
+      "behind": 0,
+      "age_hours": null
     },
     {
       "date": "2026-11-25",
@@ -1059,31 +1059,31 @@
       "repo": "cosign",
       "commits": [
         {
-          "sha": "40022c4a91e8f1d0aebd82507e83848b1dba3825",
+          "sha": "0ce40da940dc1163624e1723cd12187d6f388972",
           "at": "2026-10-31T15:27:38Z",
           "label": "carry",
           "title": "Hummingbird FIPS image build for the cosign CLI"
         },
         {
-          "sha": "fa37125b9d3166a0c90c4db83f4e7d319217ba5f",
+          "sha": "76a25a006a4767319760e1312404a964831b83c7",
           "at": "2026-10-31T15:27:38Z",
           "label": "carry",
           "title": "sealhouse CI callers"
         },
         {
-          "sha": "e44ad50a1315b6835d5b973936775b48ac795b7c",
+          "sha": "c23bae4392f670b45e28542e4b473c1bf39cc395",
           "at": "2026-11-05T14:14:40Z",
           "label": "carry",
           "title": "Remove the Dependabot config"
         },
         {
-          "sha": "ec4420f5e5c3e76b5113f4f388285775077b739d",
+          "sha": "f5f8ad4cf84f1cde2e8aadb049769c9a855de705",
           "at": "2026-11-06T00:09:15Z",
           "label": "carry",
           "title": "Hand the PR lane off to ci"
         },
         {
-          "sha": "f7f93fca381a2d48f1d33286a5b84a0c187c711d",
+          "sha": "38e740b3a2aee152453f0726d2e75aa7f8f263c9",
           "at": "2026-11-23T15:25:23Z",
           "label": "drop",
           "title": "Pin ci e8906322470f"
@@ -1141,37 +1141,37 @@
       "repo": "fulcio",
       "commits": [
         {
-          "sha": "1f49c9764ee513148524d32139cc48d1d94d7130",
+          "sha": "0172446c3e6105005282417a6ce17d63416f9784",
           "at": "2026-10-31T15:24:51Z",
           "label": "carry",
           "title": "Hummingbird FIPS image build for fulcio-server"
         },
         {
-          "sha": "2422a6f83881fd35cf41ece6be54dd95adc617ca",
+          "sha": "69bd39446ec4d2df93fbd2c453ae2392b3090f79",
           "at": "2026-10-31T15:24:51Z",
           "label": "carry",
           "title": "sealhouse CI callers"
         },
         {
-          "sha": "6ed3278f27ea81a5025855d601bd97448da2c0aa",
+          "sha": "e40a8abac9f3b88e31e12a9cc4b3ca857f35432c",
           "at": "2026-11-05T14:14:47Z",
           "label": "carry",
           "title": "Remove the Dependabot config"
         },
         {
-          "sha": "7de48b9590781fbf5a160b31883254c8cbf5151e",
+          "sha": "153bb34218566e857857ada4c162579b5dc477bb",
           "at": "2026-11-06T00:09:19Z",
           "label": "carry",
           "title": "Hand the PR lane off to ci"
         },
         {
-          "sha": "7ae5f75427e8f25fd1d569919ec1e30ae0bad1f6",
+          "sha": "d959018df5c8b0ee7ac25540cafcf5e84bd30cbc",
           "at": "2026-11-23T15:23:30Z",
           "label": "drop",
           "title": "Pin ci e8906322470f"
         },
         {
-          "sha": "6d91336a68ea96757ddf845df342b8370b1b54a8",
+          "sha": "8954ba5b8470c33ada5100ce8bdbda3245c4bcd1",
           "at": "2026-11-24T22:41:05Z",
           "label": "carry",
           "title": "Smoke-test the image with an ML-DSA CA (#31)"
@@ -1282,43 +1282,25 @@
       "repo": "protobuf-specs",
       "commits": [
         {
-          "sha": "0a5558457b769da604a12512b9099fa3291afc1e",
+          "sha": "427a00253223c31a388737c34fb54c98ecdbd440",
           "at": "2026-10-31T15:31:19Z",
           "label": "carry",
           "title": "sealhouse CI callers"
         },
         {
-          "sha": "f6d67e986bc6cbbb6a7f290fad4f99ec9287359d",
+          "sha": "54f0990741db5c2d4723946337a373f3346099ed",
           "at": "2026-11-05T14:14:59Z",
           "label": "carry",
           "title": "Remove the Dependabot config"
         },
         {
-          "sha": "be51a18b0ecfbc0f8f1ac3ed3d4cca0fec549474",
+          "sha": "b4463b2de4f37b38e519ad28162cc1b555f85c22",
           "at": "2026-11-06T00:09:27Z",
           "label": "carry",
           "title": "Hand the PR lane off to ci"
         },
         {
-          "sha": "aa7f7e99f020b343f49b80c968b4f59a5b68444f",
-          "at": "2026-11-18T01:29:58Z",
-          "label": "drop",
-          "title": "Pin ci b20bde1fb3ca"
-        },
-        {
-          "sha": "1c9e9bd15a44fbf0465476f98c809accad0a1a7a",
-          "at": "2026-11-23T14:03:55Z",
-          "label": "drop",
-          "title": "Pin ci 9d772b70dae0"
-        },
-        {
-          "sha": "763cf7262c05b80f3a121608442390c038a7693c",
-          "at": "2026-11-23T14:34:13Z",
-          "label": "drop",
-          "title": "Pin ci 68135e52c0b5"
-        },
-        {
-          "sha": "1f53251b8da365397a48c4b71a2b2b40f8b6abdf",
+          "sha": "80ae7101f8b3e15800aaced33975c84d51aaa5b2",
           "at": "2026-11-23T15:20:56Z",
           "label": "drop",
           "title": "Pin ci e8906322470f"
@@ -1329,31 +1311,31 @@
       "repo": "rekor-tiles",
       "commits": [
         {
-          "sha": "5cc08ceb37b6b37d2983b7e03b12d95f20611639",
+          "sha": "fa927c82579fea0733e08fc3627d11803d176c3c",
           "at": "2026-10-31T15:26:12Z",
           "label": "carry",
           "title": "Hummingbird FIPS image build for rekor-server (POSIX) and sealhouse CI callers"
         },
         {
-          "sha": "24e0f96267c31dc2e73dcce18deb9f85dc41e95c",
+          "sha": "5137aff11619649e5dce7815a83b95e5ed86aa4a",
           "at": "2026-11-05T14:15:04Z",
           "label": "carry",
           "title": "Remove the Dependabot config"
         },
         {
-          "sha": "c838ccfc2f73c4a6d58ed9f096d0208f885f9a87",
+          "sha": "bec93d2c82081f15f5d8551646239cc861a016d2",
           "at": "2026-11-06T00:09:31Z",
           "label": "carry",
           "title": "Hand the PR lane off to ci"
         },
         {
-          "sha": "ca945df6adeb3aa04fdc93d5911622cbf388c021",
+          "sha": "220aa94c5bbc9253305085834b4a67c2b77c9246",
           "at": "2026-11-23T15:23:40Z",
           "label": "drop",
           "title": "Pin ci e8906322470f"
         },
         {
-          "sha": "324a73f19951d169a2b3ea8394cdfd8505d12406",
+          "sha": "6f8c0bfba0947e87d63ada49d05642e30411a975",
           "at": "2026-11-23T20:38:39Z",
           "label": "drop",
           "title": "Fix GO-2026-6865"
