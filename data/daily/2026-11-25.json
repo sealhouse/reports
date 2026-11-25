@@ -8,10 +8,10 @@
     "to": "2026-11-26T00:00:00Z"
   },
   "run": {
-    "id": "45700244955",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45700244955",
+    "id": "45709400869",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45709400869",
     "ci": "d2a0f9e52082c9ce202821e87b8d6cfda18c0e66",
-    "collected_at": "2026-11-25T21:01:13Z"
+    "collected_at": "2026-11-25T22:00:58Z"
   },
   "syncs": [
     {
@@ -1028,7 +1028,7 @@
     }
   ],
   "snapshot": {
-    "at": "2026-11-25T21:01:13Z",
+    "at": "2026-11-25T22:00:58Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.23",
     "behind": [
       {
@@ -1476,6 +1476,15 @@
         ]
       }
     ],
-    "open_prs": []
+    "open_prs": [
+      {
+        "repo": "secure-sign-pqc-operator",
+        "pr": 27,
+        "title": "Rotate the TSA root and intermediate CAs",
+        "author": "knrc",
+        "opened_at": "2026-11-25T21:39:35Z",
+        "kind": "other"
+      }
+    ]
   }
 }
