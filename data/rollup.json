@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-25",
-  "last_collected_at": "2026-11-25T07:00:52Z",
-  "last_attempt_at": "2026-11-25T07:00:52Z",
+  "last_collected_at": "2026-11-25T08:00:58Z",
+  "last_attempt_at": "2026-11-25T08:00:58Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -129,7 +129,7 @@
       "date": "2026-11-25",
       "status": "ok",
       "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/45564753525",
+      "run": "https://github.com/sealhouse/ci/actions/runs/45572535507",
       "syncs": 4,
       "syncs_closed": 0,
       "upstream_commits": 17,
@@ -995,8 +995,8 @@
     {
       "date": "2026-11-25",
       "repo": "cosign",
-      "behind": 0,
-      "age_hours": null
+      "behind": 1,
+      "age_hours": 0.21
     },
     {
       "date": "2026-11-25",

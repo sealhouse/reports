@@ -8,10 +8,10 @@
     "to": "2026-11-26T00:00:00Z"
   },
   "run": {
-    "id": "45564753525",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45564753525",
+    "id": "45572535507",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45572535507",
     "ci": "fa2b6feda9e8f5384b21989727769271564a1a5c",
-    "collected_at": "2026-11-25T07:00:52Z"
+    "collected_at": "2026-11-25T08:00:58Z"
   },
   "syncs": [
     {
@@ -441,13 +441,13 @@
   "soak": [],
   "vulns": [],
   "snapshot": {
-    "at": "2026-11-25T07:00:52Z",
+    "at": "2026-11-25T08:00:58Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.23",
     "behind": [
       {
         "repo": "cosign",
-        "behind": 0,
-        "oldest_at": null
+        "behind": 1,
+        "oldest_at": "2026-11-25T07:48:28Z"
       },
       {
         "repo": "dex",
