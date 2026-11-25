@@ -8,10 +8,10 @@
     "to": "2026-11-26T00:00:00Z"
   },
   "run": {
-    "id": "45690922278",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45690922278",
-    "ci": "7a9fd1a94a2aecffdc0dd80c762cde3e0382e883",
-    "collected_at": "2026-11-25T20:02:24Z"
+    "id": "45700244955",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45700244955",
+    "ci": "d2a0f9e52082c9ce202821e87b8d6cfda18c0e66",
+    "collected_at": "2026-11-25T21:01:13Z"
   },
   "syncs": [
     {
@@ -124,6 +124,18 @@
       "author": "knrc",
       "opened_at": "2026-11-25T14:19:25Z",
       "closed_at": "2026-11-25T14:23:57Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": false
+    },
+    {
+      "repo": "ci",
+      "pr": 25,
+      "title": "Check a recorded head against the head it was published against",
+      "kind": "other",
+      "author": "knrc",
+      "opened_at": "2026-11-25T20:37:01Z",
+      "closed_at": "2026-11-25T20:39:23Z",
       "merged": true,
       "approved_by": [],
       "hands_off": false
@@ -1016,7 +1028,7 @@
     }
   ],
   "snapshot": {
-    "at": "2026-11-25T20:02:24Z",
+    "at": "2026-11-25T21:01:13Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.23",
     "behind": [
       {
