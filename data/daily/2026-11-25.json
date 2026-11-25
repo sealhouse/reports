@@ -8,10 +8,10 @@
     "to": "2026-11-26T00:00:00Z"
   },
   "run": {
-    "id": "45572535507",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45572535507",
+    "id": "45581262844",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45581262844",
     "ci": "fa2b6feda9e8f5384b21989727769271564a1a5c",
-    "collected_at": "2026-11-25T08:00:58Z"
+    "collected_at": "2026-11-25T09:00:47Z"
   },
   "syncs": [
     {
@@ -439,9 +439,109 @@
   ],
   "nightly": [],
   "soak": [],
-  "vulns": [],
+  "vulns": [
+    {
+      "date": "2026-11-25T08:45:41Z",
+      "repo": "cosign",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-25T08:45:41Z",
+      "repo": "dex",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-25T08:45:41Z",
+      "repo": "fulcio",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-25T08:45:41Z",
+      "repo": "go-oidc",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-25T08:45:41Z",
+      "repo": "go-tuf",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-25T08:45:41Z",
+      "repo": "protobuf-specs",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-25T08:45:41Z",
+      "repo": "rekor-tiles",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-25T08:45:41Z",
+      "repo": "sigstore",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-25T08:45:41Z",
+      "repo": "sigstore-go",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-25T08:45:41Z",
+      "repo": "timestamp-authority",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    },
+    {
+      "date": "2026-11-25T08:45:41Z",
+      "repo": "secure-sign-pqc-operator",
+      "osv": "",
+      "module": "",
+      "version": "",
+      "fixed": "",
+      "due": ""
+    }
+  ],
   "snapshot": {
-    "at": "2026-11-25T08:00:58Z",
+    "at": "2026-11-25T09:00:47Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.23",
     "behind": [
       {
