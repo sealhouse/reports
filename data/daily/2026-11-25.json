@@ -8,10 +8,10 @@
     "to": "2026-11-26T00:00:00Z"
   },
   "run": {
-    "id": "45629320173",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45629320173",
-    "ci": "fa2b6feda9e8f5384b21989727769271564a1a5c",
-    "collected_at": "2026-11-25T14:01:16Z"
+    "id": "45634572535",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45634572535",
+    "ci": "7a9fd1a94a2aecffdc0dd80c762cde3e0382e883",
+    "collected_at": "2026-11-25T14:30:05Z"
   },
   "syncs": [
     {
@@ -105,6 +105,30 @@
   ],
   "prs": [
     {
+      "repo": "ci",
+      "pr": 23,
+      "title": "Name report runs by workflow file, not run-name",
+      "kind": "other",
+      "author": "knrc",
+      "opened_at": "2026-11-25T14:10:21Z",
+      "closed_at": "2026-11-25T14:12:37Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": false
+    },
+    {
+      "repo": "ci",
+      "pr": 24,
+      "title": "Show each day's last nightly",
+      "kind": "other",
+      "author": "knrc",
+      "opened_at": "2026-11-25T14:19:25Z",
+      "closed_at": "2026-11-25T14:23:57Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": false
+    },
+    {
       "repo": "cosign",
       "pr": 33,
       "title": "Sync upstream main ab26c80d",
@@ -155,6 +179,67 @@
   ],
   "alphas": [],
   "runs": [
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-sync",
+      "id": 45520512843,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "fa2b6feda9e8f5384b21989727769271564a1a5c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-25T00:45:08Z",
+      "updated_at": "2026-11-25T00:45:34Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45520512843",
+      "steps": {
+        "sync / Set up job": "success",
+        "sync / Scripts": "success",
+        "sync / Finish green syncs": "success",
+        "sync / Hand off": "success",
+        "sync / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45520517602,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "fa2b6feda9e8f5384b21989727769271564a1a5c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-25T00:45:10Z",
+      "updated_at": "2026-11-25T00:45:29Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45520517602",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-sync",
+      "id": 45559214267,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "fa2b6feda9e8f5384b21989727769271564a1a5c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-25T06:15:07Z",
+      "updated_at": "2026-11-25T06:16:27Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45559214267",
+      "steps": {
+        "sync / Set up job": "success",
+        "sync / Scripts": "success",
+        "sync / Finish green syncs": "success",
+        "sync / Hand off": "success",
+        "sync / Start syncs": "success",
+        "sync / Complete job": "success"
+      }
+    },
     {
       "repo": "ci",
       "workflow": "sealhouse-sync",
@@ -435,9 +520,348 @@
         "bump / Bump": "success",
         "bump / Complete job": "success"
       }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-sync",
+      "id": 45562919508,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "fa2b6feda9e8f5384b21989727769271564a1a5c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-25T06:45:06Z",
+      "updated_at": "2026-11-25T06:45:27Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45562919508",
+      "steps": {
+        "sync / Set up job": "success",
+        "sync / Scripts": "success",
+        "sync / Finish green syncs": "success",
+        "sync / Hand off": "success",
+        "sync / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45562923608,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "fa2b6feda9e8f5384b21989727769271564a1a5c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-25T06:45:08Z",
+      "updated_at": "2026-11-25T06:45:25Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45562923608",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-replaces",
+      "id": 45568622495,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "fa2b6feda9e8f5384b21989727769271564a1a5c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-25T07:30:08Z",
+      "updated_at": "2026-11-25T07:30:45Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45568622495",
+      "steps": {
+        "replaces / Set up job": "success",
+        "replaces / Scripts": "success",
+        "replaces / Release what changed": "success",
+        "replaces / Consumers": "success",
+        "replaces / Removable": "success",
+        "replaces / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-nightly",
+      "id": 45579034743,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "fa2b6feda9e8f5384b21989727769271564a1a5c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-25T08:45:09Z",
+      "updated_at": "2026-11-25T10:09:47Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45579034743",
+      "steps": {
+        "report / Set up job": "success",
+        "report / Scripts": "success",
+        "report / Fresh": "success",
+        "report / Complete job": "success",
+        "vulns / Set up job": "success",
+        "vulns / Scripts": "success",
+        "vulns / Toolchain": "success",
+        "vulns / Scan": "success",
+        "vulns / Record": "success",
+        "vulns / Fix": "success",
+        "vulns / Complete job": "success",
+        "changes / Set up job": "success",
+        "changes / Scripts": "success",
+        "changes / Toolchain": "success",
+        "changes / Inputs": "success",
+        "changes / Plan": "success",
+        "changes / Complete job": "success",
+        "microshift (4.21) / Set up job": "success",
+        "microshift (4.21) / Scripts": "success",
+        "microshift (4.21) / Toolchain": "success",
+        "microshift (4.21) / Alpha head": "success",
+        "microshift (4.21) / Cluster": "success",
+        "microshift (4.21) / E2E": "success",
+        "microshift (4.21) / Complete job": "success",
+        "microshift (4.22) / Set up job": "success",
+        "microshift (4.22) / Scripts": "success",
+        "microshift (4.22) / Toolchain": "success",
+        "microshift (4.22) / Alpha head": "success",
+        "microshift (4.22) / Cluster": "success",
+        "microshift (4.22) / E2E": "success",
+        "microshift (4.22) / Complete job": "success",
+        "rebuild (timestamp-authority) / Set up job": "success",
+        "rebuild (timestamp-authority) / Scripts": "success",
+        "rebuild (timestamp-authority) / Toolchain": "success",
+        "rebuild (timestamp-authority) / Registry": "success",
+        "rebuild (timestamp-authority) / Rebuild": "success",
+        "rebuild (timestamp-authority) / Complete job": "success",
+        "soak / Set up job": "success",
+        "soak / Scripts": "success",
+        "soak / Toolchain": "success",
+        "soak / Alpha head": "success",
+        "soak / Trend": "success",
+        "soak / Soak": "success",
+        "soak / Record": "success",
+        "soak / Complete job": "success",
+        "kind (1.35) / Set up job": "success",
+        "kind (1.35) / Scripts": "success",
+        "kind (1.35) / Toolchain": "success",
+        "kind (1.35) / Alpha head": "success",
+        "kind (1.35) / Cluster": "success",
+        "kind (1.35) / UIDs": "success",
+        "kind (1.35) / E2E": "success",
+        "kind (1.35) / Complete job": "success",
+        "rebuild (dex) / Set up job": "success",
+        "rebuild (dex) / Scripts": "success",
+        "rebuild (dex) / Toolchain": "success",
+        "rebuild (dex) / Registry": "success",
+        "rebuild (dex) / Rebuild": "success",
+        "rebuild (dex) / Complete job": "success",
+        "rebuild (fulcio) / Set up job": "success",
+        "rebuild (fulcio) / Scripts": "success",
+        "rebuild (fulcio) / Toolchain": "success",
+        "rebuild (fulcio) / Registry": "success",
+        "rebuild (fulcio) / Rebuild": "success",
+        "rebuild (fulcio) / Complete job": "success",
+        "microshift (4.20) / Set up job": "success",
+        "microshift (4.20) / Scripts": "success",
+        "microshift (4.20) / Toolchain": "success",
+        "microshift (4.20) / Alpha head": "success",
+        "microshift (4.20) / Cluster": "success",
+        "microshift (4.20) / E2E": "success",
+        "microshift (4.20) / Complete job": "success",
+        "rebuild (cosign) / Set up job": "success",
+        "rebuild (cosign) / Scripts": "success",
+        "rebuild (cosign) / Toolchain": "success",
+        "rebuild (cosign) / Registry": "success",
+        "rebuild (cosign) / Rebuild": "success",
+        "rebuild (cosign) / Complete job": "success",
+        "kind (1.33) / Set up job": "success",
+        "kind (1.33) / Scripts": "success",
+        "kind (1.33) / Toolchain": "success",
+        "kind (1.33) / Alpha head": "success",
+        "kind (1.33) / Cluster": "success",
+        "kind (1.33) / UIDs": "success",
+        "kind (1.33) / E2E": "success",
+        "kind (1.33) / Complete job": "success",
+        "microshift (5.0) / Set up job": "success",
+        "microshift (5.0) / Scripts": "success",
+        "microshift (5.0) / Toolchain": "success",
+        "microshift (5.0) / Alpha head": "success",
+        "microshift (5.0) / Cluster": "success",
+        "microshift (5.0) / E2E": "success",
+        "microshift (5.0) / Complete job": "success",
+        "rebuild (rekor-tiles) / Set up job": "success",
+        "rebuild (rekor-tiles) / Scripts": "success",
+        "rebuild (rekor-tiles) / Toolchain": "success",
+        "rebuild (rekor-tiles) / Registry": "success",
+        "rebuild (rekor-tiles) / Rebuild": "success",
+        "rebuild (rekor-tiles) / Complete job": "success",
+        "kind (1.34) / Set up job": "success",
+        "kind (1.34) / Scripts": "success",
+        "kind (1.34) / Toolchain": "success",
+        "kind (1.34) / Alpha head": "success",
+        "kind (1.34) / Cluster": "success",
+        "kind (1.34) / UIDs": "success",
+        "kind (1.34) / E2E": "success",
+        "kind (1.34) / Complete job": "success",
+        "watch / Set up job": "success",
+        "watch / Scripts": "success",
+        "watch / Toolchain": "success",
+        "watch / MicroShift": "success",
+        "watch / Go": "success",
+        "watch / Complete job": "success",
+        "record / Set up job": "success",
+        "record / Scripts": "success",
+        "record / Record": "success",
+        "record / Complete job": "success"
+      }
+    },
+    {
+      "repo": "secure-sign-pqc-operator",
+      "workflow": "sealhouse-resilience",
+      "id": 45588385804,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "454a6e517ab73c803c91325d4e77f155b8999693",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-25T09:45:13Z",
+      "updated_at": "2026-11-25T10:05:02Z",
+      "url": "https://github.com/sealhouse/secure-sign-pqc-operator/actions/runs/45588385804",
+      "steps": {
+        "resilience / Set up job": "success",
+        "resilience / Initialize containers": "success",
+        "resilience / Checkout": "success",
+        "resilience / Tree before": "success",
+        "resilience / Toolchain": "success",
+        "resilience / Tools": "success",
+        "resilience / Resilience scenarios": "success",
+        "resilience / Generated and formatted files unchanged": "success",
+        "resilience / Stop containers": "success",
+        "resilience / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-sync",
+      "id": 45616776438,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "fa2b6feda9e8f5384b21989727769271564a1a5c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-25T12:45:09Z",
+      "updated_at": "2026-11-25T12:45:32Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45616776438",
+      "steps": {
+        "sync / Set up job": "success",
+        "sync / Scripts": "success",
+        "sync / Finish green syncs": "success",
+        "sync / Hand off": "success",
+        "sync / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45616782837,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "fa2b6feda9e8f5384b21989727769271564a1a5c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-25T12:45:11Z",
+      "updated_at": "2026-11-25T12:45:28Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45616782837",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
     }
   ],
-  "nightly": [],
+  "nightly": [
+    {
+      "id": 45579034743,
+      "conclusion": "success",
+      "created_at": "2026-11-25T08:45:09Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45579034743",
+      "jobs": [
+        {
+          "name": "changes",
+          "conclusion": "success"
+        },
+        {
+          "name": "kind (1.33)",
+          "conclusion": "success"
+        },
+        {
+          "name": "kind (1.34)",
+          "conclusion": "success"
+        },
+        {
+          "name": "kind (1.35)",
+          "conclusion": "success"
+        },
+        {
+          "name": "microshift (4.20)",
+          "conclusion": "success"
+        },
+        {
+          "name": "microshift (4.21)",
+          "conclusion": "success"
+        },
+        {
+          "name": "microshift (4.22)",
+          "conclusion": "success"
+        },
+        {
+          "name": "microshift (5.0)",
+          "conclusion": "success"
+        },
+        {
+          "name": "rebuild (cosign)",
+          "conclusion": "success"
+        },
+        {
+          "name": "rebuild (dex)",
+          "conclusion": "success"
+        },
+        {
+          "name": "rebuild (fulcio)",
+          "conclusion": "success"
+        },
+        {
+          "name": "rebuild (rekor-tiles)",
+          "conclusion": "success"
+        },
+        {
+          "name": "rebuild (timestamp-authority)",
+          "conclusion": "success"
+        },
+        {
+          "name": "record",
+          "conclusion": "success"
+        },
+        {
+          "name": "report",
+          "conclusion": "success"
+        },
+        {
+          "name": "soak",
+          "conclusion": "success"
+        },
+        {
+          "name": "vulns",
+          "conclusion": "success"
+        },
+        {
+          "name": "watch",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ],
   "soak": [
     {
       "date": "2026-11-25T10:09:31Z",
@@ -552,7 +976,7 @@
     }
   ],
   "snapshot": {
-    "at": "2026-11-25T14:01:16Z",
+    "at": "2026-11-25T14:30:05Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.23",
     "behind": [
       {
@@ -577,7 +1001,7 @@
       },
       {
         "repo": "go-tuf",
-        "behind": 3,
+        "behind": 4,
         "oldest_at": "2026-11-25T13:50:51Z"
       },
       {
