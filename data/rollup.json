@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "first": "2026-11-17",
-  "last": "2026-11-24",
-  "last_collected_at": "2026-11-25T00:00:59Z",
-  "last_attempt_at": "2026-11-25T00:00:59Z",
+  "last": "2026-11-25",
+  "last_collected_at": "2026-11-25T00:01:36Z",
+  "last_attempt_at": "2026-11-25T00:01:36Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -123,6 +123,21 @@
       "prs": 5,
       "hands_off": 1,
       "runs": 6,
+      "runs_failed": 0
+    },
+    {
+      "date": "2026-11-25",
+      "status": "ok",
+      "partial": true,
+      "run": "https://github.com/sealhouse/ci/actions/runs/45514571969",
+      "syncs": 0,
+      "syncs_closed": 0,
+      "upstream_commits": 0,
+      "images": 0,
+      "alphas": 0,
+      "prs": 0,
+      "hands_off": 0,
+      "runs": 0,
       "runs_failed": 0
     }
   ],
@@ -981,7 +996,7 @@
       "date": "2026-11-25",
       "repo": "cosign",
       "behind": 9,
-      "age_hours": 9.61
+      "age_hours": 9.62
     },
     {
       "date": "2026-11-25",
@@ -993,7 +1008,7 @@
       "date": "2026-11-25",
       "repo": "fulcio",
       "behind": 6,
-      "age_hours": 11.3
+      "age_hours": 11.31
     },
     {
       "date": "2026-11-25",
@@ -1011,13 +1026,13 @@
       "date": "2026-11-25",
       "repo": "protobuf-specs",
       "behind": 1,
-      "age_hours": 16.32
+      "age_hours": 16.33
     },
     {
       "date": "2026-11-25",
       "repo": "rekor-tiles",
       "behind": 1,
-      "age_hours": 2.96
+      "age_hours": 2.97
     },
     {
       "date": "2026-11-25",
