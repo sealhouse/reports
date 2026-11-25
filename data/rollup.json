@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-25",
-  "last_collected_at": "2026-11-25T14:14:58Z",
-  "last_attempt_at": "2026-11-25T14:14:58Z",
+  "last_collected_at": "2026-11-25T14:16:27Z",
+  "last_attempt_at": "2026-11-25T14:16:27Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -114,7 +114,7 @@
       "date": "2026-11-24",
       "status": "ok",
       "partial": false,
-      "run": "https://github.com/sealhouse/ci/actions/runs/45514571969",
+      "run": "https://github.com/sealhouse/ci/actions/runs/45632030157",
       "syncs": 0,
       "syncs_closed": 0,
       "upstream_commits": 0,
@@ -122,7 +122,7 @@
       "alphas": 1,
       "prs": 5,
       "hands_off": 1,
-      "runs": 6,
+      "runs": 22,
       "runs_failed": 0
     },
     {
@@ -468,6 +468,56 @@
       "date": "2026-11-23",
       "conclusion": "success",
       "url": "https://github.com/sealhouse/ci/actions/runs/45276539215",
+      "jobs": {
+        "changes": "success",
+        "kind (1.33)": "success",
+        "kind (1.34)": "success",
+        "kind (1.35)": "success",
+        "microshift (4.20)": "success",
+        "microshift (4.21)": "success",
+        "microshift (4.22)": "success",
+        "microshift (5.0)": "success",
+        "rebuild (cosign)": "success",
+        "rebuild (dex)": "success",
+        "rebuild (fulcio)": "success",
+        "rebuild (rekor-tiles)": "success",
+        "rebuild (timestamp-authority)": "success",
+        "record": "success",
+        "report": "success",
+        "soak": "success",
+        "vulns": "success",
+        "watch": "success"
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "conclusion": "success",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45310702005",
+      "jobs": {
+        "changes": "success",
+        "kind (1.33)": "success",
+        "kind (1.34)": "success",
+        "kind (1.35)": "success",
+        "microshift (4.20)": "success",
+        "microshift (4.21)": "success",
+        "microshift (4.22)": "success",
+        "microshift (5.0)": "success",
+        "rebuild (cosign)": "success",
+        "rebuild (dex)": "success",
+        "rebuild (fulcio)": "success",
+        "rebuild (rekor-tiles)": "success",
+        "rebuild (timestamp-authority)": "success",
+        "record": "success",
+        "report": "success",
+        "soak": "success",
+        "vulns": "success",
+        "watch": "success"
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "conclusion": "success",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45358862400",
       "jobs": {
         "changes": "success",
         "kind (1.33)": "success",
@@ -978,13 +1028,13 @@
       "date": "2026-11-25",
       "repo": "cosign",
       "behind": 2,
-      "age_hours": 6.44
+      "age_hours": 6.47
     },
     {
       "date": "2026-11-25",
       "repo": "dex",
       "behind": 5,
-      "age_hours": 4.07
+      "age_hours": 4.1
     },
     {
       "date": "2026-11-25",
@@ -1002,7 +1052,7 @@
       "date": "2026-11-25",
       "repo": "go-tuf",
       "behind": 4,
-      "age_hours": 0.4
+      "age_hours": 0.43
     },
     {
       "date": "2026-11-25",
@@ -1026,7 +1076,7 @@
       "date": "2026-11-25",
       "repo": "sigstore-go",
       "behind": 2,
-      "age_hours": 1.84
+      "age_hours": 1.87
     },
     {
       "date": "2026-11-25",
