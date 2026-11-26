@@ -8,10 +8,10 @@
     "to": "2026-11-27T00:00:00Z"
   },
   "run": {
-    "id": "45787953194",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45787953194",
+    "id": "45797177712",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45797177712",
     "ci": "86fdae8494023c628810745c0b86bd199df54eec",
-    "collected_at": "2026-11-26T09:01:20Z"
+    "collected_at": "2026-11-26T10:01:51Z"
   },
   "syncs": [
     {
@@ -1431,6 +1431,19 @@
       "created_at": "2026-11-26T08:45:10Z",
       "updated_at": "2026-11-26T08:47:54Z",
       "url": "https://github.com/sealhouse/ci/actions/runs/45785815905"
+    },
+    {
+      "repo": "secure-sign-pqc-operator",
+      "workflow": "sealhouse-resilience",
+      "id": 45794876856,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "2910e67491c9ab429352e4d75eda71bd232a5915",
+      "status": "in_progress",
+      "conclusion": null,
+      "created_at": "2026-11-26T09:45:09Z",
+      "updated_at": "2026-11-26T09:45:14Z",
+      "url": "https://github.com/sealhouse/secure-sign-pqc-operator/actions/runs/45794876856"
     }
   ],
   "nightly": [
@@ -1614,7 +1627,7 @@
     }
   ],
   "snapshot": {
-    "at": "2026-11-26T09:01:20Z",
+    "at": "2026-11-26T10:01:51Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.24",
     "behind": [
       {
@@ -1659,8 +1672,8 @@
       },
       {
         "repo": "sigstore-go",
-        "behind": 0,
-        "oldest_at": null
+        "behind": 1,
+        "oldest_at": "2026-11-26T09:33:06Z"
       },
       {
         "repo": "timestamp-authority",
