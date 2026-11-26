@@ -8,10 +8,10 @@
     "to": "2026-11-27T00:00:00Z"
   },
   "run": {
-    "id": "45872367375",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45872367375",
-    "ci": "86fdae8494023c628810745c0b86bd199df54eec",
-    "collected_at": "2026-11-26T18:01:34Z"
+    "id": "45880282154",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45880282154",
+    "ci": "92ba395dc7f2179922f6a9eed3774cf685c8e0f3",
+    "collected_at": "2026-11-26T19:01:14Z"
   },
   "syncs": [
     {
@@ -188,6 +188,18 @@
       "author": "knrc",
       "opened_at": "2026-11-26T01:21:06Z",
       "closed_at": "2026-11-26T01:23:14Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": false
+    },
+    {
+      "repo": "ci",
+      "pr": 28,
+      "title": "Show the timer chain apart in status.sh",
+      "kind": "other",
+      "author": "knrc",
+      "opened_at": "2026-11-26T17:47:10Z",
+      "closed_at": "2026-11-26T18:00:58Z",
       "merged": true,
       "approved_by": [],
       "hands_off": false
@@ -478,6 +490,12 @@
           "bump_at": "2026-11-26T15:15:30Z"
         }
       ]
+    },
+    {
+      "csv": "secure-sign-pqc-operator.v0.1.0-alpha.27",
+      "at": "2026-11-26T18:13:32Z",
+      "operator_commit": "09889d4dba97284716611dda0840bf06a13eafd8",
+      "components": []
     }
   ],
   "runs": [
@@ -1822,11 +1840,24 @@
       "event": "push",
       "branch": "main",
       "sha": "09889d4dba97284716611dda0840bf06a13eafd8",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "created_at": "2026-11-26T17:48:10Z",
-      "updated_at": "2026-11-26T17:48:13Z",
-      "url": "https://github.com/sealhouse/secure-sign-pqc-operator/actions/runs/45870774258"
+      "updated_at": "2026-11-26T18:13:27Z",
+      "url": "https://github.com/sealhouse/secure-sign-pqc-operator/actions/runs/45870774258",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Registry": "success",
+        "merge / merge / Publish": "success",
+        "merge / merge / Hand off": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
     },
     {
       "repo": "secure-sign-pqc-operator",
@@ -1835,11 +1866,103 @@
       "event": "workflow_dispatch",
       "branch": "main",
       "sha": "09889d4dba97284716611dda0840bf06a13eafd8",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "created_at": "2026-11-26T17:50:14Z",
-      "updated_at": "2026-11-26T17:50:17Z",
-      "url": "https://github.com/sealhouse/secure-sign-pqc-operator/actions/runs/45871056655"
+      "updated_at": "2026-11-26T18:10:16Z",
+      "url": "https://github.com/sealhouse/secure-sign-pqc-operator/actions/runs/45871056655",
+      "steps": {
+        "resilience / Set up job": "success",
+        "resilience / Initialize containers": "success",
+        "resilience / Checkout": "success",
+        "resilience / Tree before": "success",
+        "resilience / Toolchain": "success",
+        "resilience / Tools": "success",
+        "resilience / Resilience scenarios": "success",
+        "resilience / Generated and formatted files unchanged": "success",
+        "resilience / Stop containers": "success",
+        "resilience / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-catalog",
+      "id": 45874158564,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "92ba395dc7f2179922f6a9eed3774cf685c8e0f3",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T18:13:19Z",
+      "updated_at": "2026-11-26T18:13:36Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45874158564",
+      "steps": {
+        "catalog / Set up job": "success",
+        "catalog / Scripts": "success",
+        "catalog / Toolchain": "success",
+        "catalog / Record": "success",
+        "catalog / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45874164467,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "92ba395dc7f2179922f6a9eed3774cf685c8e0f3",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T18:13:21Z",
+      "updated_at": "2026-11-26T18:13:40Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45874164467",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-sync",
+      "id": 45878395740,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "92ba395dc7f2179922f6a9eed3774cf685c8e0f3",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T18:45:07Z",
+      "updated_at": "2026-11-26T18:45:31Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45878395740",
+      "steps": {
+        "sync / Set up job": "success",
+        "sync / Scripts": "success",
+        "sync / Finish green syncs": "success",
+        "sync / Hand off": "success",
+        "sync / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45878400033,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "92ba395dc7f2179922f6a9eed3774cf685c8e0f3",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T18:45:09Z",
+      "updated_at": "2026-11-26T18:45:22Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45878400033",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
     }
   ],
   "nightly": [
@@ -2038,8 +2161,8 @@
     }
   ],
   "snapshot": {
-    "at": "2026-11-26T18:01:34Z",
-    "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.26",
+    "at": "2026-11-26T19:01:14Z",
+    "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.27",
     "behind": [
       {
         "repo": "cosign",
@@ -2528,15 +2651,6 @@
         ]
       }
     ],
-    "open_prs": [
-      {
-        "repo": "ci",
-        "pr": 28,
-        "title": "Show the timer chain apart in status.sh",
-        "author": "knrc",
-        "opened_at": "2026-11-26T17:47:10Z",
-        "kind": "other"
-      }
-    ]
+    "open_prs": []
   }
 }

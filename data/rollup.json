@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-26",
-  "last_collected_at": "2026-11-26T18:01:34Z",
-  "last_attempt_at": "2026-11-26T18:01:34Z",
+  "last_collected_at": "2026-11-26T19:01:14Z",
+  "last_attempt_at": "2026-11-26T19:01:14Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -144,15 +144,15 @@
       "date": "2026-11-26",
       "status": "ok",
       "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/45872367375",
+      "run": "https://github.com/sealhouse/ci/actions/runs/45880282154",
       "syncs": 5,
       "syncs_closed": 0,
       "upstream_commits": 19,
       "images": 3,
-      "alphas": 1,
-      "prs": 24,
+      "alphas": 2,
+      "prs": 25,
       "hands_off": 16,
-      "runs": 58,
+      "runs": 62,
       "runs_failed": 5
     }
   ],
@@ -284,6 +284,12 @@
           }
         }
       ]
+    },
+    {
+      "csv": "secure-sign-pqc-operator.v0.1.0-alpha.27",
+      "at": "2026-11-26T18:13:32Z",
+      "operator_commit": "09889d4dba97284716611dda0840bf06a13eafd8",
+      "components": []
     }
   ],
   "incidents": [
@@ -383,8 +389,8 @@
       "branch": "main",
       "step": "resilience / Resilience scenarios",
       "from": "2026-11-26T09:45:09Z",
-      "to": null,
-      "hours": null,
+      "to": "2026-11-26T18:10:16Z",
+      "hours": 8.42,
       "run": "https://github.com/sealhouse/secure-sign-pqc-operator/actions/runs/45794876856"
     }
   ],
@@ -1197,7 +1203,7 @@
       "date": "2026-11-26",
       "repo": "go-tuf",
       "behind": 5,
-      "age_hours": 7.29
+      "age_hours": 8.28
     },
     {
       "date": "2026-11-26",
@@ -1221,25 +1227,16 @@
       "date": "2026-11-26",
       "repo": "sigstore-go",
       "behind": 2,
-      "age_hours": 8.47
+      "age_hours": 9.47
     },
     {
       "date": "2026-11-26",
       "repo": "timestamp-authority",
       "behind": 1,
-      "age_hours": 6.66
+      "age_hours": 7.65
     }
   ],
-  "open_prs": [
-    {
-      "repo": "ci",
-      "pr": 28,
-      "title": "Show the timer chain apart in status.sh",
-      "author": "knrc",
-      "opened_at": "2026-11-26T17:47:10Z",
-      "kind": "other"
-    }
-  ],
+  "open_prs": [],
   "carries": [
     {
       "repo": "cosign",
@@ -1676,5 +1673,5 @@
       ]
     }
   ],
-  "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.26"
+  "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.27"
 }
