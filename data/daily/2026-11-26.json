@@ -8,10 +8,10 @@
     "to": "2026-11-27T00:00:00Z"
   },
   "run": {
-    "id": "45817583143",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45817583143",
+    "id": "45824892050",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45824892050",
     "ci": "86fdae8494023c628810745c0b86bd199df54eec",
-    "collected_at": "2026-11-26T12:14:24Z"
+    "collected_at": "2026-11-26T13:01:31Z"
   },
   "syncs": [
     {
@@ -1574,6 +1574,46 @@
         "resilience / Stop containers": "success",
         "resilience / Complete job": "success"
       }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-sync",
+      "id": 45822581485,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "86fdae8494023c628810745c0b86bd199df54eec",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T12:45:06Z",
+      "updated_at": "2026-11-26T12:45:25Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45822581485",
+      "steps": {
+        "sync / Set up job": "success",
+        "sync / Scripts": "success",
+        "sync / Finish green syncs": "success",
+        "sync / Hand off": "success",
+        "sync / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45822585716,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "86fdae8494023c628810745c0b86bd199df54eec",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T12:45:08Z",
+      "updated_at": "2026-11-26T12:45:30Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45822585716",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
     }
   ],
   "nightly": [
@@ -1772,7 +1812,7 @@
     }
   ],
   "snapshot": {
-    "at": "2026-11-26T12:14:24Z",
+    "at": "2026-11-26T13:01:31Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.24",
     "behind": [
       {
@@ -1797,7 +1837,7 @@
       },
       {
         "repo": "go-tuf",
-        "behind": 3,
+        "behind": 4,
         "oldest_at": "2026-11-26T10:44:11Z"
       },
       {
