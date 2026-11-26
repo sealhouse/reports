@@ -8,10 +8,10 @@
     "to": "2026-11-27T00:00:00Z"
   },
   "run": {
-    "id": "45854574796",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45854574796",
+    "id": "45872367375",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45872367375",
     "ci": "86fdae8494023c628810745c0b86bd199df54eec",
-    "collected_at": "2026-11-26T16:01:22Z"
+    "collected_at": "2026-11-26T18:01:34Z"
   },
   "syncs": [
     {
@@ -337,6 +337,18 @@
       "merged": true,
       "approved_by": [],
       "hands_off": true
+    },
+    {
+      "repo": "secure-sign-pqc-operator",
+      "pr": 30,
+      "title": "Start each operator test from an empty API server",
+      "kind": "other",
+      "author": "knrc",
+      "opened_at": "2026-11-26T17:01:01Z",
+      "closed_at": "2026-11-26T17:48:07Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": false
     },
     {
       "repo": "sigstore",
@@ -1802,6 +1814,32 @@
         "update / Update bump PRs": "success",
         "update / Complete job": "success"
       }
+    },
+    {
+      "repo": "secure-sign-pqc-operator",
+      "workflow": "sealhouse-merge",
+      "id": 45870774258,
+      "event": "push",
+      "branch": "main",
+      "sha": "09889d4dba97284716611dda0840bf06a13eafd8",
+      "status": "in_progress",
+      "conclusion": null,
+      "created_at": "2026-11-26T17:48:10Z",
+      "updated_at": "2026-11-26T17:48:13Z",
+      "url": "https://github.com/sealhouse/secure-sign-pqc-operator/actions/runs/45870774258"
+    },
+    {
+      "repo": "secure-sign-pqc-operator",
+      "workflow": "sealhouse-resilience",
+      "id": 45871056655,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "09889d4dba97284716611dda0840bf06a13eafd8",
+      "status": "in_progress",
+      "conclusion": null,
+      "created_at": "2026-11-26T17:50:14Z",
+      "updated_at": "2026-11-26T17:50:17Z",
+      "url": "https://github.com/sealhouse/secure-sign-pqc-operator/actions/runs/45871056655"
     }
   ],
   "nightly": [
@@ -2000,7 +2038,7 @@
     }
   ],
   "snapshot": {
-    "at": "2026-11-26T16:01:22Z",
+    "at": "2026-11-26T18:01:34Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.26",
     "behind": [
       {
@@ -2490,6 +2528,15 @@
         ]
       }
     ],
-    "open_prs": []
+    "open_prs": [
+      {
+        "repo": "ci",
+        "pr": 28,
+        "title": "Show the timer chain apart in status.sh",
+        "author": "knrc",
+        "opened_at": "2026-11-26T17:47:10Z",
+        "kind": "other"
+      }
+    ]
   }
 }
