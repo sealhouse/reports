@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-26",
-  "last_collected_at": "2026-11-26T13:01:31Z",
-  "last_attempt_at": "2026-11-26T13:01:31Z",
+  "last_collected_at": "2026-11-26T14:01:42Z",
+  "last_attempt_at": "2026-11-26T14:01:42Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -144,7 +144,7 @@
       "date": "2026-11-26",
       "status": "ok",
       "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/45824892050",
+      "run": "https://github.com/sealhouse/ci/actions/runs/45834614495",
       "syncs": 5,
       "syncs_closed": 0,
       "upstream_commits": 19,
@@ -1169,8 +1169,8 @@
     {
       "date": "2026-11-26",
       "repo": "go-tuf",
-      "behind": 4,
-      "age_hours": 2.29
+      "behind": 5,
+      "age_hours": 3.29
     },
     {
       "date": "2026-11-26",
@@ -1193,14 +1193,14 @@
     {
       "date": "2026-11-26",
       "repo": "sigstore-go",
-      "behind": 1,
-      "age_hours": 3.47
+      "behind": 2,
+      "age_hours": 4.48
     },
     {
       "date": "2026-11-26",
       "repo": "timestamp-authority",
       "behind": 1,
-      "age_hours": 1.66
+      "age_hours": 2.66
     }
   ],
   "open_prs": [
