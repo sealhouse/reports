@@ -8,10 +8,10 @@
     "to": "2026-11-27T00:00:00Z"
   },
   "run": {
-    "id": "45834614495",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45834614495",
+    "id": "45844624851",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45844624851",
     "ci": "86fdae8494023c628810745c0b86bd199df54eec",
-    "collected_at": "2026-11-26T14:01:42Z"
+    "collected_at": "2026-11-26T15:01:40Z"
   },
   "syncs": [
     {
@@ -155,6 +155,16 @@
       "digest": null,
       "at": "2026-11-26T01:29:49Z",
       "run": "https://github.com/sealhouse/cosign/actions/runs/45736049297"
+    },
+    {
+      "repo": "rekor-tiles",
+      "commit": "30ecf354c459110b9add967fd719f5e02d28d069",
+      "branch": "rhtas/main",
+      "image": "rekor-v3",
+      "pushed": false,
+      "digest": null,
+      "at": "2026-11-26T14:52:17Z",
+      "run": "https://github.com/sealhouse/rekor-tiles/actions/runs/45843224394"
     }
   ],
   "prs": [
@@ -286,6 +296,18 @@
       "author": "sealhouse-bot[bot]",
       "opened_at": "2026-11-26T01:24:13Z",
       "closed_at": "2026-11-26T01:25:12Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
+      "repo": "rekor-tiles",
+      "pr": 24,
+      "title": "UPSTREAM: <drop>: Pin ci 86fdae849402",
+      "kind": "ci-pin",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-26T01:24:22Z",
+      "closed_at": "2026-11-26T14:51:33Z",
       "merged": true,
       "approved_by": [],
       "hands_off": true
@@ -1614,6 +1636,72 @@
         "update / Update bump PRs": "success",
         "update / Complete job": "success"
       }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45843171390,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "86fdae8494023c628810745c0b86bd199df54eec",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T14:51:17Z",
+      "updated_at": "2026-11-26T14:51:42Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45843171390",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "rekor-tiles",
+      "workflow": "sealhouse-merge",
+      "id": 45843224394,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "30ecf354c459110b9add967fd719f5e02d28d069",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T14:51:36Z",
+      "updated_at": "2026-11-26T14:52:17Z",
+      "url": "https://github.com/sealhouse/rekor-tiles/actions/runs/45843224394",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Registry": "success",
+        "merge / merge / Image": "success",
+        "merge / merge / Hand off": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45844693556,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "86fdae8494023c628810745c0b86bd199df54eec",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T15:00:32Z",
+      "updated_at": "2026-11-26T15:00:52Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45844693556",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
     }
   ],
   "nightly": [
@@ -1812,7 +1900,7 @@
     }
   ],
   "snapshot": {
-    "at": "2026-11-26T14:01:42Z",
+    "at": "2026-11-26T15:01:40Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.24",
     "behind": [
       {
@@ -2151,6 +2239,12 @@
             "at": "2026-11-23T20:38:39Z",
             "label": "drop",
             "title": "Fix GO-2026-6865"
+          },
+          {
+            "sha": "30ecf354c459110b9add967fd719f5e02d28d069",
+            "at": "2026-11-26T14:51:32Z",
+            "label": "drop",
+            "title": "Pin ci 86fdae849402"
           }
         ]
       },
@@ -2297,14 +2391,6 @@
       }
     ],
     "open_prs": [
-      {
-        "repo": "rekor-tiles",
-        "pr": 24,
-        "title": "UPSTREAM: <drop>: Pin ci 86fdae849402",
-        "author": "sealhouse-bot[bot]",
-        "opened_at": "2026-11-26T01:24:22Z",
-        "kind": "ci-pin"
-      },
       {
         "repo": "secure-sign-pqc-operator",
         "pr": 28,

@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-26",
-  "last_collected_at": "2026-11-26T14:01:42Z",
-  "last_attempt_at": "2026-11-26T14:01:42Z",
+  "last_collected_at": "2026-11-26T15:01:40Z",
+  "last_attempt_at": "2026-11-26T15:01:40Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -144,15 +144,15 @@
       "date": "2026-11-26",
       "status": "ok",
       "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/45834614495",
+      "run": "https://github.com/sealhouse/ci/actions/runs/45844624851",
       "syncs": 5,
       "syncs_closed": 0,
       "upstream_commits": 19,
       "images": 3,
       "alphas": 0,
-      "prs": 21,
-      "hands_off": 15,
-      "runs": 50,
+      "prs": 22,
+      "hands_off": 16,
+      "runs": 53,
       "runs_failed": 5
     }
   ],
@@ -1170,7 +1170,7 @@
       "date": "2026-11-26",
       "repo": "go-tuf",
       "behind": 5,
-      "age_hours": 3.29
+      "age_hours": 4.29
     },
     {
       "date": "2026-11-26",
@@ -1194,24 +1194,16 @@
       "date": "2026-11-26",
       "repo": "sigstore-go",
       "behind": 2,
-      "age_hours": 4.48
+      "age_hours": 5.48
     },
     {
       "date": "2026-11-26",
       "repo": "timestamp-authority",
       "behind": 1,
-      "age_hours": 2.66
+      "age_hours": 3.66
     }
   ],
   "open_prs": [
-    {
-      "repo": "rekor-tiles",
-      "pr": 24,
-      "title": "UPSTREAM: <drop>: Pin ci 86fdae849402",
-      "author": "sealhouse-bot[bot]",
-      "opened_at": "2026-11-26T01:24:22Z",
-      "kind": "ci-pin"
-    },
     {
       "repo": "secure-sign-pqc-operator",
       "pr": 28,
@@ -1506,6 +1498,12 @@
           "at": "2026-11-23T20:38:39Z",
           "label": "drop",
           "title": "Fix GO-2026-6865"
+        },
+        {
+          "sha": "30ecf354c459110b9add967fd719f5e02d28d069",
+          "at": "2026-11-26T14:51:32Z",
+          "label": "drop",
+          "title": "Pin ci 86fdae849402"
         }
       ]
     },
