@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-26",
-  "last_collected_at": "2026-11-26T00:01:13Z",
-  "last_attempt_at": "2026-11-26T00:01:13Z",
+  "last_collected_at": "2026-11-26T01:01:13Z",
+  "last_attempt_at": "2026-11-26T01:01:13Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -144,16 +144,16 @@
       "date": "2026-11-26",
       "status": "ok",
       "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/45725526821",
-      "syncs": 0,
+      "run": "https://github.com/sealhouse/ci/actions/runs/45732696018",
+      "syncs": 5,
       "syncs_closed": 0,
-      "upstream_commits": 0,
-      "images": 0,
+      "upstream_commits": 19,
+      "images": 3,
       "alphas": 0,
-      "prs": 0,
-      "hands_off": 0,
-      "runs": 0,
-      "runs_failed": 0
+      "prs": 6,
+      "hands_off": 5,
+      "runs": 18,
+      "runs_failed": 4
     }
   ],
   "alphas": [
@@ -339,6 +339,16 @@
       "to": "2026-11-23T21:55:50Z",
       "hours": 100.32,
       "run": "https://github.com/sealhouse/ci/actions/runs/44579059263"
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-sync",
+      "branch": "main",
+      "step": "sync / Finish green syncs",
+      "from": "2026-11-26T00:42:33Z",
+      "to": "2026-11-26T00:53:42Z",
+      "hours": 0.19,
+      "run": "https://github.com/sealhouse/ci/actions/runs/45730647456"
     }
   ],
   "nightly": [
@@ -1083,14 +1093,14 @@
     {
       "date": "2026-11-26",
       "repo": "cosign",
-      "behind": 4,
-      "age_hours": 16.21
+      "behind": 0,
+      "age_hours": null
     },
     {
       "date": "2026-11-26",
       "repo": "dex",
-      "behind": 5,
-      "age_hours": 13.85
+      "behind": 0,
+      "age_hours": null
     },
     {
       "date": "2026-11-26",
@@ -1107,8 +1117,8 @@
     {
       "date": "2026-11-26",
       "repo": "go-tuf",
-      "behind": 5,
-      "age_hours": 10.17
+      "behind": 0,
+      "age_hours": null
     },
     {
       "date": "2026-11-26",
@@ -1131,47 +1141,56 @@
     {
       "date": "2026-11-26",
       "repo": "sigstore-go",
-      "behind": 2,
-      "age_hours": 11.61
+      "behind": 0,
+      "age_hours": null
     },
     {
       "date": "2026-11-26",
       "repo": "timestamp-authority",
-      "behind": 3,
-      "age_hours": 0.24
+      "behind": 0,
+      "age_hours": null
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "repo": "secure-sign-pqc-operator",
+      "pr": 28,
+      "title": "Bump the 2.0 tsa image to timestamp-authority rhtas/main 1d17ac2e462f",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-26T00:56:50Z",
+      "kind": "bump"
+    }
+  ],
   "carries": [
     {
       "repo": "cosign",
       "commits": [
         {
-          "sha": "0ce40da940dc1163624e1723cd12187d6f388972",
+          "sha": "7ff5bf8b4260b2f7085de81bb51953c876c3da11",
           "at": "2026-10-31T15:27:38Z",
           "label": "carry",
           "title": "Hummingbird FIPS image build for the cosign CLI"
         },
         {
-          "sha": "76a25a006a4767319760e1312404a964831b83c7",
+          "sha": "d202a2d51504d17e2990d77e9590d68e55514bd7",
           "at": "2026-10-31T15:27:38Z",
           "label": "carry",
           "title": "sealhouse CI callers"
         },
         {
-          "sha": "c23bae4392f670b45e28542e4b473c1bf39cc395",
+          "sha": "5d58b825b69db23cdf40b03804779cbbfb569add",
           "at": "2026-11-05T14:14:40Z",
           "label": "carry",
           "title": "Remove the Dependabot config"
         },
         {
-          "sha": "f5f8ad4cf84f1cde2e8aadb049769c9a855de705",
+          "sha": "a8d2b1f0125e6f1289e47fdda011d6d9e193fbc9",
           "at": "2026-11-06T00:09:15Z",
           "label": "carry",
           "title": "Hand the PR lane off to ci"
         },
         {
-          "sha": "38e740b3a2aee152453f0726d2e75aa7f8f263c9",
+          "sha": "e22e44b83baf65a29ef6fd3f187b8475cc105014",
           "at": "2026-11-23T15:25:23Z",
           "label": "drop",
           "title": "Pin ci e8906322470f"
@@ -1182,43 +1201,25 @@
       "repo": "dex",
       "commits": [
         {
-          "sha": "5545a2aebc12ef6204f037cbe797604624eb975e",
+          "sha": "ae3b5982295ddf21ecf285e9d86fc918aa4e1b2a",
           "at": "2026-11-10T01:40:59Z",
           "label": "carry",
           "title": "sealhouse CI callers"
         },
         {
-          "sha": "53ceb74e2ae8f96c4bd8a1ccb7ad055e7a68a80b",
+          "sha": "9cd325f64acd4eae09f1a307b496d8a7dee18051",
           "at": "2026-11-10T01:40:59Z",
           "label": "carry",
           "title": "Remove the Dependabot config"
         },
         {
-          "sha": "a0520cee5f52da8c62c95c75f3865e7c97726be5",
+          "sha": "7f15a84a332962f455cd6475b93fd080b3dfb39f",
           "at": "2026-11-10T17:58:30Z",
           "label": "carry",
           "title": "Hummingbird FIPS image build for dex (#1)"
         },
         {
-          "sha": "4f416400aab3a0ddf75f0e7a6636941153c95551",
-          "at": "2026-11-18T01:33:21Z",
-          "label": "drop",
-          "title": "Pin ci b20bde1fb3ca"
-        },
-        {
-          "sha": "521722f7ad50cb4aa8813ccf31b121f8a938bbee",
-          "at": "2026-11-23T14:07:25Z",
-          "label": "drop",
-          "title": "Pin ci 9d772b70dae0"
-        },
-        {
-          "sha": "8361413a3afbf7cb34e5ebf31a1c9d5d7c01bd5f",
-          "at": "2026-11-23T14:36:22Z",
-          "label": "drop",
-          "title": "Pin ci 68135e52c0b5"
-        },
-        {
-          "sha": "900e471dc408972a0241565a6e1ace2a22944e9f",
+          "sha": "03cd5ad8a64ab3f260a6bdda7bf66522ed47d575",
           "at": "2026-11-23T15:23:24Z",
           "label": "drop",
           "title": "Pin ci e8906322470f"
@@ -1323,43 +1324,25 @@
       "repo": "go-tuf",
       "commits": [
         {
-          "sha": "8860a244e7c9852980b363afe5552b22cf93e9da",
+          "sha": "0437c7b004884e2b77123b7d1613a0208e51e31f",
           "at": "2026-10-31T15:31:27Z",
           "label": "carry",
           "title": "sealhouse CI callers"
         },
         {
-          "sha": "fa5f89cdf46d01e7f43c18bfec3e6b036aeb4737",
+          "sha": "ee3b79f2eceff800caa07f428b944d25e65a5ab8",
           "at": "2026-11-05T14:14:52Z",
           "label": "carry",
           "title": "Remove the Dependabot config"
         },
         {
-          "sha": "93b1b534a9ade6962871ca781e4376aed706e765",
+          "sha": "f8904ea898492e261005710cf180474ae152d701",
           "at": "2026-11-06T00:09:23Z",
           "label": "carry",
           "title": "Hand the PR lane off to ci"
         },
         {
-          "sha": "3619f0ea0a7f57497ea9fb993bad705bab79e3a4",
-          "at": "2026-11-18T01:31:37Z",
-          "label": "drop",
-          "title": "Pin ci b20bde1fb3ca"
-        },
-        {
-          "sha": "4678cfb5214764cb073ebd0d2dd5aae0aacb7f16",
-          "at": "2026-11-23T14:06:46Z",
-          "label": "drop",
-          "title": "Pin ci 9d772b70dae0"
-        },
-        {
-          "sha": "2a8e09c5851a673a7c66a74d0604860a4b4e0562",
-          "at": "2026-11-23T14:35:46Z",
-          "label": "drop",
-          "title": "Pin ci 68135e52c0b5"
-        },
-        {
-          "sha": "a382899c73bc85e07a5fa2046c470abc989c1cda",
+          "sha": "6d571aa55c808525eee18da64d323a300a289a43",
           "at": "2026-11-23T15:20:51Z",
           "label": "drop",
           "title": "Pin ci e8906322470f"
@@ -1469,31 +1452,31 @@
       "repo": "sigstore-go",
       "commits": [
         {
-          "sha": "6b75d3d5dbdeb749dbc538f9e4b76888aad0e2a5",
+          "sha": "9a6bcf2bbf596b9aee5e5d2f56d739f505e3355e",
           "at": "2026-10-31T15:30:14Z",
           "label": "carry",
           "title": "sealhouse CI callers"
         },
         {
-          "sha": "2d7cb2c6d2ee4224881614fe586c2d55b7f21f4a",
+          "sha": "cdad25e0f1d8a0c6951866d6f80a645c52cad817",
           "at": "2026-11-05T14:15:15Z",
           "label": "carry",
           "title": "Remove the Dependabot config"
         },
         {
-          "sha": "e9fe132ca92f06f0faedefb13c5edafe2b157c4c",
+          "sha": "854aa2a690d95670c446ba5259461f92fd8c5741",
           "at": "2026-11-06T00:09:41Z",
           "label": "carry",
           "title": "Hand the PR lane off to ci"
         },
         {
-          "sha": "f8340aa441c5a549ee75b3dfd7058a9e554c5bcb",
+          "sha": "1346e45974d0e6ca263593c1e6270d56111642ca",
           "at": "2026-11-23T15:23:53Z",
           "label": "drop",
           "title": "Pin ci e8906322470f"
         },
         {
-          "sha": "fe94c931d7d4d0528b8ba98dc35517361fe8bc69",
+          "sha": "565fcc5a7483e041d9758923fb38ed7de6251e30",
           "at": "2026-11-23T20:38:46Z",
           "label": "drop",
           "title": "Fix GO-2026-6865"
@@ -1504,31 +1487,31 @@
       "repo": "timestamp-authority",
       "commits": [
         {
-          "sha": "9b08c0ecbd8be1deab873d6bd3dcbcd866c5df55",
+          "sha": "a10313c721a3593fc50945ffd2034029c17c4ded",
           "at": "2026-10-31T15:09:07Z",
           "label": "carry",
           "title": "Hummingbird FIPS image build for timestamp-server"
         },
         {
-          "sha": "f53842177c02ee1178bf6793da215aa9cffecd42",
+          "sha": "526f97ad11cb70267852541092c37f5290c39835",
           "at": "2026-10-31T15:09:07Z",
           "label": "carry",
           "title": "sealhouse CI callers"
         },
         {
-          "sha": "e8089e3903c70b877ec252e54cb74a1b594ad3e6",
+          "sha": "67c222a477a0a02327b034b148477b305d31c639",
           "at": "2026-11-05T14:15:21Z",
           "label": "carry",
           "title": "Remove the Dependabot config"
         },
         {
-          "sha": "3e7c9474f556d43659807372fe6aaf75c6badd97",
+          "sha": "9d81c46d3d5a604473e04ced292ba418ebeec49d",
           "at": "2026-11-06T00:09:45Z",
           "label": "carry",
           "title": "Hand the PR lane off to ci"
         },
         {
-          "sha": "ed23300423234942849225990ad629422b654602",
+          "sha": "1d17ac2e462f913485fe6478cac4eb59fa920cf4",
           "at": "2026-11-23T15:24:01Z",
           "label": "drop",
           "title": "Pin ci e8906322470f"
