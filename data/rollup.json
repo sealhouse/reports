@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-26",
-  "last_collected_at": "2026-11-26T01:01:13Z",
-  "last_attempt_at": "2026-11-26T01:01:13Z",
+  "last_collected_at": "2026-11-26T02:01:04Z",
+  "last_attempt_at": "2026-11-26T02:01:04Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -144,15 +144,15 @@
       "date": "2026-11-26",
       "status": "ok",
       "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/45732696018",
+      "run": "https://github.com/sealhouse/ci/actions/runs/45739467602",
       "syncs": 5,
       "syncs_closed": 0,
       "upstream_commits": 19,
       "images": 3,
       "alphas": 0,
-      "prs": 6,
-      "hands_off": 5,
-      "runs": 18,
+      "prs": 21,
+      "hands_off": 15,
+      "runs": 42,
       "runs_failed": 4
     }
   ],
@@ -1153,6 +1153,14 @@
   ],
   "open_prs": [
     {
+      "repo": "rekor-tiles",
+      "pr": 24,
+      "title": "UPSTREAM: <drop>: Pin ci 86fdae849402",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-26T01:24:22Z",
+      "kind": "ci-pin"
+    },
+    {
       "repo": "secure-sign-pqc-operator",
       "pr": 28,
       "title": "Bump the 2.0 tsa image to timestamp-authority rhtas/main 1d17ac2e462f",
@@ -1194,6 +1202,12 @@
           "at": "2026-11-23T15:25:23Z",
           "label": "drop",
           "title": "Pin ci e8906322470f"
+        },
+        {
+          "sha": "4c138fa5624a4d7c79499c54ccf0a684c101b943",
+          "at": "2026-11-26T01:28:53Z",
+          "label": "drop",
+          "title": "Pin ci 86fdae849402"
         }
       ]
     },
@@ -1223,6 +1237,12 @@
           "at": "2026-11-23T15:23:24Z",
           "label": "drop",
           "title": "Pin ci e8906322470f"
+        },
+        {
+          "sha": "ec572f78128a314e3f919e2d488ad3e68631e98e",
+          "at": "2026-11-26T01:28:31Z",
+          "label": "drop",
+          "title": "Pin ci 86fdae849402"
         }
       ]
     },
@@ -1264,6 +1284,12 @@
           "at": "2026-11-24T22:41:05Z",
           "label": "carry",
           "title": "Smoke-test the image with an ML-DSA CA (#31)"
+        },
+        {
+          "sha": "72f9462e6eff4dcb2aeff5b7fef3befa85f01985",
+          "at": "2026-11-26T01:27:12Z",
+          "label": "drop",
+          "title": "Pin ci 86fdae849402"
         }
       ]
     },
@@ -1317,6 +1343,12 @@
           "at": "2026-11-23T15:20:46Z",
           "label": "drop",
           "title": "Pin ci e8906322470f"
+        },
+        {
+          "sha": "e95f959ff65fff6c5fc2143dbb771561539b31d7",
+          "at": "2026-11-26T01:24:58Z",
+          "label": "drop",
+          "title": "Pin ci 86fdae849402"
         }
       ]
     },
@@ -1346,6 +1378,12 @@
           "at": "2026-11-23T15:20:51Z",
           "label": "drop",
           "title": "Pin ci e8906322470f"
+        },
+        {
+          "sha": "ed49f9cfc04ce648753de47961a46d0917afee21",
+          "at": "2026-11-26T01:25:05Z",
+          "label": "drop",
+          "title": "Pin ci 86fdae849402"
         }
       ]
     },
@@ -1375,6 +1413,12 @@
           "at": "2026-11-23T15:20:56Z",
           "label": "drop",
           "title": "Pin ci e8906322470f"
+        },
+        {
+          "sha": "cd64854f4c4cd4369e45a9b1065f197d495ce4c9",
+          "at": "2026-11-26T01:25:11Z",
+          "label": "drop",
+          "title": "Pin ci 86fdae849402"
         }
       ]
     },
@@ -1445,6 +1489,12 @@
           "at": "2026-11-23T15:23:47Z",
           "label": "drop",
           "title": "Pin ci e8906322470f"
+        },
+        {
+          "sha": "a27ddf39ee8186939c79867c6ca5f026af319230",
+          "at": "2026-11-26T01:27:20Z",
+          "label": "drop",
+          "title": "Pin ci 86fdae849402"
         }
       ]
     },
@@ -1480,6 +1530,30 @@
           "at": "2026-11-23T20:38:46Z",
           "label": "drop",
           "title": "Fix GO-2026-6865"
+        },
+        {
+          "sha": "3efe3fd2bf89e6424d077f65433f70706ee2e80f",
+          "at": "2026-11-26T01:25:16Z",
+          "label": "713",
+          "title": "Add identity transparency log checkpoint and inclusion proof verification (#23)"
+        },
+        {
+          "sha": "694904a7a7652c77c50df5cc6e148d544cccc1f4",
+          "at": "2026-11-26T01:27:26Z",
+          "label": "drop",
+          "title": "Pin ci 86fdae849402"
+        },
+        {
+          "sha": "66687a2588c09f905920cd557a54450d26406382",
+          "at": "2026-11-26T01:28:49Z",
+          "label": "714",
+          "title": "Implement transparent signature verification for v2 bundles (#25)"
+        },
+        {
+          "sha": "322e8715c6b2c02b04bc7864988494e9c3da249b",
+          "at": "2026-11-26T01:33:42Z",
+          "label": "715",
+          "title": "Add transparent signing and verification examples and e2e tests (#26)"
         }
       ]
     },
@@ -1515,6 +1589,12 @@
           "at": "2026-11-23T15:24:01Z",
           "label": "drop",
           "title": "Pin ci e8906322470f"
+        },
+        {
+          "sha": "f51e5e39ed1635cb56b2a3a9bbc357a67e915322",
+          "at": "2026-11-26T01:28:07Z",
+          "label": "drop",
+          "title": "Pin ci 86fdae849402"
         }
       ]
     }

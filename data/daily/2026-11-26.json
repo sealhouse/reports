@@ -8,10 +8,10 @@
     "to": "2026-11-27T00:00:00Z"
   },
   "run": {
-    "id": "45732696018",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45732696018",
-    "ci": "0170e39d3ef084ef3694bc43bdea08badfc571a9",
-    "collected_at": "2026-11-26T01:01:13Z"
+    "id": "45739467602",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45739467602",
+    "ci": "86fdae8494023c628810745c0b86bd199df54eec",
+    "collected_at": "2026-11-26T02:01:04Z"
   },
   "syncs": [
     {
@@ -115,6 +115,46 @@
       "digest": "sha256:7415a053c6f54a7d1464aca5c671d6d3fd8cca3676c29c9927d4b306275a6f9d",
       "at": "2026-11-26T00:56:10Z",
       "run": "https://github.com/sealhouse/timestamp-authority/actions/runs/45731965096"
+    },
+    {
+      "repo": "fulcio",
+      "commit": "72f9462e6eff4dcb2aeff5b7fef3befa85f01985",
+      "branch": "rhtas/main",
+      "image": "fulcio",
+      "pushed": false,
+      "digest": null,
+      "at": "2026-11-26T01:28:00Z",
+      "run": "https://github.com/sealhouse/fulcio/actions/runs/45735867979"
+    },
+    {
+      "repo": "timestamp-authority",
+      "commit": "f51e5e39ed1635cb56b2a3a9bbc357a67e915322",
+      "branch": "rhtas/main",
+      "image": "tsa",
+      "pushed": false,
+      "digest": null,
+      "at": "2026-11-26T01:28:55Z",
+      "run": "https://github.com/sealhouse/timestamp-authority/actions/runs/45735970347"
+    },
+    {
+      "repo": "dex",
+      "commit": "ec572f78128a314e3f919e2d488ad3e68631e98e",
+      "branch": "rhtas/main",
+      "image": "dex",
+      "pushed": false,
+      "digest": null,
+      "at": "2026-11-26T01:29:47Z",
+      "run": "https://github.com/sealhouse/dex/actions/runs/45736011792"
+    },
+    {
+      "repo": "cosign",
+      "commit": "4c138fa5624a4d7c79499c54ccf0a684c101b943",
+      "branch": "rhtas/main",
+      "image": "cosign",
+      "pushed": false,
+      "digest": null,
+      "at": "2026-11-26T01:29:49Z",
+      "run": "https://github.com/sealhouse/cosign/actions/runs/45736049297"
     }
   ],
   "prs": [
@@ -126,6 +166,18 @@
       "author": "knrc",
       "opened_at": "2026-11-26T00:57:18Z",
       "closed_at": "2026-11-26T00:59:37Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": false
+    },
+    {
+      "repo": "ci",
+      "pr": 27,
+      "title": "Require one commit on fork carry PRs",
+      "kind": "other",
+      "author": "knrc",
+      "opened_at": "2026-11-26T01:21:06Z",
+      "closed_at": "2026-11-26T01:23:14Z",
       "merged": true,
       "approved_by": [],
       "hands_off": false
@@ -143,6 +195,18 @@
       "hands_off": true
     },
     {
+      "repo": "cosign",
+      "pr": 35,
+      "title": "UPSTREAM: <drop>: Pin ci 86fdae849402",
+      "kind": "ci-pin",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-26T01:23:29Z",
+      "closed_at": "2026-11-26T01:28:54Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
       "repo": "dex",
       "pr": 18,
       "title": "Sync upstream master 2c8caf40",
@@ -150,6 +214,42 @@
       "author": "sealhouse-sync[bot]",
       "opened_at": "2026-11-26T00:39:23Z",
       "closed_at": "2026-11-26T00:42:48Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
+      "repo": "dex",
+      "pr": 19,
+      "title": "UPSTREAM: <drop>: Pin ci 86fdae849402",
+      "kind": "ci-pin",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-26T01:23:38Z",
+      "closed_at": "2026-11-26T01:28:32Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
+      "repo": "fulcio",
+      "pr": 33,
+      "title": "UPSTREAM: <drop>: Pin ci 86fdae849402",
+      "kind": "ci-pin",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-26T01:23:46Z",
+      "closed_at": "2026-11-26T01:27:13Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
+      "repo": "go-oidc",
+      "pr": 7,
+      "title": "UPSTREAM: <drop>: Pin ci 86fdae849402",
+      "kind": "ci-pin",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-26T01:23:55Z",
+      "closed_at": "2026-11-26T01:24:59Z",
       "merged": true,
       "approved_by": [],
       "hands_off": true
@@ -167,6 +267,54 @@
       "hands_off": true
     },
     {
+      "repo": "go-tuf",
+      "pr": 22,
+      "title": "UPSTREAM: <drop>: Pin ci 86fdae849402",
+      "kind": "ci-pin",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-26T01:24:03Z",
+      "closed_at": "2026-11-26T01:25:06Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
+      "repo": "protobuf-specs",
+      "pr": 25,
+      "title": "UPSTREAM: <drop>: Pin ci 86fdae849402",
+      "kind": "ci-pin",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-26T01:24:13Z",
+      "closed_at": "2026-11-26T01:25:12Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
+      "repo": "secure-sign-pqc-operator",
+      "pr": 29,
+      "title": "Pin ci 86fdae849402",
+      "kind": "ci-pin",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-26T01:24:55Z",
+      "closed_at": "2026-11-26T01:38:02Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
+      "repo": "sigstore",
+      "pr": 25,
+      "title": "UPSTREAM: <drop>: Pin ci 86fdae849402",
+      "kind": "ci-pin",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-26T01:24:30Z",
+      "closed_at": "2026-11-26T01:27:21Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
       "repo": "sigstore-go",
       "pr": 21,
       "title": "Sync upstream main f7bb8aa",
@@ -179,6 +327,66 @@
       "hands_off": true
     },
     {
+      "repo": "sigstore-go",
+      "pr": 22,
+      "title": "Securesign 6221",
+      "kind": "other",
+      "author": "knrc",
+      "opened_at": "2026-11-26T01:07:35Z",
+      "closed_at": "2026-11-26T01:10:07Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": false
+    },
+    {
+      "repo": "sigstore-go",
+      "pr": 23,
+      "title": "UPSTREAM: 713: Add identity transparency log checkpoint and inclusion…",
+      "kind": "other",
+      "author": "knrc",
+      "opened_at": "2026-11-26T01:22:33Z",
+      "closed_at": "2026-11-26T01:25:17Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": false
+    },
+    {
+      "repo": "sigstore-go",
+      "pr": 24,
+      "title": "UPSTREAM: <drop>: Pin ci 86fdae849402",
+      "kind": "ci-pin",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-26T01:24:39Z",
+      "closed_at": "2026-11-26T01:27:27Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
+      "repo": "sigstore-go",
+      "pr": 25,
+      "title": "UPSTREAM: 714: Implement transparent signature verification for v2 bu…",
+      "kind": "other",
+      "author": "knrc",
+      "opened_at": "2026-11-26T01:27:08Z",
+      "closed_at": "2026-11-26T01:28:50Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": false
+    },
+    {
+      "repo": "sigstore-go",
+      "pr": 26,
+      "title": "UPSTREAM: 715: Add transparent signing and verification examples and …",
+      "kind": "other",
+      "author": "knrc",
+      "opened_at": "2026-11-26T01:32:11Z",
+      "closed_at": "2026-11-26T01:33:43Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": false
+    },
+    {
       "repo": "timestamp-authority",
       "pr": 23,
       "title": "Sync upstream main 7195688",
@@ -186,6 +394,18 @@
       "author": "sealhouse-sync[bot]",
       "opened_at": "2026-11-26T00:40:30Z",
       "closed_at": "2026-11-26T00:53:39Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
+      "repo": "timestamp-authority",
+      "pr": 24,
+      "title": "UPSTREAM: <drop>: Pin ci 86fdae849402",
+      "kind": "ci-pin",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-26T01:24:47Z",
+      "closed_at": "2026-11-26T01:28:09Z",
       "merged": true,
       "approved_by": [],
       "hands_off": true
@@ -577,13 +797,552 @@
         "bump / Bump": "success",
         "bump / Complete job": "success"
       }
+    },
+    {
+      "repo": "sigstore-go",
+      "workflow": "sealhouse-merge",
+      "id": 45733882867,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "e988955ed7b2809aad6b4c57e6e645b4b16a3c09",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:10:10Z",
+      "updated_at": "2026-11-26T01:10:49Z",
+      "url": "https://github.com/sealhouse/sigstore-go/actions/runs/45733882867",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45733914860,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "0170e39d3ef084ef3694bc43bdea08badfc571a9",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:10:26Z",
+      "updated_at": "2026-11-26T01:10:41Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45733914860",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "sigstore-go",
+      "workflow": "sealhouse-merge",
+      "id": 45734933119,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "565fcc5a7483e041d9758923fb38ed7de6251e30",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:19:04Z",
+      "updated_at": "2026-11-26T01:19:46Z",
+      "url": "https://github.com/sealhouse/sigstore-go/actions/runs/45734933119",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-repin",
+      "id": 45735417862,
+      "event": "push",
+      "branch": "main",
+      "sha": "86fdae8494023c628810745c0b86bd199df54eec",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:23:16Z",
+      "updated_at": "2026-11-26T01:25:00Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45735417862",
+      "steps": {
+        "repin / Set up job": "success",
+        "repin / Scripts": "success",
+        "repin / Pin": "success",
+        "repin / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45735587535,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "86fdae8494023c628810745c0b86bd199df54eec",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:24:46Z",
+      "updated_at": "2026-11-26T01:25:25Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45735587535",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "go-oidc",
+      "workflow": "sealhouse-merge",
+      "id": 45735619672,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "e95f959ff65fff6c5fc2143dbb771561539b31d7",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:25:02Z",
+      "updated_at": "2026-11-26T01:25:33Z",
+      "url": "https://github.com/sealhouse/go-oidc/actions/runs/45735619672",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "go-tuf",
+      "workflow": "sealhouse-merge",
+      "id": 45735633762,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "ed49f9cfc04ce648753de47961a46d0917afee21",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:25:09Z",
+      "updated_at": "2026-11-26T01:25:41Z",
+      "url": "https://github.com/sealhouse/go-tuf/actions/runs/45735633762",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "protobuf-specs",
+      "workflow": "sealhouse-merge",
+      "id": 45735646915,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "cd64854f4c4cd4369e45a9b1065f197d495ce4c9",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:25:16Z",
+      "updated_at": "2026-11-26T01:25:40Z",
+      "url": "https://github.com/sealhouse/protobuf-specs/actions/runs/45735646915",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "sigstore-go",
+      "workflow": "sealhouse-merge",
+      "id": 45735654784,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "3efe3fd2bf89e6424d077f65433f70706ee2e80f",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:25:20Z",
+      "updated_at": "2026-11-26T01:25:59Z",
+      "url": "https://github.com/sealhouse/sigstore-go/actions/runs/45735654784",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45735840802,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "86fdae8494023c628810745c0b86bd199df54eec",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:27:01Z",
+      "updated_at": "2026-11-26T01:27:35Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45735840802",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "fulcio",
+      "workflow": "sealhouse-merge",
+      "id": 45735867979,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "72f9462e6eff4dcb2aeff5b7fef3befa85f01985",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:27:16Z",
+      "updated_at": "2026-11-26T01:28:00Z",
+      "url": "https://github.com/sealhouse/fulcio/actions/runs/45735867979",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Registry": "success",
+        "merge / merge / Image": "success",
+        "merge / merge / Hand off": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "sigstore",
+      "workflow": "sealhouse-merge",
+      "id": 45735884060,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "a27ddf39ee8186939c79867c6ca5f026af319230",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:27:24Z",
+      "updated_at": "2026-11-26T01:28:06Z",
+      "url": "https://github.com/sealhouse/sigstore/actions/runs/45735884060",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "sigstore-go",
+      "workflow": "sealhouse-merge",
+      "id": 45735894016,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "694904a7a7652c77c50df5cc6e148d544cccc1f4",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:27:30Z",
+      "updated_at": "2026-11-26T01:28:06Z",
+      "url": "https://github.com/sealhouse/sigstore-go/actions/runs/45735894016",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45735920362,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "86fdae8494023c628810745c0b86bd199df54eec",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:27:44Z",
+      "updated_at": "2026-11-26T01:28:18Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45735920362",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "timestamp-authority",
+      "workflow": "sealhouse-merge",
+      "id": 45735970347,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "f51e5e39ed1635cb56b2a3a9bbc357a67e915322",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:28:12Z",
+      "updated_at": "2026-11-26T01:28:55Z",
+      "url": "https://github.com/sealhouse/timestamp-authority/actions/runs/45735970347",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Registry": "success",
+        "merge / merge / Image": "success",
+        "merge / merge / Hand off": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45735985869,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "86fdae8494023c628810745c0b86bd199df54eec",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:28:21Z",
+      "updated_at": "2026-11-26T01:28:47Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45735985869",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45736008165,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "86fdae8494023c628810745c0b86bd199df54eec",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:28:33Z",
+      "updated_at": "2026-11-26T01:29:05Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45736008165",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "dex",
+      "workflow": "sealhouse-merge",
+      "id": 45736011792,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "ec572f78128a314e3f919e2d488ad3e68631e98e",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:28:35Z",
+      "updated_at": "2026-11-26T01:29:47Z",
+      "url": "https://github.com/sealhouse/dex/actions/runs/45736011792",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Registry": "success",
+        "merge / merge / Image": "success",
+        "merge / merge / Hand off": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "sigstore-go",
+      "workflow": "sealhouse-merge",
+      "id": 45736042598,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "66687a2588c09f905920cd557a54450d26406382",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:28:53Z",
+      "updated_at": "2026-11-26T01:29:35Z",
+      "url": "https://github.com/sealhouse/sigstore-go/actions/runs/45736042598",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "cosign",
+      "workflow": "sealhouse-merge",
+      "id": 45736049297,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "4c138fa5624a4d7c79499c54ccf0a684c101b943",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:28:57Z",
+      "updated_at": "2026-11-26T01:29:49Z",
+      "url": "https://github.com/sealhouse/cosign/actions/runs/45736049297",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Registry": "success",
+        "merge / merge / Image": "success",
+        "merge / merge / Hand off": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "sigstore-go",
+      "workflow": "sealhouse-merge",
+      "id": 45736591413,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "322e8715c6b2c02b04bc7864988494e9c3da249b",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:33:46Z",
+      "updated_at": "2026-11-26T01:34:24Z",
+      "url": "https://github.com/sealhouse/sigstore-go/actions/runs/45736591413",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45737028954,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "86fdae8494023c628810745c0b86bd199df54eec",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:37:42Z",
+      "updated_at": "2026-11-26T01:38:08Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45737028954",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "secure-sign-pqc-operator",
+      "workflow": "sealhouse-merge",
+      "id": 45737071664,
+      "event": "push",
+      "branch": "main",
+      "sha": "2910e67491c9ab429352e4d75eda71bd232a5915",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:38:05Z",
+      "updated_at": "2026-11-26T01:39:11Z",
+      "url": "https://github.com/sealhouse/secure-sign-pqc-operator/actions/runs/45737071664",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Registry": "success",
+        "merge / merge / Publish": "success",
+        "merge / merge / Hand off": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45737183093,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "86fdae8494023c628810745c0b86bd199df54eec",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-26T01:39:07Z",
+      "updated_at": "2026-11-26T01:39:25Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45737183093",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
     }
   ],
   "nightly": [],
   "soak": [],
   "vulns": [],
   "snapshot": {
-    "at": "2026-11-26T01:01:13Z",
+    "at": "2026-11-26T02:01:04Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.24",
     "behind": [
       {
@@ -670,6 +1429,12 @@
             "at": "2026-11-23T15:25:23Z",
             "label": "drop",
             "title": "Pin ci e8906322470f"
+          },
+          {
+            "sha": "4c138fa5624a4d7c79499c54ccf0a684c101b943",
+            "at": "2026-11-26T01:28:53Z",
+            "label": "drop",
+            "title": "Pin ci 86fdae849402"
           }
         ]
       },
@@ -699,6 +1464,12 @@
             "at": "2026-11-23T15:23:24Z",
             "label": "drop",
             "title": "Pin ci e8906322470f"
+          },
+          {
+            "sha": "ec572f78128a314e3f919e2d488ad3e68631e98e",
+            "at": "2026-11-26T01:28:31Z",
+            "label": "drop",
+            "title": "Pin ci 86fdae849402"
           }
         ]
       },
@@ -740,6 +1511,12 @@
             "at": "2026-11-24T22:41:05Z",
             "label": "carry",
             "title": "Smoke-test the image with an ML-DSA CA (#31)"
+          },
+          {
+            "sha": "72f9462e6eff4dcb2aeff5b7fef3befa85f01985",
+            "at": "2026-11-26T01:27:12Z",
+            "label": "drop",
+            "title": "Pin ci 86fdae849402"
           }
         ]
       },
@@ -793,6 +1570,12 @@
             "at": "2026-11-23T15:20:46Z",
             "label": "drop",
             "title": "Pin ci e8906322470f"
+          },
+          {
+            "sha": "e95f959ff65fff6c5fc2143dbb771561539b31d7",
+            "at": "2026-11-26T01:24:58Z",
+            "label": "drop",
+            "title": "Pin ci 86fdae849402"
           }
         ]
       },
@@ -822,6 +1605,12 @@
             "at": "2026-11-23T15:20:51Z",
             "label": "drop",
             "title": "Pin ci e8906322470f"
+          },
+          {
+            "sha": "ed49f9cfc04ce648753de47961a46d0917afee21",
+            "at": "2026-11-26T01:25:05Z",
+            "label": "drop",
+            "title": "Pin ci 86fdae849402"
           }
         ]
       },
@@ -851,6 +1640,12 @@
             "at": "2026-11-23T15:20:56Z",
             "label": "drop",
             "title": "Pin ci e8906322470f"
+          },
+          {
+            "sha": "cd64854f4c4cd4369e45a9b1065f197d495ce4c9",
+            "at": "2026-11-26T01:25:11Z",
+            "label": "drop",
+            "title": "Pin ci 86fdae849402"
           }
         ]
       },
@@ -921,6 +1716,12 @@
             "at": "2026-11-23T15:23:47Z",
             "label": "drop",
             "title": "Pin ci e8906322470f"
+          },
+          {
+            "sha": "a27ddf39ee8186939c79867c6ca5f026af319230",
+            "at": "2026-11-26T01:27:20Z",
+            "label": "drop",
+            "title": "Pin ci 86fdae849402"
           }
         ]
       },
@@ -956,6 +1757,30 @@
             "at": "2026-11-23T20:38:46Z",
             "label": "drop",
             "title": "Fix GO-2026-6865"
+          },
+          {
+            "sha": "3efe3fd2bf89e6424d077f65433f70706ee2e80f",
+            "at": "2026-11-26T01:25:16Z",
+            "label": "713",
+            "title": "Add identity transparency log checkpoint and inclusion proof verification (#23)"
+          },
+          {
+            "sha": "694904a7a7652c77c50df5cc6e148d544cccc1f4",
+            "at": "2026-11-26T01:27:26Z",
+            "label": "drop",
+            "title": "Pin ci 86fdae849402"
+          },
+          {
+            "sha": "66687a2588c09f905920cd557a54450d26406382",
+            "at": "2026-11-26T01:28:49Z",
+            "label": "714",
+            "title": "Implement transparent signature verification for v2 bundles (#25)"
+          },
+          {
+            "sha": "322e8715c6b2c02b04bc7864988494e9c3da249b",
+            "at": "2026-11-26T01:33:42Z",
+            "label": "715",
+            "title": "Add transparent signing and verification examples and e2e tests (#26)"
           }
         ]
       },
@@ -991,11 +1816,25 @@
             "at": "2026-11-23T15:24:01Z",
             "label": "drop",
             "title": "Pin ci e8906322470f"
+          },
+          {
+            "sha": "f51e5e39ed1635cb56b2a3a9bbc357a67e915322",
+            "at": "2026-11-26T01:28:07Z",
+            "label": "drop",
+            "title": "Pin ci 86fdae849402"
           }
         ]
       }
     ],
     "open_prs": [
+      {
+        "repo": "rekor-tiles",
+        "pr": 24,
+        "title": "UPSTREAM: <drop>: Pin ci 86fdae849402",
+        "author": "sealhouse-bot[bot]",
+        "opened_at": "2026-11-26T01:24:22Z",
+        "kind": "ci-pin"
+      },
       {
         "repo": "secure-sign-pqc-operator",
         "pr": 28,
