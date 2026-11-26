@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-26",
-  "last_collected_at": "2026-11-26T10:01:51Z",
-  "last_attempt_at": "2026-11-26T10:01:51Z",
+  "last_collected_at": "2026-11-26T11:01:14Z",
+  "last_attempt_at": "2026-11-26T11:01:14Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -144,7 +144,7 @@
       "date": "2026-11-26",
       "status": "ok",
       "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/45797177712",
+      "run": "https://github.com/sealhouse/ci/actions/runs/45806505621",
       "syncs": 5,
       "syncs_closed": 0,
       "upstream_commits": 19,
@@ -153,7 +153,7 @@
       "prs": 21,
       "hands_off": 15,
       "runs": 48,
-      "runs_failed": 4
+      "runs_failed": 5
     }
   ],
   "alphas": [
@@ -349,6 +349,16 @@
       "to": "2026-11-26T00:53:42Z",
       "hours": 0.19,
       "run": "https://github.com/sealhouse/ci/actions/runs/45730647456"
+    },
+    {
+      "repo": "secure-sign-pqc-operator",
+      "workflow": "sealhouse-resilience",
+      "branch": "main",
+      "step": "resilience / Resilience scenarios",
+      "from": "2026-11-26T09:45:09Z",
+      "to": null,
+      "hours": null,
+      "run": "https://github.com/sealhouse/secure-sign-pqc-operator/actions/runs/45794876856"
     }
   ],
   "nightly": [
@@ -547,7 +557,7 @@
     },
     {
       "date": "2026-11-26",
-      "conclusion": null,
+      "conclusion": "success",
       "url": "https://github.com/sealhouse/ci/actions/runs/45785815905",
       "jobs": {
         "changes": "success",
@@ -563,8 +573,9 @@
         "rebuild (fulcio)": "success",
         "rebuild (rekor-tiles)": "success",
         "rebuild (timestamp-authority)": "success",
+        "record": "success",
         "report": "success",
-        "soak": null,
+        "soak": "success",
         "vulns": "success",
         "watch": "success"
       }
@@ -639,6 +650,16 @@
       "heap_mib": "11.7",
       "sys_mib": "30.1",
       "kills": "12",
+      "result": "pass"
+    },
+    {
+      "date": "2026-11-26T10:12:04Z",
+      "commit": "e530fff194fb",
+      "csv": "secure-sign-pqc-operator.v0.1.0-alpha.24",
+      "goroutines": "158",
+      "heap_mib": "11.8",
+      "sys_mib": "30.1",
+      "kills": "14",
       "result": "pass"
     }
   ],
@@ -1148,8 +1169,8 @@
     {
       "date": "2026-11-26",
       "repo": "go-tuf",
-      "behind": 0,
-      "age_hours": null
+      "behind": 1,
+      "age_hours": 0.28
     },
     {
       "date": "2026-11-26",
@@ -1173,7 +1194,7 @@
       "date": "2026-11-26",
       "repo": "sigstore-go",
       "behind": 1,
-      "age_hours": 0.48
+      "age_hours": 1.47
     },
     {
       "date": "2026-11-26",
