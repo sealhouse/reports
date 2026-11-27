@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-27",
-  "last_collected_at": "2026-11-27T16:01:03Z",
-  "last_attempt_at": "2026-11-27T16:01:03Z",
+  "last_collected_at": "2026-11-27T17:01:02Z",
+  "last_attempt_at": "2026-11-27T17:01:02Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -159,7 +159,7 @@
       "date": "2026-11-27",
       "status": "ok",
       "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/46029801042",
+      "run": "https://github.com/sealhouse/ci/actions/runs/46038256394",
       "syncs": 3,
       "syncs_closed": 0,
       "upstream_commits": 10,
@@ -1349,7 +1349,7 @@
       "date": "2026-11-27",
       "repo": "go-tuf",
       "behind": 3,
-      "age_hours": 5.37
+      "age_hours": 6.37
     },
     {
       "date": "2026-11-27",
@@ -1382,7 +1382,16 @@
       "age_hours": null
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "repo": "ci",
+      "pr": 34,
+      "title": "Put the reason last on a replaces.lock line, drop a line once upstrea…",
+      "author": "knrc",
+      "opened_at": "2026-11-27T16:44:25Z",
+      "kind": "other"
+    }
+  ],
   "carries": [
     {
       "repo": "cosign",

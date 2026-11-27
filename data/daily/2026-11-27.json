@@ -8,10 +8,10 @@
     "to": "2026-11-28T00:00:00Z"
   },
   "run": {
-    "id": "46029801042",
-    "url": "https://github.com/sealhouse/ci/actions/runs/46029801042",
+    "id": "46038256394",
+    "url": "https://github.com/sealhouse/ci/actions/runs/46038256394",
     "ci": "e7cd6580ea492eb7a1eb82e53c9d36882d1bbf1c",
-    "collected_at": "2026-11-27T16:01:03Z"
+    "collected_at": "2026-11-27T17:01:02Z"
   },
   "syncs": [
     {
@@ -881,7 +881,7 @@
     }
   ],
   "snapshot": {
-    "at": "2026-11-27T16:01:03Z",
+    "at": "2026-11-27T17:01:02Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.29",
     "behind": [
       {
@@ -1458,6 +1458,15 @@
         ]
       }
     ],
-    "open_prs": []
+    "open_prs": [
+      {
+        "repo": "ci",
+        "pr": 34,
+        "title": "Put the reason last on a replaces.lock line, drop a line once upstrea…",
+        "author": "knrc",
+        "opened_at": "2026-11-27T16:44:25Z",
+        "kind": "other"
+      }
+    ]
   }
 }
