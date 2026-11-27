@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-27",
-  "last_collected_at": "2026-11-27T20:02:04Z",
-  "last_attempt_at": "2026-11-27T20:02:04Z",
+  "last_collected_at": "2026-11-27T21:02:16Z",
+  "last_attempt_at": "2026-11-27T21:02:16Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -159,15 +159,15 @@
       "date": "2026-11-27",
       "status": "ok",
       "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/46060566574",
+      "run": "https://github.com/sealhouse/ci/actions/runs/46067365684",
       "syncs": 3,
       "syncs_closed": 0,
       "upstream_commits": 10,
-      "images": 10,
-      "alphas": 4,
-      "prs": 46,
-      "hands_off": 35,
-      "runs": 97,
+      "images": 11,
+      "alphas": 5,
+      "prs": 48,
+      "hands_off": 36,
+      "runs": 104,
       "runs_failed": 0
     }
   ],
@@ -373,6 +373,29 @@
       "at": "2026-11-27T18:50:08Z",
       "operator_commit": "fcf24a6b3b278784da8b68bf84b697e5cdfccfac",
       "components": []
+    },
+    {
+      "csv": "secure-sign-pqc-operator.v0.1.0-alpha.33",
+      "at": "2026-11-27T20:17:17Z",
+      "operator_commit": "87b0d72bf43883f891c00441fc67c76cc5c7067c",
+      "components": [
+        {
+          "repo": "timestamp-authority",
+          "commit": "1fa52945322ff9fcd353288047881b42ee1ec70c",
+          "upstream": null,
+          "synced_at": null,
+          "image_at": "2026-11-27T18:13:32Z",
+          "bump_at": "2026-11-27T19:53:16Z",
+          "hours": {
+            "newest_to_alpha": null,
+            "oldest_to_alpha": null,
+            "upstream_to_sync": null,
+            "sync_to_image": null,
+            "image_to_bump": 1.66,
+            "bump_to_alpha": 0.4
+          }
+        }
+      ]
     }
   ],
   "incidents": [
@@ -1388,7 +1411,7 @@
       "date": "2026-11-27",
       "repo": "go-tuf",
       "behind": 3,
-      "age_hours": 9.39
+      "age_hours": 10.39
     },
     {
       "date": "2026-11-27",
@@ -1421,16 +1444,7 @@
       "age_hours": null
     }
   ],
-  "open_prs": [
-    {
-      "repo": "secure-sign-pqc-operator",
-      "pr": 37,
-      "title": "Pin ci e9a060c93a69",
-      "author": "sealhouse-bot[bot]",
-      "opened_at": "2026-11-27T19:36:45Z",
-      "kind": "ci-pin"
-    }
-  ],
+  "open_prs": [],
   "carries": [
     {
       "repo": "cosign",
@@ -1949,6 +1963,22 @@
           "label": "drop",
           "title": "Pin ci e9a060c93a69",
           "pr": null
+        },
+        {
+          "sha": "29c0ee990a3e798e5966c493f6a4fc6003e1daab",
+          "at": "2026-11-27T20:09:27Z",
+          "label": "1036",
+          "title": "Support ML-DSA signed OIDC tokens (#29)",
+          "pr": {
+            "state": "draft",
+            "head": "428557c81c1a8d27ccd4e8957d1d5c52313cb1e8",
+            "url": "https://github.com/sigstore/rekor-tiles/pull/1036",
+            "number": 1036,
+            "carried": "428557c81c1a8d27ccd4e8957d1d5c52313cb1e8",
+            "action": null,
+            "replaced_by": null,
+            "changed": false
+          }
         }
       ]
     },
@@ -2296,5 +2326,5 @@
       ]
     }
   ],
-  "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.32"
+  "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.33"
 }
