@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-27",
-  "last_collected_at": "2026-11-27T19:01:52Z",
-  "last_attempt_at": "2026-11-27T19:01:52Z",
+  "last_collected_at": "2026-11-27T20:02:04Z",
+  "last_attempt_at": "2026-11-27T20:02:04Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -159,15 +159,15 @@
       "date": "2026-11-27",
       "status": "ok",
       "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/46053524067",
+      "run": "https://github.com/sealhouse/ci/actions/runs/46060566574",
       "syncs": 3,
       "syncs_closed": 0,
       "upstream_commits": 10,
       "images": 10,
       "alphas": 4,
-      "prs": 33,
-      "hands_off": 24,
-      "runs": 76,
+      "prs": 46,
+      "hands_off": 35,
+      "runs": 97,
       "runs_failed": 0
     }
   ],
@@ -1388,7 +1388,7 @@
       "date": "2026-11-27",
       "repo": "go-tuf",
       "behind": 3,
-      "age_hours": 8.39
+      "age_hours": 9.39
     },
     {
       "date": "2026-11-27",
@@ -1424,11 +1424,11 @@
   "open_prs": [
     {
       "repo": "secure-sign-pqc-operator",
-      "pr": 36,
-      "title": "Bump the 2.0 tsa image to timestamp-authority rhtas/main 1fa52945322f",
+      "pr": 37,
+      "title": "Pin ci e9a060c93a69",
       "author": "sealhouse-bot[bot]",
-      "opened_at": "2026-11-27T18:14:11Z",
-      "kind": "bump"
+      "opened_at": "2026-11-27T19:36:45Z",
+      "kind": "ci-pin"
     }
   ],
   "carries": [
@@ -1497,6 +1497,13 @@
           "label": "drop",
           "title": "Replace modules as ci's replaces.lock asks",
           "pr": null
+        },
+        {
+          "sha": "355510f0b938804989e9edc36c5772920e64469c",
+          "at": "2026-11-27T19:40:42Z",
+          "label": "drop",
+          "title": "Pin ci e9a060c93a69",
+          "pr": null
         }
       ]
     },
@@ -1557,6 +1564,13 @@
           "at": "2026-11-27T18:10:46Z",
           "label": "drop",
           "title": "Replace modules as ci's replaces.lock asks",
+          "pr": null
+        },
+        {
+          "sha": "ebbc192239f04263724165f807be1a9adb96e515",
+          "at": "2026-11-27T19:39:29Z",
+          "label": "drop",
+          "title": "Pin ci e9a060c93a69",
           "pr": null
         }
       ]
@@ -1632,6 +1646,13 @@
           "at": "2026-11-27T18:10:53Z",
           "label": "drop",
           "title": "Replace modules as ci's replaces.lock asks",
+          "pr": null
+        },
+        {
+          "sha": "d43a0615a77baeee3e4e3c73924a25993338d7de",
+          "at": "2026-11-27T19:39:35Z",
+          "label": "drop",
+          "title": "Pin ci e9a060c93a69",
           "pr": null
         }
       ]
@@ -1731,6 +1752,13 @@
           "label": "drop",
           "title": "Pin ci 660c206d818d",
           "pr": null
+        },
+        {
+          "sha": "33f5dfdf6fb66cac7007bc8b294dd9733fe183fb",
+          "at": "2026-11-27T19:37:05Z",
+          "label": "drop",
+          "title": "Pin ci e9a060c93a69",
+          "pr": null
         }
       ]
     },
@@ -1777,6 +1805,13 @@
           "at": "2026-11-27T18:11:00Z",
           "label": "drop",
           "title": "Replace modules as ci's replaces.lock asks",
+          "pr": null
+        },
+        {
+          "sha": "26a11e97742c1fd4d73e29dd6ba37f05719b0f4c",
+          "at": "2026-11-27T19:37:11Z",
+          "label": "drop",
+          "title": "Pin ci e9a060c93a69",
           "pr": null
         }
       ]
@@ -1831,6 +1866,13 @@
           "at": "2026-11-27T17:09:25Z",
           "label": "drop",
           "title": "Pin ci 660c206d818d",
+          "pr": null
+        },
+        {
+          "sha": "4c5aadb7d79be511dcf6cc3108f923eef4a70424",
+          "at": "2026-11-27T19:37:16Z",
+          "label": "drop",
+          "title": "Pin ci e9a060c93a69",
           "pr": null
         }
       ]
@@ -1900,6 +1942,13 @@
           "label": "drop",
           "title": "Replace modules as ci's replaces.lock asks",
           "pr": null
+        },
+        {
+          "sha": "84f6b81c66c3987f97cfb7c471789320e1f5674b",
+          "at": "2026-11-27T19:40:16Z",
+          "label": "drop",
+          "title": "Pin ci e9a060c93a69",
+          "pr": null
         }
       ]
     },
@@ -1968,6 +2017,13 @@
           "label": "drop",
           "title": "Replace modules as ci's replaces.lock asks",
           "pr": null
+        },
+        {
+          "sha": "5f99e47c5ae6b83feddeee1d9c626b8fa4239cec",
+          "at": "2026-11-27T19:39:46Z",
+          "label": "drop",
+          "title": "Pin ci e9a060c93a69",
+          "pr": null
         }
       ]
     },
@@ -2022,6 +2078,13 @@
           "label": "drop",
           "title": "Replace modules as ci's replaces.lock asks",
           "pr": null
+        },
+        {
+          "sha": "b2f26c5cdff3c4b65fc5e88ad03ab3c27022a5f0",
+          "at": "2026-11-27T19:39:52Z",
+          "label": "drop",
+          "title": "Pin ci e9a060c93a69",
+          "pr": null
         }
       ]
     },
@@ -2075,6 +2138,13 @@
           "at": "2026-11-27T18:11:46Z",
           "label": "drop",
           "title": "Replace modules as ci's replaces.lock asks",
+          "pr": null
+        },
+        {
+          "sha": "120e67741b0309bb0c4941de58037a3b4b934174",
+          "at": "2026-11-27T19:40:54Z",
+          "label": "drop",
+          "title": "Pin ci e9a060c93a69",
           "pr": null
         }
       ]
