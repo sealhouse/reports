@@ -8,13 +8,67 @@
     "to": "2026-11-28T00:00:00Z"
   },
   "run": {
-    "id": "45931579861",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45931579861",
+    "id": "45955480851",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45955480851",
     "ci": "78349733abd88cd676b3ca896a92a53e44b2ad34",
-    "collected_at": "2026-11-27T03:00:46Z"
+    "collected_at": "2026-11-27T07:00:55Z"
   },
-  "syncs": [],
-  "images": [],
+  "syncs": [
+    {
+      "repo": "go-tuf",
+      "pr": 24,
+      "opened_at": "2026-11-27T06:15:48Z",
+      "closed_at": "2026-11-27T06:20:07Z",
+      "merged": true,
+      "upstream": {
+        "count": 7,
+        "newest_at": "2026-11-26T20:57:32Z",
+        "oldest_at": "2026-11-26T10:44:11Z",
+        "from": "71e6ddc2aa2a7f3fbfa4af5d4ffcc2f3048b088f",
+        "to": "74f563a83351913340f41abafc2623d458198730"
+      }
+    },
+    {
+      "repo": "sigstore-go",
+      "pr": 28,
+      "opened_at": "2026-11-27T06:16:15Z",
+      "closed_at": "2026-11-27T06:20:15Z",
+      "merged": true,
+      "upstream": {
+        "count": 2,
+        "newest_at": "2026-11-26T13:54:42Z",
+        "oldest_at": "2026-11-26T09:33:06Z",
+        "from": "f7bb8aa91fe5215f3332f7e38bc2c111298b3e65",
+        "to": "459eb7250577d2fecaedae9834f76acf31d673b6"
+      }
+    },
+    {
+      "repo": "timestamp-authority",
+      "pr": 26,
+      "opened_at": "2026-11-27T06:16:23Z",
+      "closed_at": "2026-11-27T06:20:19Z",
+      "merged": true,
+      "upstream": {
+        "count": 1,
+        "newest_at": "2026-11-26T11:22:11Z",
+        "oldest_at": "2026-11-26T11:22:11Z",
+        "from": "7195688341c6eea0aaf6a61c092fdcd0364ba64f",
+        "to": "0a2bcb1c6f748232b44f3702037086377c53f7e0"
+      }
+    }
+  ],
+  "images": [
+    {
+      "repo": "timestamp-authority",
+      "commit": "1ba570bcca660777bcb903a15ec1942f715167c0",
+      "branch": "rhtas/main",
+      "image": "tsa",
+      "pushed": false,
+      "digest": null,
+      "at": "2026-11-27T06:21:01Z",
+      "run": "https://github.com/sealhouse/timestamp-authority/actions/runs/45951201185"
+    }
+  ],
   "prs": [
     {
       "repo": "ci",
@@ -41,6 +95,18 @@
       "hands_off": false
     },
     {
+      "repo": "go-tuf",
+      "pr": 24,
+      "title": "Sync upstream master 74f563a",
+      "kind": "sync",
+      "author": "sealhouse-sync[bot]",
+      "opened_at": "2026-11-27T06:15:48Z",
+      "closed_at": "2026-11-27T06:20:07Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
       "repo": "secure-sign-pqc-operator",
       "pr": 32,
       "title": "Bump the 2.0 tsa image to timestamp-authority rhtas/main bc012b4c6260",
@@ -53,6 +119,30 @@
         "knrc"
       ],
       "hands_off": false
+    },
+    {
+      "repo": "sigstore-go",
+      "pr": 28,
+      "title": "Sync upstream main 459eb72",
+      "kind": "sync",
+      "author": "sealhouse-sync[bot]",
+      "opened_at": "2026-11-27T06:16:15Z",
+      "closed_at": "2026-11-27T06:20:15Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
+      "repo": "timestamp-authority",
+      "pr": 26,
+      "title": "Sync upstream main 0a2bcb1",
+      "kind": "sync",
+      "author": "sealhouse-sync[bot]",
+      "opened_at": "2026-11-27T06:16:23Z",
+      "closed_at": "2026-11-27T06:20:19Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
     }
   ],
   "alphas": [
@@ -178,13 +268,186 @@
         "update / Update bump PRs": "success",
         "update / Complete job": "success"
       }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-sync",
+      "id": 45950653982,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "78349733abd88cd676b3ca896a92a53e44b2ad34",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T06:15:07Z",
+      "updated_at": "2026-11-27T06:16:27Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45950653982",
+      "steps": {
+        "sync / Set up job": "success",
+        "sync / Scripts": "success",
+        "sync / Finish green syncs": "success",
+        "sync / Hand off": "success",
+        "sync / Start syncs": "success",
+        "sync / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-sync",
+      "id": 45951146680,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "78349733abd88cd676b3ca896a92a53e44b2ad34",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T06:19:51Z",
+      "updated_at": "2026-11-27T06:20:24Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45951146680",
+      "steps": {
+        "sync / Set up job": "success",
+        "sync / Scripts": "success",
+        "sync / Finish green syncs": "success",
+        "sync / Hand off": "success",
+        "sync / Complete job": "success"
+      }
+    },
+    {
+      "repo": "go-tuf",
+      "workflow": "sealhouse-merge",
+      "id": 45951176247,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "ee26dd17ad59dff4fed415c8abfcca5857bed5bd",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T06:20:08Z",
+      "updated_at": "2026-11-27T06:20:41Z",
+      "url": "https://github.com/sealhouse/go-tuf/actions/runs/45951176247",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "sigstore-go",
+      "workflow": "sealhouse-merge",
+      "id": 45951191514,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "cd8fd386f536e2db6fe2dd05d63d8d166bfa8802",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T06:20:15Z",
+      "updated_at": "2026-11-27T06:20:54Z",
+      "url": "https://github.com/sealhouse/sigstore-go/actions/runs/45951191514",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45951202112,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "78349733abd88cd676b3ca896a92a53e44b2ad34",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T06:20:20Z",
+      "updated_at": "2026-11-27T06:20:36Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45951202112",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "timestamp-authority",
+      "workflow": "sealhouse-merge",
+      "id": 45951201185,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "1ba570bcca660777bcb903a15ec1942f715167c0",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T06:20:20Z",
+      "updated_at": "2026-11-27T06:21:01Z",
+      "url": "https://github.com/sealhouse/timestamp-authority/actions/runs/45951201185",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Registry": "success",
+        "merge / merge / Image": "success",
+        "merge / merge / Hand off": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-sync",
+      "id": 45953865250,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "78349733abd88cd676b3ca896a92a53e44b2ad34",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T06:45:07Z",
+      "updated_at": "2026-11-27T06:45:28Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45953865250",
+      "steps": {
+        "sync / Set up job": "success",
+        "sync / Scripts": "success",
+        "sync / Finish green syncs": "success",
+        "sync / Hand off": "success",
+        "sync / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45953868405,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "78349733abd88cd676b3ca896a92a53e44b2ad34",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T06:45:09Z",
+      "updated_at": "2026-11-27T06:45:23Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45953868405",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
     }
   ],
   "nightly": [],
   "soak": [],
   "vulns": [],
   "snapshot": {
-    "at": "2026-11-27T03:00:46Z",
+    "at": "2026-11-27T07:00:55Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.29",
     "behind": [
       {
@@ -209,8 +472,8 @@
       },
       {
         "repo": "go-tuf",
-        "behind": 7,
-        "oldest_at": "2026-11-26T10:44:11Z"
+        "behind": 0,
+        "oldest_at": null
       },
       {
         "repo": "protobuf-specs",
@@ -229,13 +492,13 @@
       },
       {
         "repo": "sigstore-go",
-        "behind": 2,
-        "oldest_at": "2026-11-26T09:33:06Z"
+        "behind": 0,
+        "oldest_at": null
       },
       {
         "repo": "timestamp-authority",
-        "behind": 1,
-        "oldest_at": "2026-11-26T11:22:11Z"
+        "behind": 0,
+        "oldest_at": null
       }
     ],
     "carries": [
@@ -496,42 +759,28 @@
         "repo": "go-tuf",
         "commits": [
           {
-            "sha": "0437c7b004884e2b77123b7d1613a0208e51e31f",
+            "sha": "8803c9f3b583612958e7625f711c4d5187ab7d3d",
             "at": "2026-10-31T15:31:27Z",
             "label": "carry",
             "title": "sealhouse CI callers",
             "pr": null
           },
           {
-            "sha": "ee3b79f2eceff800caa07f428b944d25e65a5ab8",
+            "sha": "84d34e42cfc6744128a86eae1e0ea5c3e1fe1a29",
             "at": "2026-11-05T14:14:52Z",
             "label": "carry",
             "title": "Remove the Dependabot config",
             "pr": null
           },
           {
-            "sha": "f8904ea898492e261005710cf180474ae152d701",
+            "sha": "85147a895a16847c2d852ed1ec3291b8f540cf0b",
             "at": "2026-11-06T00:09:23Z",
             "label": "carry",
             "title": "Hand the PR lane off to ci",
             "pr": null
           },
           {
-            "sha": "6d571aa55c808525eee18da64d323a300a289a43",
-            "at": "2026-11-23T15:20:51Z",
-            "label": "drop",
-            "title": "Pin ci e8906322470f",
-            "pr": null
-          },
-          {
-            "sha": "ed49f9cfc04ce648753de47961a46d0917afee21",
-            "at": "2026-11-26T01:25:05Z",
-            "label": "drop",
-            "title": "Pin ci 86fdae849402",
-            "pr": null
-          },
-          {
-            "sha": "37bf2d8e8d8f51e09db6319c2f4b3580fb0b0f87",
+            "sha": "ee26dd17ad59dff4fed415c8abfcca5857bed5bd",
             "at": "2026-11-26T21:08:43Z",
             "label": "drop",
             "title": "Pin ci a3d140c92fc8",
@@ -698,97 +947,35 @@
         "repo": "sigstore-go",
         "commits": [
           {
-            "sha": "9a6bcf2bbf596b9aee5e5d2f56d739f505e3355e",
+            "sha": "54626610a9af0468525cb7c34298961c14255017",
             "at": "2026-10-31T15:30:14Z",
             "label": "carry",
             "title": "sealhouse CI callers",
             "pr": null
           },
           {
-            "sha": "cdad25e0f1d8a0c6951866d6f80a645c52cad817",
+            "sha": "aafad34fc3855c0e2506f1b2fcc2727f8e58dbbb",
             "at": "2026-11-05T14:15:15Z",
             "label": "carry",
             "title": "Remove the Dependabot config",
             "pr": null
           },
           {
-            "sha": "854aa2a690d95670c446ba5259461f92fd8c5741",
+            "sha": "d1143632067376e8b4a5e6621b746ae19a521e3b",
             "at": "2026-11-06T00:09:41Z",
             "label": "carry",
             "title": "Hand the PR lane off to ci",
             "pr": null
           },
           {
-            "sha": "1346e45974d0e6ca263593c1e6270d56111642ca",
-            "at": "2026-11-23T15:23:53Z",
-            "label": "drop",
-            "title": "Pin ci e8906322470f",
-            "pr": null
-          },
-          {
-            "sha": "565fcc5a7483e041d9758923fb38ed7de6251e30",
+            "sha": "fe21baafec5c8d6306c240cfcdac67a13c3aa67d",
             "at": "2026-11-23T20:38:46Z",
             "label": "drop",
             "title": "Fix GO-2026-6865",
             "pr": null
           },
           {
-            "sha": "3efe3fd2bf89e6424d077f65433f70706ee2e80f",
-            "at": "2026-11-26T01:25:16Z",
-            "label": "713",
-            "title": "Add identity transparency log checkpoint and inclusion proof verification (#23)",
-            "pr": {
-              "state": "closed",
-              "head": "3a3fe348a6e961edc5131f42874cff8ed5a9f407",
-              "url": "https://github.com/sigstore/sigstore-go/pull/713",
-              "number": 713,
-              "carried": "d8c669eef04517d5c19ce8bf41f3c9c1946e341e",
-              "action": "remove",
-              "replaced_by": null,
-              "changed": true
-            }
-          },
-          {
-            "sha": "694904a7a7652c77c50df5cc6e148d544cccc1f4",
-            "at": "2026-11-26T01:27:26Z",
-            "label": "drop",
-            "title": "Pin ci 86fdae849402",
-            "pr": null
-          },
-          {
-            "sha": "66687a2588c09f905920cd557a54450d26406382",
-            "at": "2026-11-26T01:28:49Z",
-            "label": "714",
-            "title": "Implement transparent signature verification for v2 bundles (#25)",
-            "pr": {
-              "state": "closed",
-              "head": "77ec2f44122b29770690c8a871d318fb15858b3a",
-              "url": "https://github.com/sigstore/sigstore-go/pull/714",
-              "number": 714,
-              "carried": "34b4388bba26059ffb8371dfd90b29d0e9438302",
-              "action": "remove",
-              "replaced_by": null,
-              "changed": true
-            }
-          },
-          {
-            "sha": "322e8715c6b2c02b04bc7864988494e9c3da249b",
-            "at": "2026-11-26T01:33:42Z",
-            "label": "715",
-            "title": "Add transparent signing and verification examples and e2e tests (#26)",
-            "pr": {
-              "state": "merged",
-              "head": "e416e57b7d42559c9286a13226f0019d73f7df13",
-              "url": "https://github.com/sigstore/sigstore-go/pull/715",
-              "number": 715,
-              "carried": "9d01ec05e03805d93370f12abf254c896bbc72c8",
-              "action": null,
-              "replaced_by": null,
-              "changed": true
-            }
-          },
-          {
-            "sha": "db7000921281cb06f5cfde9927fa7bb21fd3f6cf",
+            "sha": "cd8fd386f536e2db6fe2dd05d63d8d166bfa8802",
             "at": "2026-11-26T21:08:55Z",
             "label": "drop",
             "title": "Pin ci a3d140c92fc8",
@@ -800,49 +987,35 @@
         "repo": "timestamp-authority",
         "commits": [
           {
-            "sha": "a10313c721a3593fc50945ffd2034029c17c4ded",
+            "sha": "0c9da35673750d3c2a4ba0f7db418b3e3786873e",
             "at": "2026-10-31T15:09:07Z",
             "label": "carry",
             "title": "Hummingbird FIPS image build for timestamp-server",
             "pr": null
           },
           {
-            "sha": "526f97ad11cb70267852541092c37f5290c39835",
+            "sha": "456046076c4daefd64a8c63b22ca516cd188a209",
             "at": "2026-10-31T15:09:07Z",
             "label": "carry",
             "title": "sealhouse CI callers",
             "pr": null
           },
           {
-            "sha": "67c222a477a0a02327b034b148477b305d31c639",
+            "sha": "18ff490b53fd25f3a987c7d19526165a197e81b2",
             "at": "2026-11-05T14:15:21Z",
             "label": "carry",
             "title": "Remove the Dependabot config",
             "pr": null
           },
           {
-            "sha": "9d81c46d3d5a604473e04ced292ba418ebeec49d",
+            "sha": "ebd538bf0bf68c4f8e2cbe50af16748bf8b37dc4",
             "at": "2026-11-06T00:09:45Z",
             "label": "carry",
             "title": "Hand the PR lane off to ci",
             "pr": null
           },
           {
-            "sha": "1d17ac2e462f913485fe6478cac4eb59fa920cf4",
-            "at": "2026-11-23T15:24:01Z",
-            "label": "drop",
-            "title": "Pin ci e8906322470f",
-            "pr": null
-          },
-          {
-            "sha": "f51e5e39ed1635cb56b2a3a9bbc357a67e915322",
-            "at": "2026-11-26T01:28:07Z",
-            "label": "drop",
-            "title": "Pin ci 86fdae849402",
-            "pr": null
-          },
-          {
-            "sha": "bc012b4c62606a89b0fef8b1801001c69070ea94",
+            "sha": "1ba570bcca660777bcb903a15ec1942f715167c0",
             "at": "2026-11-26T21:10:34Z",
             "label": "drop",
             "title": "Pin ci a3d140c92fc8",
