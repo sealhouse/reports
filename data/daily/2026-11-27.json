@@ -8,10 +8,10 @@
     "to": "2026-11-28T00:00:00Z"
   },
   "run": {
-    "id": "46020936052",
-    "url": "https://github.com/sealhouse/ci/actions/runs/46020936052",
-    "ci": "78349733abd88cd676b3ca896a92a53e44b2ad34",
-    "collected_at": "2026-11-27T15:01:08Z"
+    "id": "46029801042",
+    "url": "https://github.com/sealhouse/ci/actions/runs/46029801042",
+    "ci": "e7cd6580ea492eb7a1eb82e53c9d36882d1bbf1c",
+    "collected_at": "2026-11-27T16:01:03Z"
   },
   "syncs": [
     {
@@ -90,6 +90,30 @@
       "author": "knrc",
       "opened_at": "2026-11-27T02:46:36Z",
       "closed_at": "2026-11-27T02:59:10Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": false
+    },
+    {
+      "repo": "ci",
+      "pr": 32,
+      "title": "Delete sigstore-go's carries.lock lines, which upstream has merged or…",
+      "kind": "other",
+      "author": "knrc",
+      "opened_at": "2026-11-27T15:44:52Z",
+      "closed_at": "2026-11-27T15:48:46Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": false
+    },
+    {
+      "repo": "ci",
+      "pr": 33,
+      "title": "Add rekor-tiles#1036 to the carries.lock file",
+      "kind": "other",
+      "author": "knrc",
+      "opened_at": "2026-11-27T15:52:25Z",
+      "closed_at": "2026-11-27T15:57:09Z",
       "merged": true,
       "approved_by": [],
       "hands_off": false
@@ -857,7 +881,7 @@
     }
   ],
   "snapshot": {
-    "at": "2026-11-27T15:01:08Z",
+    "at": "2026-11-27T16:01:03Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.29",
     "behind": [
       {
