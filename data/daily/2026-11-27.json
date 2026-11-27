@@ -8,21 +8,62 @@
     "to": "2026-11-28T00:00:00Z"
   },
   "run": {
-    "id": "45914156890",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45914156890",
+    "id": "45920006935",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45920006935",
     "ci": "a3d140c92fc80187d4d442704b8d9cd3495a2ab5",
-    "collected_at": "2026-11-27T00:02:07Z"
+    "collected_at": "2026-11-27T01:00:44Z"
   },
   "syncs": [],
   "images": [],
   "prs": [],
   "alphas": [],
-  "runs": [],
+  "runs": [
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-sync",
+      "id": 45918557108,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "a3d140c92fc80187d4d442704b8d9cd3495a2ab5",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T00:45:08Z",
+      "updated_at": "2026-11-27T00:45:27Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45918557108",
+      "steps": {
+        "sync / Set up job": "success",
+        "sync / Scripts": "success",
+        "sync / Finish green syncs": "success",
+        "sync / Hand off": "success",
+        "sync / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 45918560484,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "a3d140c92fc80187d4d442704b8d9cd3495a2ab5",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T00:45:09Z",
+      "updated_at": "2026-11-27T00:45:24Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/45918560484",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    }
+  ],
   "nightly": [],
   "soak": [],
   "vulns": [],
   "snapshot": {
-    "at": "2026-11-27T00:02:07Z",
+    "at": "2026-11-27T01:00:44Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.28",
     "behind": [
       {
