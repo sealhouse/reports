@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-27",
-  "last_collected_at": "2026-11-27T01:00:44Z",
-  "last_attempt_at": "2026-11-27T01:00:44Z",
+  "last_collected_at": "2026-11-27T03:00:46Z",
+  "last_attempt_at": "2026-11-27T03:00:46Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -159,15 +159,15 @@
       "date": "2026-11-27",
       "status": "ok",
       "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/45920006935",
+      "run": "https://github.com/sealhouse/ci/actions/runs/45931579861",
       "syncs": 0,
       "syncs_closed": 0,
       "upstream_commits": 0,
       "images": 0,
-      "alphas": 0,
-      "prs": 0,
+      "alphas": 1,
+      "prs": 3,
       "hands_off": 0,
-      "runs": 2,
+      "runs": 5,
       "runs_failed": 0
     }
   ],
@@ -311,6 +311,29 @@
       "at": "2026-11-26T21:47:06Z",
       "operator_commit": "a8eb23a832b960813c38af08b19865bbc18db334",
       "components": []
+    },
+    {
+      "csv": "secure-sign-pqc-operator.v0.1.0-alpha.29",
+      "at": "2026-11-27T02:23:59Z",
+      "operator_commit": "864f38a086f4ef75004f1e2ab5df3facc704a7cd",
+      "components": [
+        {
+          "repo": "timestamp-authority",
+          "commit": "bc012b4c62606a89b0fef8b1801001c69070ea94",
+          "upstream": null,
+          "synced_at": null,
+          "image_at": "2026-11-26T21:12:31Z",
+          "bump_at": "2026-11-27T02:01:26Z",
+          "hours": {
+            "newest_to_alpha": null,
+            "oldest_to_alpha": null,
+            "upstream_to_sync": null,
+            "sync_to_image": null,
+            "image_to_bump": 4.82,
+            "bump_to_alpha": 0.38
+          }
+        }
+      ]
     }
   ],
   "incidents": [
@@ -1284,7 +1307,7 @@
       "date": "2026-11-27",
       "repo": "go-tuf",
       "behind": 7,
-      "age_hours": 14.28
+      "age_hours": 16.28
     },
     {
       "date": "2026-11-27",
@@ -1308,25 +1331,16 @@
       "date": "2026-11-27",
       "repo": "sigstore-go",
       "behind": 2,
-      "age_hours": 15.46
+      "age_hours": 17.46
     },
     {
       "date": "2026-11-27",
       "repo": "timestamp-authority",
       "behind": 1,
-      "age_hours": 13.64
+      "age_hours": 15.64
     }
   ],
-  "open_prs": [
-    {
-      "repo": "secure-sign-pqc-operator",
-      "pr": 32,
-      "title": "Bump the 2.0 tsa image to timestamp-authority rhtas/main bc012b4c6260",
-      "author": "sealhouse-bot[bot]",
-      "opened_at": "2026-11-26T21:13:16Z",
-      "kind": "bump"
-    }
-  ],
+  "open_prs": [],
   "carries": [
     {
       "repo": "cosign",
@@ -1832,7 +1846,7 @@
             "url": "https://github.com/sigstore/sigstore-go/pull/713",
             "number": 713,
             "carried": "d8c669eef04517d5c19ce8bf41f3c9c1946e341e",
-            "action": null,
+            "action": "remove",
             "replaced_by": null,
             "changed": true
           }
@@ -1855,7 +1869,7 @@
             "url": "https://github.com/sigstore/sigstore-go/pull/714",
             "number": 714,
             "carried": "34b4388bba26059ffb8371dfd90b29d0e9438302",
-            "action": null,
+            "action": "remove",
             "replaced_by": null,
             "changed": true
           }
@@ -1940,5 +1954,5 @@
       ]
     }
   ],
-  "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.28"
+  "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.29"
 }
