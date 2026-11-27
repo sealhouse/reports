@@ -8,10 +8,10 @@
     "to": "2026-11-28T00:00:00Z"
   },
   "run": {
-    "id": "46046115448",
-    "url": "https://github.com/sealhouse/ci/actions/runs/46046115448",
-    "ci": "09a21469e8346385731ae43b6771b3ca0e3fb254",
-    "collected_at": "2026-11-27T18:01:33Z"
+    "id": "46053524067",
+    "url": "https://github.com/sealhouse/ci/actions/runs/46053524067",
+    "ci": "9711aac135246fec6d03b57b7dc9b822cde6091c",
+    "collected_at": "2026-11-27T19:01:52Z"
   },
   "syncs": [
     {
@@ -117,6 +117,56 @@
       "digest": "sha256:efb25aa40b7ddaa89c7d75404beec261b04a5f2ddec04ce7ac6123ed65556cc0",
       "at": "2026-11-27T17:17:44Z",
       "run": "https://github.com/sealhouse/cosign/actions/runs/46040249550"
+    },
+    {
+      "repo": "fulcio",
+      "commit": "124b130d24f3213ab0117181f3b85c80c8d951f3",
+      "branch": "rhtas/main",
+      "image": "fulcio",
+      "pushed": true,
+      "digest": "sha256:5605ef64c128eb2619441854e5cb206e8d436e9fda9413f4ed59eb18b50b4593",
+      "at": "2026-11-27T18:13:06Z",
+      "run": "https://github.com/sealhouse/fulcio/actions/runs/46047502980"
+    },
+    {
+      "repo": "timestamp-authority",
+      "commit": "1fa52945322ff9fcd353288047881b42ee1ec70c",
+      "branch": "rhtas/main",
+      "image": "tsa",
+      "pushed": true,
+      "digest": "sha256:9129e956650abea44f36806ad4796ac56c4a4c7a9f38ac2f0373f1bfd48339ef",
+      "at": "2026-11-27T18:13:32Z",
+      "run": "https://github.com/sealhouse/timestamp-authority/actions/runs/46047615975"
+    },
+    {
+      "repo": "rekor-tiles",
+      "commit": "65630627df1a79112f51181c78be998a43b49786",
+      "branch": "rhtas/main",
+      "image": "rekor-v3",
+      "pushed": true,
+      "digest": "sha256:70ce565223a6a72ee6a6ddd6cceb80011d7f97f805fc0f5b865cad919a91b851",
+      "at": "2026-11-27T18:13:50Z",
+      "run": "https://github.com/sealhouse/rekor-tiles/actions/runs/46047601240"
+    },
+    {
+      "repo": "dex",
+      "commit": "59e6910a9d5b1cd9e63f055e43d509ee577abf9b",
+      "branch": "rhtas/main",
+      "image": "dex",
+      "pushed": true,
+      "digest": "sha256:68057c2cba81e1324fd4ac0eeaece5ce3bbbe00a98e1287bfa4b321b64ba4514",
+      "at": "2026-11-27T18:13:51Z",
+      "run": "https://github.com/sealhouse/dex/actions/runs/46047489897"
+    },
+    {
+      "repo": "cosign",
+      "commit": "5436e4854fa8240b07d57ff5700c9ba7ad08ac34",
+      "branch": "rhtas/main",
+      "image": "cosign",
+      "pushed": true,
+      "digest": "sha256:12f26026e7555ecae17f3fb2b7969687460cd188b9317a0870c8aa41dc2a4d1f",
+      "at": "2026-11-27T18:15:53Z",
+      "run": "https://github.com/sealhouse/cosign/actions/runs/46047654416"
     }
   ],
   "prs": [
@@ -193,6 +243,32 @@
       "hands_off": false
     },
     {
+      "repo": "ci",
+      "pr": 36,
+      "title": "replaces.lock: github.com/coreos/go-oidc/v3 => github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+      "kind": "other",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-27T17:37:31Z",
+      "closed_at": "2026-11-27T18:06:03Z",
+      "merged": true,
+      "approved_by": [
+        "knrc"
+      ],
+      "hands_off": false
+    },
+    {
+      "repo": "ci",
+      "pr": 37,
+      "title": "Bring a fork's stale bot PR up to date before bot-merge merges it",
+      "kind": "other",
+      "author": "knrc",
+      "opened_at": "2026-11-27T17:57:16Z",
+      "closed_at": "2026-11-27T18:01:11Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": false
+    },
+    {
       "repo": "cosign",
       "pr": 37,
       "title": "UPSTREAM: <drop>: Pin ci 660c206d818d",
@@ -200,6 +276,18 @@
       "author": "sealhouse-bot[bot]",
       "opened_at": "2026-11-27T17:07:31Z",
       "closed_at": "2026-11-27T17:14:27Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
+      "repo": "cosign",
+      "pr": 38,
+      "title": "UPSTREAM: <drop>: Replace modules as ci's replaces.lock asks",
+      "kind": "replaces",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-27T18:06:50Z",
+      "closed_at": "2026-11-27T18:12:05Z",
       "merged": true,
       "approved_by": [],
       "hands_off": true
@@ -217,6 +305,18 @@
       "hands_off": true
     },
     {
+      "repo": "dex",
+      "pr": 22,
+      "title": "UPSTREAM: <drop>: Replace modules as ci's replaces.lock asks",
+      "kind": "replaces",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-27T18:07:05Z",
+      "closed_at": "2026-11-27T18:10:48Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
       "repo": "fulcio",
       "pr": 35,
       "title": "UPSTREAM: <drop>: Pin ci 660c206d818d",
@@ -224,6 +324,18 @@
       "author": "sealhouse-bot[bot]",
       "opened_at": "2026-11-27T17:07:49Z",
       "closed_at": "2026-11-27T17:10:34Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
+      "repo": "fulcio",
+      "pr": 36,
+      "title": "UPSTREAM: <drop>: Replace modules as ci's replaces.lock asks",
+      "kind": "replaces",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-27T18:07:21Z",
+      "closed_at": "2026-11-27T18:10:54Z",
       "merged": true,
       "approved_by": [],
       "hands_off": true
@@ -265,6 +377,18 @@
       "hands_off": true
     },
     {
+      "repo": "go-tuf",
+      "pr": 26,
+      "title": "UPSTREAM: <drop>: Replace modules as ci's replaces.lock asks",
+      "kind": "replaces",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-27T18:07:31Z",
+      "closed_at": "2026-11-27T18:11:01Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
       "repo": "protobuf-specs",
       "pr": 27,
       "title": "UPSTREAM: <drop>: Pin ci 660c206d818d",
@@ -284,6 +408,18 @@
       "author": "sealhouse-bot[bot]",
       "opened_at": "2026-11-27T17:08:23Z",
       "closed_at": "2026-11-27T17:11:41Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
+      "repo": "rekor-tiles",
+      "pr": 27,
+      "title": "UPSTREAM: <drop>: Replace modules as ci's replaces.lock asks",
+      "kind": "replaces",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-27T18:07:43Z",
+      "closed_at": "2026-11-27T18:11:40Z",
       "merged": true,
       "approved_by": [],
       "hands_off": true
@@ -327,6 +463,18 @@
       "hands_off": true
     },
     {
+      "repo": "secure-sign-pqc-operator",
+      "pr": 35,
+      "title": "Replace modules as ci's replaces.lock 139ac6547df7 asks",
+      "kind": "replaces",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-27T18:08:40Z",
+      "closed_at": "2026-11-27T18:25:23Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
       "repo": "sigstore",
       "pr": 27,
       "title": "UPSTREAM: <drop>: Pin ci 660c206d818d",
@@ -334,6 +482,18 @@
       "author": "sealhouse-bot[bot]",
       "opened_at": "2026-11-27T17:08:31Z",
       "closed_at": "2026-11-27T17:10:44Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
+      "repo": "sigstore",
+      "pr": 28,
+      "title": "UPSTREAM: <drop>: Replace modules as ci's replaces.lock asks",
+      "kind": "replaces",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-27T18:08:06Z",
+      "closed_at": "2026-11-27T18:11:11Z",
       "merged": true,
       "approved_by": [],
       "hands_off": true
@@ -363,6 +523,18 @@
       "hands_off": true
     },
     {
+      "repo": "sigstore-go",
+      "pr": 30,
+      "title": "UPSTREAM: <drop>: Replace modules as ci's replaces.lock asks",
+      "kind": "replaces",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-27T18:08:15Z",
+      "closed_at": "2026-11-27T18:11:18Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
       "repo": "timestamp-authority",
       "pr": 26,
       "title": "Sync upstream main 0a2bcb1",
@@ -382,6 +554,18 @@
       "author": "sealhouse-bot[bot]",
       "opened_at": "2026-11-27T17:08:48Z",
       "closed_at": "2026-11-27T17:12:58Z",
+      "merged": true,
+      "approved_by": [],
+      "hands_off": true
+    },
+    {
+      "repo": "timestamp-authority",
+      "pr": 28,
+      "title": "UPSTREAM: <drop>: Replace modules as ci's replaces.lock asks",
+      "kind": "replaces",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-27T18:08:26Z",
+      "closed_at": "2026-11-27T18:11:47Z",
       "merged": true,
       "approved_by": [],
       "hands_off": true
@@ -407,6 +591,31 @@
       "csv": "secure-sign-pqc-operator.v0.1.0-alpha.30",
       "at": "2026-11-27T17:50:33Z",
       "operator_commit": "976d57c9c42aab929b88b7bd094dfefaa7e21d1c",
+      "components": []
+    },
+    {
+      "csv": "secure-sign-pqc-operator.v0.1.0-alpha.31",
+      "at": "2026-11-27T18:18:15Z",
+      "operator_commit": "b88882349ef7eedaeafe2f6ccfedc5a7cfc5d0eb",
+      "components": [
+        {
+          "repo": "timestamp-authority",
+          "commit": "5ac97a75597f8fc10197ab803218d3df9ef48168",
+          "upstream": {
+            "count": 1,
+            "newest_at": "2026-11-26T11:22:11Z",
+            "oldest_at": "2026-11-26T11:22:11Z"
+          },
+          "synced_at": "2026-11-27T06:20:19Z",
+          "image_at": "2026-11-27T17:15:27Z",
+          "bump_at": "2026-11-27T17:53:18Z"
+        }
+      ]
+    },
+    {
+      "csv": "secure-sign-pqc-operator.v0.1.0-alpha.32",
+      "at": "2026-11-27T18:50:08Z",
+      "operator_commit": "fcf24a6b3b278784da8b68bf84b697e5cdfccfac",
       "components": []
     }
   ],
@@ -1563,11 +1772,596 @@
       "event": "push",
       "branch": "main",
       "sha": "b88882349ef7eedaeafe2f6ccfedc5a7cfc5d0eb",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "created_at": "2026-11-27T17:53:22Z",
-      "updated_at": "2026-11-27T17:53:25Z",
-      "url": "https://github.com/sealhouse/secure-sign-pqc-operator/actions/runs/46045295851"
+      "updated_at": "2026-11-27T18:18:06Z",
+      "url": "https://github.com/sealhouse/secure-sign-pqc-operator/actions/runs/46045295851",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Registry": "success",
+        "merge / merge / Publish": "success",
+        "merge / merge / Hand off": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-replaces",
+      "id": 46046891981,
+      "event": "push",
+      "branch": "main",
+      "sha": "9711aac135246fec6d03b57b7dc9b822cde6091c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:06:06Z",
+      "updated_at": "2026-11-27T18:09:10Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/46046891981",
+      "steps": {
+        "replaces / Set up job": "success",
+        "replaces / Scripts": "success",
+        "replaces / Consumers": "success",
+        "replaces / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 46047453039,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "9711aac135246fec6d03b57b7dc9b822cde6091c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:10:33Z",
+      "updated_at": "2026-11-27T18:11:27Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/46047453039",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "dex",
+      "workflow": "sealhouse-merge",
+      "id": 46047489897,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "59e6910a9d5b1cd9e63f055e43d509ee577abf9b",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:10:51Z",
+      "updated_at": "2026-11-27T18:13:51Z",
+      "url": "https://github.com/sealhouse/dex/actions/runs/46047489897",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Registry": "success",
+        "merge / merge / Image": "success",
+        "merge / merge / Hand off": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 46047497339,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "9711aac135246fec6d03b57b7dc9b822cde6091c",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "created_at": "2026-11-27T18:10:54Z",
+      "updated_at": "2026-11-27T18:11:20Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/46047497339",
+      "steps": {}
+    },
+    {
+      "repo": "fulcio",
+      "workflow": "sealhouse-merge",
+      "id": 46047502980,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "124b130d24f3213ab0117181f3b85c80c8d951f3",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:10:57Z",
+      "updated_at": "2026-11-27T18:13:06Z",
+      "url": "https://github.com/sealhouse/fulcio/actions/runs/46047502980",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Registry": "success",
+        "merge / merge / Image": "success",
+        "merge / merge / Hand off": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "go-tuf",
+      "workflow": "sealhouse-merge",
+      "id": 46047519176,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "2f47e0f9c3203a6d0b4a14de5bf7945cec115564",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:11:05Z",
+      "updated_at": "2026-11-27T18:11:32Z",
+      "url": "https://github.com/sealhouse/go-tuf/actions/runs/46047519176",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "sigstore",
+      "workflow": "sealhouse-merge",
+      "id": 46047541732,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "2cb439b6d0955e1b2bc01285d8fa8bec17eb93ac",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:11:15Z",
+      "updated_at": "2026-11-27T18:12:12Z",
+      "url": "https://github.com/sealhouse/sigstore/actions/runs/46047541732",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 46047547201,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "9711aac135246fec6d03b57b7dc9b822cde6091c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:11:17Z",
+      "updated_at": "2026-11-27T18:11:53Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/46047547201",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "sigstore-go",
+      "workflow": "sealhouse-merge",
+      "id": 46047555551,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "1dd5635146cb3fadca34aa88ad9496cd56d8e0aa",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:11:21Z",
+      "updated_at": "2026-11-27T18:11:58Z",
+      "url": "https://github.com/sealhouse/sigstore-go/actions/runs/46047555551",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "rekor-tiles",
+      "workflow": "sealhouse-merge",
+      "id": 46047601240,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "65630627df1a79112f51181c78be998a43b49786",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:11:42Z",
+      "updated_at": "2026-11-27T18:13:50Z",
+      "url": "https://github.com/sealhouse/rekor-tiles/actions/runs/46047601240",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Registry": "success",
+        "merge / merge / Image": "success",
+        "merge / merge / Hand off": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 46047609606,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "9711aac135246fec6d03b57b7dc9b822cde6091c",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "created_at": "2026-11-27T18:11:47Z",
+      "updated_at": "2026-11-27T18:11:51Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/46047609606",
+      "steps": {}
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 46047614045,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "9711aac135246fec6d03b57b7dc9b822cde6091c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:11:49Z",
+      "updated_at": "2026-11-27T18:12:18Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/46047614045",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "timestamp-authority",
+      "workflow": "sealhouse-merge",
+      "id": 46047615975,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "1fa52945322ff9fcd353288047881b42ee1ec70c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:11:50Z",
+      "updated_at": "2026-11-27T18:13:32Z",
+      "url": "https://github.com/sealhouse/timestamp-authority/actions/runs/46047615975",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Registry": "success",
+        "merge / merge / Image": "success",
+        "merge / merge / Hand off": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "cosign",
+      "workflow": "sealhouse-merge",
+      "id": 46047654416,
+      "event": "push",
+      "branch": "rhtas/main",
+      "sha": "5436e4854fa8240b07d57ff5700c9ba7ad08ac34",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:12:08Z",
+      "updated_at": "2026-11-27T18:15:53Z",
+      "url": "https://github.com/sealhouse/cosign/actions/runs/46047654416",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Registry": "success",
+        "merge / merge / Image": "success",
+        "merge / merge / Hand off": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump",
+      "id": 46047772180,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "9711aac135246fec6d03b57b7dc9b822cde6091c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:13:03Z",
+      "updated_at": "2026-11-27T18:13:35Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/46047772180",
+      "steps": {
+        "bump / Set up job": "success",
+        "bump / Scripts": "success",
+        "bump / Toolchain": "success",
+        "bump / Bump": "success",
+        "bump / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump",
+      "id": 46047830343,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "9711aac135246fec6d03b57b7dc9b822cde6091c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:13:30Z",
+      "updated_at": "2026-11-27T18:14:17Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/46047830343",
+      "steps": {
+        "bump / Set up job": "success",
+        "bump / Scripts": "success",
+        "bump / Toolchain": "success",
+        "bump / Bump": "success",
+        "bump / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump",
+      "id": 46047864810,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "9711aac135246fec6d03b57b7dc9b822cde6091c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:13:46Z",
+      "updated_at": "2026-11-27T18:14:15Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/46047864810",
+      "steps": {
+        "bump / Set up job": "success",
+        "bump / Scripts": "success",
+        "bump / Toolchain": "success",
+        "bump / Bump": "success",
+        "bump / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump",
+      "id": 46047867565,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "9711aac135246fec6d03b57b7dc9b822cde6091c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:13:48Z",
+      "updated_at": "2026-11-27T18:14:18Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/46047867565",
+      "steps": {
+        "bump / Set up job": "success",
+        "bump / Scripts": "success",
+        "bump / Toolchain": "success",
+        "bump / Bump": "success",
+        "bump / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump",
+      "id": 46048128364,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "9711aac135246fec6d03b57b7dc9b822cde6091c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:15:48Z",
+      "updated_at": "2026-11-27T18:16:15Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/46048128364",
+      "steps": {
+        "bump / Set up job": "success",
+        "bump / Scripts": "success",
+        "bump / Toolchain": "success",
+        "bump / Bump": "success",
+        "bump / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-catalog",
+      "id": 46048409421,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "9711aac135246fec6d03b57b7dc9b822cde6091c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:18:00Z",
+      "updated_at": "2026-11-27T18:18:20Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/46048409421",
+      "steps": {
+        "catalog / Set up job": "success",
+        "catalog / Scripts": "success",
+        "catalog / Toolchain": "success",
+        "catalog / Record": "success",
+        "catalog / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 46048413551,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "9711aac135246fec6d03b57b7dc9b822cde6091c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:18:02Z",
+      "updated_at": "2026-11-27T18:18:19Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/46048413551",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 46049313305,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "9711aac135246fec6d03b57b7dc9b822cde6091c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:25:07Z",
+      "updated_at": "2026-11-27T18:25:28Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/46049313305",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "secure-sign-pqc-operator",
+      "workflow": "sealhouse-merge",
+      "id": 46049354902,
+      "event": "push",
+      "branch": "main",
+      "sha": "fcf24a6b3b278784da8b68bf84b697e5cdfccfac",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:25:26Z",
+      "updated_at": "2026-11-27T18:50:00Z",
+      "url": "https://github.com/sealhouse/secure-sign-pqc-operator/actions/runs/46049354902",
+      "steps": {
+        "merge / merge / Set up job": "success",
+        "merge / merge / CI scripts": "success",
+        "merge / merge / Checkout": "success",
+        "merge / merge / Go": "success",
+        "merge / merge / Toolchain": "success",
+        "merge / merge / Vulnerabilities": "success",
+        "merge / merge / Registry": "success",
+        "merge / merge / Publish": "success",
+        "merge / merge / Hand off": "success",
+        "merge / merge / Workspace removable": "success",
+        "merge / merge / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-sync",
+      "id": 46051774735,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "9711aac135246fec6d03b57b7dc9b822cde6091c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:45:08Z",
+      "updated_at": "2026-11-27T18:45:29Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/46051774735",
+      "steps": {
+        "sync / Set up job": "success",
+        "sync / Scripts": "success",
+        "sync / Finish green syncs": "success",
+        "sync / Hand off": "success",
+        "sync / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 46051778675,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "9711aac135246fec6d03b57b7dc9b822cde6091c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:45:10Z",
+      "updated_at": "2026-11-27T18:45:26Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/46051778675",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-catalog",
+      "id": 46052342302,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "9711aac135246fec6d03b57b7dc9b822cde6091c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:49:55Z",
+      "updated_at": "2026-11-27T18:50:13Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/46052342302",
+      "steps": {
+        "catalog / Set up job": "success",
+        "catalog / Scripts": "success",
+        "catalog / Toolchain": "success",
+        "catalog / Record": "success",
+        "catalog / Complete job": "success"
+      }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-bump-update",
+      "id": 46052345155,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "9711aac135246fec6d03b57b7dc9b822cde6091c",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-27T18:49:57Z",
+      "updated_at": "2026-11-27T18:50:12Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/46052345155",
+      "steps": {
+        "update / Set up job": "success",
+        "update / Scripts": "success",
+        "update / Merge bot PRs": "success",
+        "update / Update bump PRs": "success",
+        "update / Complete job": "success"
+      }
     }
   ],
   "nightly": [
@@ -1766,8 +2560,8 @@
     }
   ],
   "snapshot": {
-    "at": "2026-11-27T18:01:33Z",
-    "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.30",
+    "at": "2026-11-27T19:01:52Z",
+    "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.32",
     "behind": [
       {
         "repo": "cosign",
@@ -1879,6 +2673,13 @@
             "label": "drop",
             "title": "Pin ci 660c206d818d",
             "pr": null
+          },
+          {
+            "sha": "5436e4854fa8240b07d57ff5700c9ba7ad08ac34",
+            "at": "2026-11-27T18:12:04Z",
+            "label": "drop",
+            "title": "Replace modules as ci's replaces.lock asks",
+            "pr": null
           }
         ]
       },
@@ -1932,6 +2733,13 @@
             "at": "2026-11-27T17:12:08Z",
             "label": "drop",
             "title": "Pin ci 660c206d818d",
+            "pr": null
+          },
+          {
+            "sha": "59e6910a9d5b1cd9e63f055e43d509ee577abf9b",
+            "at": "2026-11-27T18:10:46Z",
+            "label": "drop",
+            "title": "Replace modules as ci's replaces.lock asks",
             "pr": null
           }
         ]
@@ -2000,6 +2808,13 @@
             "at": "2026-11-27T17:10:33Z",
             "label": "drop",
             "title": "Pin ci 660c206d818d",
+            "pr": null
+          },
+          {
+            "sha": "124b130d24f3213ab0117181f3b85c80c8d951f3",
+            "at": "2026-11-27T18:10:53Z",
+            "label": "drop",
+            "title": "Replace modules as ci's replaces.lock asks",
             "pr": null
           }
         ]
@@ -2139,6 +2954,13 @@
             "label": "drop",
             "title": "Pin ci 660c206d818d",
             "pr": null
+          },
+          {
+            "sha": "2f47e0f9c3203a6d0b4a14de5bf7945cec115564",
+            "at": "2026-11-27T18:11:00Z",
+            "label": "drop",
+            "title": "Replace modules as ci's replaces.lock asks",
+            "pr": null
           }
         ]
       },
@@ -2254,6 +3076,13 @@
             "label": "drop",
             "title": "Pin ci 660c206d818d",
             "pr": null
+          },
+          {
+            "sha": "65630627df1a79112f51181c78be998a43b49786",
+            "at": "2026-11-27T18:11:39Z",
+            "label": "drop",
+            "title": "Replace modules as ci's replaces.lock asks",
+            "pr": null
           }
         ]
       },
@@ -2315,6 +3144,13 @@
             "label": "drop",
             "title": "Pin ci 660c206d818d",
             "pr": null
+          },
+          {
+            "sha": "2cb439b6d0955e1b2bc01285d8fa8bec17eb93ac",
+            "at": "2026-11-27T18:11:10Z",
+            "label": "drop",
+            "title": "Replace modules as ci's replaces.lock asks",
+            "pr": null
           }
         ]
       },
@@ -2361,6 +3197,13 @@
             "at": "2026-11-27T17:10:49Z",
             "label": "drop",
             "title": "Pin ci 660c206d818d",
+            "pr": null
+          },
+          {
+            "sha": "1dd5635146cb3fadca34aa88ad9496cd56d8e0aa",
+            "at": "2026-11-27T18:11:17Z",
+            "label": "drop",
+            "title": "Replace modules as ci's replaces.lock asks",
             "pr": null
           }
         ]
@@ -2409,27 +3252,171 @@
             "label": "drop",
             "title": "Pin ci 660c206d818d",
             "pr": null
+          },
+          {
+            "sha": "1fa52945322ff9fcd353288047881b42ee1ec70c",
+            "at": "2026-11-27T18:11:46Z",
+            "label": "drop",
+            "title": "Replace modules as ci's replaces.lock asks",
+            "pr": null
           }
         ]
       }
     ],
-    "replaces": [],
+    "replaces": [
+      {
+        "module": "github.com/coreos/go-oidc/v3",
+        "fork_module": "github.com/sealhouse/go-oidc/v3",
+        "version": "v3.21.1-rhtas.1",
+        "drop": "upstream-pr=507",
+        "reason": "ML-DSA signed OIDC tokens (go-oidc#507)",
+        "condition": {
+          "kind": "pr",
+          "number": 507,
+          "state": "open",
+          "url": "https://github.com/coreos/go-oidc/pull/507",
+          "released": null
+        },
+        "consumers": [
+          {
+            "repo": "cosign",
+            "state": "applied",
+            "files": [
+              {
+                "path": "go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              }
+            ]
+          },
+          {
+            "repo": "dex",
+            "state": "applied",
+            "files": [
+              {
+                "path": "examples/go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              },
+              {
+                "path": "go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              }
+            ]
+          },
+          {
+            "repo": "fulcio",
+            "state": "applied",
+            "files": [
+              {
+                "path": "go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              }
+            ]
+          },
+          {
+            "repo": "go-tuf",
+            "state": "applied",
+            "files": [
+              {
+                "path": "go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              }
+            ]
+          },
+          {
+            "repo": "rekor-tiles",
+            "state": "applied",
+            "files": [
+              {
+                "path": "go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              }
+            ]
+          },
+          {
+            "repo": "sigstore",
+            "state": "applied",
+            "files": [
+              {
+                "path": "go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              },
+              {
+                "path": "pkg/signature/kms/aws/go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              },
+              {
+                "path": "pkg/signature/kms/azure/go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              },
+              {
+                "path": "pkg/signature/kms/gcp/go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              },
+              {
+                "path": "pkg/signature/kms/hashivault/go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              },
+              {
+                "path": "test/cliplugin/localkms/go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              },
+              {
+                "path": "test/fuzz/go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              }
+            ]
+          },
+          {
+            "repo": "sigstore-go",
+            "state": "applied",
+            "files": [
+              {
+                "path": "examples/oci-image-verification/go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              },
+              {
+                "path": "go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              }
+            ]
+          },
+          {
+            "repo": "timestamp-authority",
+            "state": "applied",
+            "files": [
+              {
+                "path": "go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "open_prs": [
       {
-        "repo": "ci",
+        "repo": "secure-sign-pqc-operator",
         "pr": 36,
-        "title": "replaces.lock: github.com/coreos/go-oidc/v3 => github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+        "title": "Bump the 2.0 tsa image to timestamp-authority rhtas/main 1fa52945322f",
         "author": "sealhouse-bot[bot]",
-        "opened_at": "2026-11-27T17:37:31Z",
-        "kind": "other"
-      },
-      {
-        "repo": "ci",
-        "pr": 37,
-        "title": "Bring a fork's stale bot PR up to date before bot-merge merges it",
-        "author": "knrc",
-        "opened_at": "2026-11-27T17:57:16Z",
-        "kind": "other"
+        "opened_at": "2026-11-27T18:14:11Z",
+        "kind": "bump"
       }
     ]
   }

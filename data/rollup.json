@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-27",
-  "last_collected_at": "2026-11-27T18:01:33Z",
-  "last_attempt_at": "2026-11-27T18:01:33Z",
+  "last_collected_at": "2026-11-27T19:01:52Z",
+  "last_attempt_at": "2026-11-27T19:01:52Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -159,15 +159,15 @@
       "date": "2026-11-27",
       "status": "ok",
       "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/46046115448",
+      "run": "https://github.com/sealhouse/ci/actions/runs/46053524067",
       "syncs": 3,
       "syncs_closed": 0,
       "upstream_commits": 10,
-      "images": 5,
-      "alphas": 2,
-      "prs": 22,
-      "hands_off": 15,
-      "runs": 49,
+      "images": 10,
+      "alphas": 4,
+      "prs": 33,
+      "hands_off": 24,
+      "runs": 76,
       "runs_failed": 0
     }
   ],
@@ -339,6 +339,39 @@
       "csv": "secure-sign-pqc-operator.v0.1.0-alpha.30",
       "at": "2026-11-27T17:50:33Z",
       "operator_commit": "976d57c9c42aab929b88b7bd094dfefaa7e21d1c",
+      "components": []
+    },
+    {
+      "csv": "secure-sign-pqc-operator.v0.1.0-alpha.31",
+      "at": "2026-11-27T18:18:15Z",
+      "operator_commit": "b88882349ef7eedaeafe2f6ccfedc5a7cfc5d0eb",
+      "components": [
+        {
+          "repo": "timestamp-authority",
+          "commit": "5ac97a75597f8fc10197ab803218d3df9ef48168",
+          "upstream": {
+            "count": 1,
+            "newest_at": "2026-11-26T11:22:11Z",
+            "oldest_at": "2026-11-26T11:22:11Z"
+          },
+          "synced_at": "2026-11-27T06:20:19Z",
+          "image_at": "2026-11-27T17:15:27Z",
+          "bump_at": "2026-11-27T17:53:18Z",
+          "hours": {
+            "newest_to_alpha": 30.93,
+            "oldest_to_alpha": 30.93,
+            "upstream_to_sync": 18.97,
+            "sync_to_image": 10.92,
+            "image_to_bump": 0.63,
+            "bump_to_alpha": 0.42
+          }
+        }
+      ]
+    },
+    {
+      "csv": "secure-sign-pqc-operator.v0.1.0-alpha.32",
+      "at": "2026-11-27T18:50:08Z",
+      "operator_commit": "fcf24a6b3b278784da8b68bf84b697e5cdfccfac",
       "components": []
     }
   ],
@@ -1355,7 +1388,7 @@
       "date": "2026-11-27",
       "repo": "go-tuf",
       "behind": 3,
-      "age_hours": 7.38
+      "age_hours": 8.39
     },
     {
       "date": "2026-11-27",
@@ -1390,20 +1423,12 @@
   ],
   "open_prs": [
     {
-      "repo": "ci",
+      "repo": "secure-sign-pqc-operator",
       "pr": 36,
-      "title": "replaces.lock: github.com/coreos/go-oidc/v3 => github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+      "title": "Bump the 2.0 tsa image to timestamp-authority rhtas/main 1fa52945322f",
       "author": "sealhouse-bot[bot]",
-      "opened_at": "2026-11-27T17:37:31Z",
-      "kind": "other"
-    },
-    {
-      "repo": "ci",
-      "pr": 37,
-      "title": "Bring a fork's stale bot PR up to date before bot-merge merges it",
-      "author": "knrc",
-      "opened_at": "2026-11-27T17:57:16Z",
-      "kind": "other"
+      "opened_at": "2026-11-27T18:14:11Z",
+      "kind": "bump"
     }
   ],
   "carries": [
@@ -1465,6 +1490,13 @@
           "label": "drop",
           "title": "Pin ci 660c206d818d",
           "pr": null
+        },
+        {
+          "sha": "5436e4854fa8240b07d57ff5700c9ba7ad08ac34",
+          "at": "2026-11-27T18:12:04Z",
+          "label": "drop",
+          "title": "Replace modules as ci's replaces.lock asks",
+          "pr": null
         }
       ]
     },
@@ -1518,6 +1550,13 @@
           "at": "2026-11-27T17:12:08Z",
           "label": "drop",
           "title": "Pin ci 660c206d818d",
+          "pr": null
+        },
+        {
+          "sha": "59e6910a9d5b1cd9e63f055e43d509ee577abf9b",
+          "at": "2026-11-27T18:10:46Z",
+          "label": "drop",
+          "title": "Replace modules as ci's replaces.lock asks",
           "pr": null
         }
       ]
@@ -1586,6 +1625,13 @@
           "at": "2026-11-27T17:10:33Z",
           "label": "drop",
           "title": "Pin ci 660c206d818d",
+          "pr": null
+        },
+        {
+          "sha": "124b130d24f3213ab0117181f3b85c80c8d951f3",
+          "at": "2026-11-27T18:10:53Z",
+          "label": "drop",
+          "title": "Replace modules as ci's replaces.lock asks",
           "pr": null
         }
       ]
@@ -1725,6 +1771,13 @@
           "label": "drop",
           "title": "Pin ci 660c206d818d",
           "pr": null
+        },
+        {
+          "sha": "2f47e0f9c3203a6d0b4a14de5bf7945cec115564",
+          "at": "2026-11-27T18:11:00Z",
+          "label": "drop",
+          "title": "Replace modules as ci's replaces.lock asks",
+          "pr": null
         }
       ]
     },
@@ -1840,6 +1893,13 @@
           "label": "drop",
           "title": "Pin ci 660c206d818d",
           "pr": null
+        },
+        {
+          "sha": "65630627df1a79112f51181c78be998a43b49786",
+          "at": "2026-11-27T18:11:39Z",
+          "label": "drop",
+          "title": "Replace modules as ci's replaces.lock asks",
+          "pr": null
         }
       ]
     },
@@ -1901,6 +1961,13 @@
           "label": "drop",
           "title": "Pin ci 660c206d818d",
           "pr": null
+        },
+        {
+          "sha": "2cb439b6d0955e1b2bc01285d8fa8bec17eb93ac",
+          "at": "2026-11-27T18:11:10Z",
+          "label": "drop",
+          "title": "Replace modules as ci's replaces.lock asks",
+          "pr": null
         }
       ]
     },
@@ -1947,6 +2014,13 @@
           "at": "2026-11-27T17:10:49Z",
           "label": "drop",
           "title": "Pin ci 660c206d818d",
+          "pr": null
+        },
+        {
+          "sha": "1dd5635146cb3fadca34aa88ad9496cd56d8e0aa",
+          "at": "2026-11-27T18:11:17Z",
+          "label": "drop",
+          "title": "Replace modules as ci's replaces.lock asks",
           "pr": null
         }
       ]
@@ -1995,10 +2069,162 @@
           "label": "drop",
           "title": "Pin ci 660c206d818d",
           "pr": null
+        },
+        {
+          "sha": "1fa52945322ff9fcd353288047881b42ee1ec70c",
+          "at": "2026-11-27T18:11:46Z",
+          "label": "drop",
+          "title": "Replace modules as ci's replaces.lock asks",
+          "pr": null
         }
       ]
     }
   ],
-  "replaces": [],
-  "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.30"
+  "replaces": [
+    {
+      "module": "github.com/coreos/go-oidc/v3",
+      "fork_module": "github.com/sealhouse/go-oidc/v3",
+      "version": "v3.21.1-rhtas.1",
+      "drop": "upstream-pr=507",
+      "reason": "ML-DSA signed OIDC tokens (go-oidc#507)",
+      "condition": {
+        "kind": "pr",
+        "number": 507,
+        "state": "open",
+        "url": "https://github.com/coreos/go-oidc/pull/507",
+        "released": null
+      },
+      "consumers": [
+        {
+          "repo": "cosign",
+          "state": "applied",
+          "files": [
+            {
+              "path": "go.mod",
+              "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+              "state": "applied"
+            }
+          ]
+        },
+        {
+          "repo": "dex",
+          "state": "applied",
+          "files": [
+            {
+              "path": "examples/go.mod",
+              "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+              "state": "applied"
+            },
+            {
+              "path": "go.mod",
+              "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+              "state": "applied"
+            }
+          ]
+        },
+        {
+          "repo": "fulcio",
+          "state": "applied",
+          "files": [
+            {
+              "path": "go.mod",
+              "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+              "state": "applied"
+            }
+          ]
+        },
+        {
+          "repo": "go-tuf",
+          "state": "applied",
+          "files": [
+            {
+              "path": "go.mod",
+              "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+              "state": "applied"
+            }
+          ]
+        },
+        {
+          "repo": "rekor-tiles",
+          "state": "applied",
+          "files": [
+            {
+              "path": "go.mod",
+              "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+              "state": "applied"
+            }
+          ]
+        },
+        {
+          "repo": "sigstore",
+          "state": "applied",
+          "files": [
+            {
+              "path": "go.mod",
+              "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+              "state": "applied"
+            },
+            {
+              "path": "pkg/signature/kms/aws/go.mod",
+              "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+              "state": "applied"
+            },
+            {
+              "path": "pkg/signature/kms/azure/go.mod",
+              "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+              "state": "applied"
+            },
+            {
+              "path": "pkg/signature/kms/gcp/go.mod",
+              "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+              "state": "applied"
+            },
+            {
+              "path": "pkg/signature/kms/hashivault/go.mod",
+              "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+              "state": "applied"
+            },
+            {
+              "path": "test/cliplugin/localkms/go.mod",
+              "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+              "state": "applied"
+            },
+            {
+              "path": "test/fuzz/go.mod",
+              "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+              "state": "applied"
+            }
+          ]
+        },
+        {
+          "repo": "sigstore-go",
+          "state": "applied",
+          "files": [
+            {
+              "path": "examples/oci-image-verification/go.mod",
+              "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+              "state": "applied"
+            },
+            {
+              "path": "go.mod",
+              "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+              "state": "applied"
+            }
+          ]
+        },
+        {
+          "repo": "timestamp-authority",
+          "state": "applied",
+          "files": [
+            {
+              "path": "go.mod",
+              "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+              "state": "applied"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.32"
 }
