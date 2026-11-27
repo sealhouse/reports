@@ -2,16 +2,16 @@
   "schema": 1,
   "date": "2026-11-26",
   "status": "ok",
-  "partial": true,
+  "partial": false,
   "window": {
     "from": "2026-11-26T00:00:00Z",
     "to": "2026-11-27T00:00:00Z"
   },
   "run": {
-    "id": "45901884450",
-    "url": "https://github.com/sealhouse/ci/actions/runs/45901884450",
+    "id": "45914156890",
+    "url": "https://github.com/sealhouse/ci/actions/runs/45914156890",
     "ci": "a3d140c92fc80187d4d442704b8d9cd3495a2ab5",
-    "collected_at": "2026-11-26T22:02:06Z"
+    "collected_at": "2026-11-27T00:01:45Z"
   },
   "syncs": [
     {
@@ -3000,7 +3000,7 @@
     }
   ],
   "snapshot": {
-    "at": "2026-11-26T22:02:06Z",
+    "at": "2026-11-27T00:01:45Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.28",
     "behind": [
       {
