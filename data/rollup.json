@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-27",
-  "last_collected_at": "2026-11-27T17:01:02Z",
-  "last_attempt_at": "2026-11-27T17:01:02Z",
+  "last_collected_at": "2026-11-27T18:01:33Z",
+  "last_attempt_at": "2026-11-27T18:01:33Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -159,15 +159,15 @@
       "date": "2026-11-27",
       "status": "ok",
       "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/46038256394",
+      "run": "https://github.com/sealhouse/ci/actions/runs/46046115448",
       "syncs": 3,
       "syncs_closed": 0,
       "upstream_commits": 10,
-      "images": 0,
-      "alphas": 1,
-      "prs": 8,
-      "hands_off": 3,
-      "runs": 18,
+      "images": 5,
+      "alphas": 2,
+      "prs": 22,
+      "hands_off": 15,
+      "runs": 49,
       "runs_failed": 0
     }
   ],
@@ -334,6 +334,12 @@
           }
         }
       ]
+    },
+    {
+      "csv": "secure-sign-pqc-operator.v0.1.0-alpha.30",
+      "at": "2026-11-27T17:50:33Z",
+      "operator_commit": "976d57c9c42aab929b88b7bd094dfefaa7e21d1c",
+      "components": []
     }
   ],
   "incidents": [
@@ -1349,7 +1355,7 @@
       "date": "2026-11-27",
       "repo": "go-tuf",
       "behind": 3,
-      "age_hours": 6.37
+      "age_hours": 7.38
     },
     {
       "date": "2026-11-27",
@@ -1385,10 +1391,18 @@
   "open_prs": [
     {
       "repo": "ci",
-      "pr": 34,
-      "title": "Put the reason last on a replaces.lock line, drop a line once upstrea…",
+      "pr": 36,
+      "title": "replaces.lock: github.com/coreos/go-oidc/v3 => github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+      "author": "sealhouse-bot[bot]",
+      "opened_at": "2026-11-27T17:37:31Z",
+      "kind": "other"
+    },
+    {
+      "repo": "ci",
+      "pr": 37,
+      "title": "Bring a fork's stale bot PR up to date before bot-merge merges it",
       "author": "knrc",
-      "opened_at": "2026-11-27T16:44:25Z",
+      "opened_at": "2026-11-27T17:57:16Z",
       "kind": "other"
     }
   ],
@@ -1444,6 +1458,13 @@
           "label": "drop",
           "title": "Pin ci a3d140c92fc8",
           "pr": null
+        },
+        {
+          "sha": "18100820ff7eebe9b3ed8889c749305049037944",
+          "at": "2026-11-27T17:14:25Z",
+          "label": "drop",
+          "title": "Pin ci 660c206d818d",
+          "pr": null
         }
       ]
     },
@@ -1490,6 +1511,13 @@
           "at": "2026-11-26T21:08:35Z",
           "label": "drop",
           "title": "Pin ci a3d140c92fc8",
+          "pr": null
+        },
+        {
+          "sha": "a4b9019a4a2f134b6c9474c7fa6f31e65b27c5b5",
+          "at": "2026-11-27T17:12:08Z",
+          "label": "drop",
+          "title": "Pin ci 660c206d818d",
           "pr": null
         }
       ]
@@ -1551,6 +1579,13 @@
           "at": "2026-11-26T21:09:11Z",
           "label": "drop",
           "title": "Pin ci a3d140c92fc8",
+          "pr": null
+        },
+        {
+          "sha": "b84069395f5b8a1e366b82276b45355c302d6bd1",
+          "at": "2026-11-27T17:10:33Z",
+          "label": "drop",
+          "title": "Pin ci 660c206d818d",
           "pr": null
         }
       ]
@@ -1643,6 +1678,13 @@
             "replaced_by": null,
             "changed": false
           }
+        },
+        {
+          "sha": "43f9c60587a9ba77d707aa413eff40a1c58e3b48",
+          "at": "2026-11-27T17:09:13Z",
+          "label": "drop",
+          "title": "Pin ci 660c206d818d",
+          "pr": null
         }
       ]
     },
@@ -1675,6 +1717,13 @@
           "at": "2026-11-26T21:08:43Z",
           "label": "drop",
           "title": "Pin ci a3d140c92fc8",
+          "pr": null
+        },
+        {
+          "sha": "ec8926906dad1e82aee97096d4478e2e5cb3571d",
+          "at": "2026-11-27T17:09:19Z",
+          "label": "drop",
+          "title": "Pin ci 660c206d818d",
           "pr": null
         }
       ]
@@ -1722,6 +1771,13 @@
           "at": "2026-11-26T21:07:03Z",
           "label": "drop",
           "title": "Pin ci a3d140c92fc8",
+          "pr": null
+        },
+        {
+          "sha": "174817c4414be6da75125aaf84ebdd2320d77901",
+          "at": "2026-11-27T17:09:25Z",
+          "label": "drop",
+          "title": "Pin ci 660c206d818d",
           "pr": null
         }
       ]
@@ -1777,6 +1833,13 @@
           "label": "drop",
           "title": "Pin ci a3d140c92fc8",
           "pr": null
+        },
+        {
+          "sha": "9f59e5aac364fb16bf978648490ad8772aa4d635",
+          "at": "2026-11-27T17:11:40Z",
+          "label": "drop",
+          "title": "Pin ci 660c206d818d",
+          "pr": null
         }
       ]
     },
@@ -1831,6 +1894,13 @@
           "label": "drop",
           "title": "Pin ci a3d140c92fc8",
           "pr": null
+        },
+        {
+          "sha": "342d94f59a4fceed72225a50d98a44bebbafeb6f",
+          "at": "2026-11-27T17:10:43Z",
+          "label": "drop",
+          "title": "Pin ci 660c206d818d",
+          "pr": null
         }
       ]
     },
@@ -1870,6 +1940,13 @@
           "at": "2026-11-26T21:08:55Z",
           "label": "drop",
           "title": "Pin ci a3d140c92fc8",
+          "pr": null
+        },
+        {
+          "sha": "03e8dce82d7e668b6d375cf0e76fa30e20b3536e",
+          "at": "2026-11-27T17:10:49Z",
+          "label": "drop",
+          "title": "Pin ci 660c206d818d",
           "pr": null
         }
       ]
@@ -1911,9 +1988,17 @@
           "label": "drop",
           "title": "Pin ci a3d140c92fc8",
           "pr": null
+        },
+        {
+          "sha": "5ac97a75597f8fc10197ab803218d3df9ef48168",
+          "at": "2026-11-27T17:12:56Z",
+          "label": "drop",
+          "title": "Pin ci 660c206d818d",
+          "pr": null
         }
       ]
     }
   ],
-  "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.29"
+  "replaces": [],
+  "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.30"
 }
