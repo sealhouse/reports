@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-28",
-  "last_collected_at": "2026-11-28T01:00:40Z",
-  "last_attempt_at": "2026-11-28T01:00:40Z",
+  "last_collected_at": "2026-11-28T07:00:58Z",
+  "last_attempt_at": "2026-11-28T07:00:58Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -174,15 +174,15 @@
       "date": "2026-11-28",
       "status": "ok",
       "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/46090846129",
-      "syncs": 0,
+      "run": "https://github.com/sealhouse/ci/actions/runs/46119152695",
+      "syncs": 1,
       "syncs_closed": 0,
-      "upstream_commits": 0,
+      "upstream_commits": 3,
       "images": 0,
       "alphas": 0,
-      "prs": 0,
-      "hands_off": 0,
-      "runs": 2,
+      "prs": 1,
+      "hands_off": 1,
+      "runs": 7,
       "runs_failed": 0
     }
   ],
@@ -1485,8 +1485,8 @@
     {
       "date": "2026-11-28",
       "repo": "go-tuf",
-      "behind": 3,
-      "age_hours": 14.37
+      "behind": 0,
+      "age_hours": null
     },
     {
       "date": "2026-11-28",
@@ -1855,49 +1855,35 @@
       "repo": "go-tuf",
       "commits": [
         {
-          "sha": "8803c9f3b583612958e7625f711c4d5187ab7d3d",
+          "sha": "5220526541d9d01910d36f80f26ddacc83fa7833",
           "at": "2026-10-31T15:31:27Z",
           "label": "carry",
           "title": "sealhouse CI callers",
           "pr": null
         },
         {
-          "sha": "84d34e42cfc6744128a86eae1e0ea5c3e1fe1a29",
+          "sha": "22e1744753b29e2447cf64e6e0efb18fcb3222e6",
           "at": "2026-11-05T14:14:52Z",
           "label": "carry",
           "title": "Remove the Dependabot config",
           "pr": null
         },
         {
-          "sha": "85147a895a16847c2d852ed1ec3291b8f540cf0b",
+          "sha": "1bc92436ef4f474850afb47ed87bd0711994bea5",
           "at": "2026-11-06T00:09:23Z",
           "label": "carry",
           "title": "Hand the PR lane off to ci",
           "pr": null
         },
         {
-          "sha": "ee26dd17ad59dff4fed415c8abfcca5857bed5bd",
-          "at": "2026-11-26T21:08:43Z",
-          "label": "drop",
-          "title": "Pin ci a3d140c92fc8",
-          "pr": null
-        },
-        {
-          "sha": "ec8926906dad1e82aee97096d4478e2e5cb3571d",
-          "at": "2026-11-27T17:09:19Z",
-          "label": "drop",
-          "title": "Pin ci 660c206d818d",
-          "pr": null
-        },
-        {
-          "sha": "2f47e0f9c3203a6d0b4a14de5bf7945cec115564",
+          "sha": "64047f334fd7840372f88bf44a64d1fa2fa70552",
           "at": "2026-11-27T18:11:00Z",
           "label": "drop",
           "title": "Replace modules as ci's replaces.lock asks",
           "pr": null
         },
         {
-          "sha": "26a11e97742c1fd4d73e29dd6ba37f05719b0f4c",
+          "sha": "4d79ff770e8ec020c8d8a5b3c3b08125cf6bb07e",
           "at": "2026-11-27T19:37:11Z",
           "label": "drop",
           "title": "Pin ci e9a060c93a69",
