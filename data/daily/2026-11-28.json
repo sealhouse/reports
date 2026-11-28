@@ -8,10 +8,10 @@
     "to": "2026-11-29T00:00:00Z"
   },
   "run": {
-    "id": "46119152695",
-    "url": "https://github.com/sealhouse/ci/actions/runs/46119152695",
+    "id": "46123741186",
+    "url": "https://github.com/sealhouse/ci/actions/runs/46123741186",
     "ci": "679b25cf0928fa0f5a3b70b23a8593eff3cff2f6",
-    "collected_at": "2026-11-28T07:00:58Z"
+    "collected_at": "2026-11-28T08:00:57Z"
   },
   "syncs": [
     {
@@ -189,13 +189,34 @@
         "update / Update bump PRs": "success",
         "update / Complete job": "success"
       }
+    },
+    {
+      "repo": "ci",
+      "workflow": "sealhouse-replaces",
+      "id": 46121481782,
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "sha": "679b25cf0928fa0f5a3b70b23a8593eff3cff2f6",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-28T07:30:08Z",
+      "updated_at": "2026-11-28T07:31:09Z",
+      "url": "https://github.com/sealhouse/ci/actions/runs/46121481782",
+      "steps": {
+        "replaces / Set up job": "success",
+        "replaces / Scripts": "success",
+        "replaces / Release what changed": "success",
+        "replaces / Consumers": "success",
+        "replaces / Removable": "success",
+        "replaces / Complete job": "success"
+      }
     }
   ],
   "nightly": [],
   "soak": [],
   "vulns": [],
   "snapshot": {
-    "at": "2026-11-28T07:00:58Z",
+    "at": "2026-11-28T08:00:57Z",
     "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.33",
     "behind": [
       {
