@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-28",
-  "last_collected_at": "2026-11-28T10:00:48Z",
-  "last_attempt_at": "2026-11-28T10:00:48Z",
+  "last_collected_at": "2026-11-28T11:01:04Z",
+  "last_attempt_at": "2026-11-28T11:01:04Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -174,7 +174,7 @@
       "date": "2026-11-28",
       "status": "ok",
       "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/46133060842",
+      "run": "https://github.com/sealhouse/ci/actions/runs/46137768051",
       "syncs": 1,
       "syncs_closed": 0,
       "upstream_commits": 3,
@@ -761,7 +761,7 @@
     },
     {
       "date": "2026-11-28",
-      "conclusion": null,
+      "conclusion": "success",
       "url": "https://github.com/sealhouse/ci/actions/runs/46127264076",
       "jobs": {
         "changes": "success",
@@ -777,8 +777,9 @@
         "rebuild (fulcio)": "success",
         "rebuild (rekor-tiles)": "success",
         "rebuild (timestamp-authority)": "success",
+        "record": "success",
         "report": "success",
-        "soak": null,
+        "soak": "success",
         "vulns": "success",
         "watch": "success"
       }
@@ -873,6 +874,16 @@
       "heap_mib": "12.2",
       "sys_mib": "30.2",
       "kills": "13",
+      "result": "pass"
+    },
+    {
+      "date": "2026-11-28T10:11:45Z",
+      "commit": "87b0d72bf438",
+      "csv": "secure-sign-pqc-operator.v0.1.0-alpha.33",
+      "goroutines": "158",
+      "heap_mib": "12.9",
+      "sys_mib": "29.8",
+      "kills": "16",
       "result": "pass"
     }
   ],
