@@ -1,0 +1,962 @@
+{
+  "schema": 1,
+  "date": "2026-11-28",
+  "status": "ok",
+  "partial": true,
+  "window": {
+    "from": "2026-11-28T00:00:00Z",
+    "to": "2026-11-29T00:00:00Z"
+  },
+  "run": {
+    "id": "46085509903",
+    "url": "https://github.com/sealhouse/ci/actions/runs/46085509903",
+    "ci": "679b25cf0928fa0f5a3b70b23a8593eff3cff2f6",
+    "collected_at": "2026-11-28T00:02:36Z"
+  },
+  "syncs": [],
+  "images": [],
+  "prs": [],
+  "alphas": [],
+  "runs": [],
+  "nightly": [],
+  "soak": [],
+  "vulns": [],
+  "snapshot": {
+    "at": "2026-11-28T00:02:36Z",
+    "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.33",
+    "behind": [
+      {
+        "repo": "cosign",
+        "behind": 0,
+        "oldest_at": null
+      },
+      {
+        "repo": "dex",
+        "behind": 0,
+        "oldest_at": null
+      },
+      {
+        "repo": "fulcio",
+        "behind": 0,
+        "oldest_at": null
+      },
+      {
+        "repo": "go-oidc",
+        "behind": 0,
+        "oldest_at": null
+      },
+      {
+        "repo": "go-tuf",
+        "behind": 3,
+        "oldest_at": "2026-11-27T10:38:39Z"
+      },
+      {
+        "repo": "protobuf-specs",
+        "behind": 0,
+        "oldest_at": null
+      },
+      {
+        "repo": "rekor-tiles",
+        "behind": 0,
+        "oldest_at": null
+      },
+      {
+        "repo": "sigstore",
+        "behind": 0,
+        "oldest_at": null
+      },
+      {
+        "repo": "sigstore-go",
+        "behind": 0,
+        "oldest_at": null
+      },
+      {
+        "repo": "timestamp-authority",
+        "behind": 0,
+        "oldest_at": null
+      }
+    ],
+    "carries": [
+      {
+        "repo": "cosign",
+        "commits": [
+          {
+            "sha": "7ff5bf8b4260b2f7085de81bb51953c876c3da11",
+            "at": "2026-10-31T15:27:38Z",
+            "label": "carry",
+            "title": "Hummingbird FIPS image build for the cosign CLI",
+            "pr": null
+          },
+          {
+            "sha": "d202a2d51504d17e2990d77e9590d68e55514bd7",
+            "at": "2026-10-31T15:27:38Z",
+            "label": "carry",
+            "title": "sealhouse CI callers",
+            "pr": null
+          },
+          {
+            "sha": "5d58b825b69db23cdf40b03804779cbbfb569add",
+            "at": "2026-11-05T14:14:40Z",
+            "label": "carry",
+            "title": "Remove the Dependabot config",
+            "pr": null
+          },
+          {
+            "sha": "a8d2b1f0125e6f1289e47fdda011d6d9e193fbc9",
+            "at": "2026-11-06T00:09:15Z",
+            "label": "carry",
+            "title": "Hand the PR lane off to ci",
+            "pr": null
+          },
+          {
+            "sha": "e22e44b83baf65a29ef6fd3f187b8475cc105014",
+            "at": "2026-11-23T15:25:23Z",
+            "label": "drop",
+            "title": "Pin ci e8906322470f",
+            "pr": null
+          },
+          {
+            "sha": "4c138fa5624a4d7c79499c54ccf0a684c101b943",
+            "at": "2026-11-26T01:28:53Z",
+            "label": "drop",
+            "title": "Pin ci 86fdae849402",
+            "pr": null
+          },
+          {
+            "sha": "ec632ca18fd450c7b12f32afe6301018d9ea72fb",
+            "at": "2026-11-26T21:12:06Z",
+            "label": "drop",
+            "title": "Pin ci a3d140c92fc8",
+            "pr": null
+          },
+          {
+            "sha": "18100820ff7eebe9b3ed8889c749305049037944",
+            "at": "2026-11-27T17:14:25Z",
+            "label": "drop",
+            "title": "Pin ci 660c206d818d",
+            "pr": null
+          },
+          {
+            "sha": "5436e4854fa8240b07d57ff5700c9ba7ad08ac34",
+            "at": "2026-11-27T18:12:04Z",
+            "label": "drop",
+            "title": "Replace modules as ci's replaces.lock asks",
+            "pr": null
+          },
+          {
+            "sha": "355510f0b938804989e9edc36c5772920e64469c",
+            "at": "2026-11-27T19:40:42Z",
+            "label": "drop",
+            "title": "Pin ci e9a060c93a69",
+            "pr": null
+          }
+        ]
+      },
+      {
+        "repo": "dex",
+        "commits": [
+          {
+            "sha": "ae3b5982295ddf21ecf285e9d86fc918aa4e1b2a",
+            "at": "2026-11-10T01:40:59Z",
+            "label": "carry",
+            "title": "sealhouse CI callers",
+            "pr": null
+          },
+          {
+            "sha": "9cd325f64acd4eae09f1a307b496d8a7dee18051",
+            "at": "2026-11-10T01:40:59Z",
+            "label": "carry",
+            "title": "Remove the Dependabot config",
+            "pr": null
+          },
+          {
+            "sha": "7f15a84a332962f455cd6475b93fd080b3dfb39f",
+            "at": "2026-11-10T17:58:30Z",
+            "label": "carry",
+            "title": "Hummingbird FIPS image build for dex (#1)",
+            "pr": null
+          },
+          {
+            "sha": "03cd5ad8a64ab3f260a6bdda7bf66522ed47d575",
+            "at": "2026-11-23T15:23:24Z",
+            "label": "drop",
+            "title": "Pin ci e8906322470f",
+            "pr": null
+          },
+          {
+            "sha": "ec572f78128a314e3f919e2d488ad3e68631e98e",
+            "at": "2026-11-26T01:28:31Z",
+            "label": "drop",
+            "title": "Pin ci 86fdae849402",
+            "pr": null
+          },
+          {
+            "sha": "61d24239595d108a49fa0fc536da42b3a391e7ad",
+            "at": "2026-11-26T21:08:35Z",
+            "label": "drop",
+            "title": "Pin ci a3d140c92fc8",
+            "pr": null
+          },
+          {
+            "sha": "a4b9019a4a2f134b6c9474c7fa6f31e65b27c5b5",
+            "at": "2026-11-27T17:12:08Z",
+            "label": "drop",
+            "title": "Pin ci 660c206d818d",
+            "pr": null
+          },
+          {
+            "sha": "59e6910a9d5b1cd9e63f055e43d509ee577abf9b",
+            "at": "2026-11-27T18:10:46Z",
+            "label": "drop",
+            "title": "Replace modules as ci's replaces.lock asks",
+            "pr": null
+          },
+          {
+            "sha": "ebbc192239f04263724165f807be1a9adb96e515",
+            "at": "2026-11-27T19:39:29Z",
+            "label": "drop",
+            "title": "Pin ci e9a060c93a69",
+            "pr": null
+          }
+        ]
+      },
+      {
+        "repo": "fulcio",
+        "commits": [
+          {
+            "sha": "0172446c3e6105005282417a6ce17d63416f9784",
+            "at": "2026-10-31T15:24:51Z",
+            "label": "carry",
+            "title": "Hummingbird FIPS image build for fulcio-server",
+            "pr": null
+          },
+          {
+            "sha": "69bd39446ec4d2df93fbd2c453ae2392b3090f79",
+            "at": "2026-10-31T15:24:51Z",
+            "label": "carry",
+            "title": "sealhouse CI callers",
+            "pr": null
+          },
+          {
+            "sha": "e40a8abac9f3b88e31e12a9cc4b3ca857f35432c",
+            "at": "2026-11-05T14:14:47Z",
+            "label": "carry",
+            "title": "Remove the Dependabot config",
+            "pr": null
+          },
+          {
+            "sha": "153bb34218566e857857ada4c162579b5dc477bb",
+            "at": "2026-11-06T00:09:19Z",
+            "label": "carry",
+            "title": "Hand the PR lane off to ci",
+            "pr": null
+          },
+          {
+            "sha": "d959018df5c8b0ee7ac25540cafcf5e84bd30cbc",
+            "at": "2026-11-23T15:23:30Z",
+            "label": "drop",
+            "title": "Pin ci e8906322470f",
+            "pr": null
+          },
+          {
+            "sha": "8954ba5b8470c33ada5100ce8bdbda3245c4bcd1",
+            "at": "2026-11-24T22:41:05Z",
+            "label": "carry",
+            "title": "Smoke-test the image with an ML-DSA CA (#31)",
+            "pr": null
+          },
+          {
+            "sha": "72f9462e6eff4dcb2aeff5b7fef3befa85f01985",
+            "at": "2026-11-26T01:27:12Z",
+            "label": "drop",
+            "title": "Pin ci 86fdae849402",
+            "pr": null
+          },
+          {
+            "sha": "5061465dc454a97cc9d0b8b47a29d41e03e3c9d7",
+            "at": "2026-11-26T21:09:11Z",
+            "label": "drop",
+            "title": "Pin ci a3d140c92fc8",
+            "pr": null
+          },
+          {
+            "sha": "b84069395f5b8a1e366b82276b45355c302d6bd1",
+            "at": "2026-11-27T17:10:33Z",
+            "label": "drop",
+            "title": "Pin ci 660c206d818d",
+            "pr": null
+          },
+          {
+            "sha": "124b130d24f3213ab0117181f3b85c80c8d951f3",
+            "at": "2026-11-27T18:10:53Z",
+            "label": "drop",
+            "title": "Replace modules as ci's replaces.lock asks",
+            "pr": null
+          },
+          {
+            "sha": "d43a0615a77baeee3e4e3c73924a25993338d7de",
+            "at": "2026-11-27T19:39:35Z",
+            "label": "drop",
+            "title": "Pin ci e9a060c93a69",
+            "pr": null
+          }
+        ]
+      },
+      {
+        "repo": "go-oidc",
+        "commits": [
+          {
+            "sha": "e457883d835d6f5fc6942397f217045f8843ea8d",
+            "at": "2026-11-10T14:28:02Z",
+            "label": "carry",
+            "title": "sealhouse CI callers",
+            "pr": null
+          },
+          {
+            "sha": "c8bf123b574f186384b0a169f67093c1c17d2cb6",
+            "at": "2026-11-10T14:28:02Z",
+            "label": "carry",
+            "title": "Remove the Dependabot config",
+            "pr": null
+          },
+          {
+            "sha": "7a132a67c4975aa92707e3723f1804cddf767717",
+            "at": "2026-11-10T17:02:06Z",
+            "label": "drop",
+            "title": "Pin ci 75a727d99331",
+            "pr": null
+          },
+          {
+            "sha": "fcb65dc7375c631c5e24679e13e5236de3988455",
+            "at": "2026-11-10T17:58:47Z",
+            "label": "carry",
+            "title": "make test and lint for the sealhouse PR lane (#1)",
+            "pr": null
+          },
+          {
+            "sha": "02267b2cd003e5137fde484f512fc960811de903",
+            "at": "2026-11-18T01:29:50Z",
+            "label": "drop",
+            "title": "Pin ci b20bde1fb3ca",
+            "pr": null
+          },
+          {
+            "sha": "94a6e4c515417a6a3d8a64de0efb78e33acee61d",
+            "at": "2026-11-23T14:03:48Z",
+            "label": "drop",
+            "title": "Pin ci 9d772b70dae0",
+            "pr": null
+          },
+          {
+            "sha": "26d08ff6a13d8867da0a3ef2fbc2290f958693be",
+            "at": "2026-11-23T14:34:06Z",
+            "label": "drop",
+            "title": "Pin ci 68135e52c0b5",
+            "pr": null
+          },
+          {
+            "sha": "0d75daa725dcf1e224f5aa540395750378178dbd",
+            "at": "2026-11-23T15:20:46Z",
+            "label": "drop",
+            "title": "Pin ci e8906322470f",
+            "pr": null
+          },
+          {
+            "sha": "e95f959ff65fff6c5fc2143dbb771561539b31d7",
+            "at": "2026-11-26T01:24:58Z",
+            "label": "drop",
+            "title": "Pin ci 86fdae849402",
+            "pr": null
+          },
+          {
+            "sha": "a44abd99c44bfe34fffc408ab97778de5f7c7226",
+            "at": "2026-11-26T21:06:55Z",
+            "label": "drop",
+            "title": "Pin ci a3d140c92fc8",
+            "pr": null
+          },
+          {
+            "sha": "1d2a83027618501703bea6102655c541ce4bf6a4",
+            "at": "2026-11-26T21:09:07Z",
+            "label": "507",
+            "title": "Support ML-DSA signing algorithms (#9)",
+            "pr": {
+              "state": "open",
+              "head": "7704c241dfcbead15b95ada0264348316c90a40c",
+              "url": "https://github.com/coreos/go-oidc/pull/507",
+              "number": 507,
+              "carried": "7704c241dfcbead15b95ada0264348316c90a40c",
+              "action": null,
+              "replaced_by": null,
+              "changed": false
+            }
+          },
+          {
+            "sha": "43f9c60587a9ba77d707aa413eff40a1c58e3b48",
+            "at": "2026-11-27T17:09:13Z",
+            "label": "drop",
+            "title": "Pin ci 660c206d818d",
+            "pr": null
+          },
+          {
+            "sha": "33f5dfdf6fb66cac7007bc8b294dd9733fe183fb",
+            "at": "2026-11-27T19:37:05Z",
+            "label": "drop",
+            "title": "Pin ci e9a060c93a69",
+            "pr": null
+          }
+        ]
+      },
+      {
+        "repo": "go-tuf",
+        "commits": [
+          {
+            "sha": "8803c9f3b583612958e7625f711c4d5187ab7d3d",
+            "at": "2026-10-31T15:31:27Z",
+            "label": "carry",
+            "title": "sealhouse CI callers",
+            "pr": null
+          },
+          {
+            "sha": "84d34e42cfc6744128a86eae1e0ea5c3e1fe1a29",
+            "at": "2026-11-05T14:14:52Z",
+            "label": "carry",
+            "title": "Remove the Dependabot config",
+            "pr": null
+          },
+          {
+            "sha": "85147a895a16847c2d852ed1ec3291b8f540cf0b",
+            "at": "2026-11-06T00:09:23Z",
+            "label": "carry",
+            "title": "Hand the PR lane off to ci",
+            "pr": null
+          },
+          {
+            "sha": "ee26dd17ad59dff4fed415c8abfcca5857bed5bd",
+            "at": "2026-11-26T21:08:43Z",
+            "label": "drop",
+            "title": "Pin ci a3d140c92fc8",
+            "pr": null
+          },
+          {
+            "sha": "ec8926906dad1e82aee97096d4478e2e5cb3571d",
+            "at": "2026-11-27T17:09:19Z",
+            "label": "drop",
+            "title": "Pin ci 660c206d818d",
+            "pr": null
+          },
+          {
+            "sha": "2f47e0f9c3203a6d0b4a14de5bf7945cec115564",
+            "at": "2026-11-27T18:11:00Z",
+            "label": "drop",
+            "title": "Replace modules as ci's replaces.lock asks",
+            "pr": null
+          },
+          {
+            "sha": "26a11e97742c1fd4d73e29dd6ba37f05719b0f4c",
+            "at": "2026-11-27T19:37:11Z",
+            "label": "drop",
+            "title": "Pin ci e9a060c93a69",
+            "pr": null
+          }
+        ]
+      },
+      {
+        "repo": "protobuf-specs",
+        "commits": [
+          {
+            "sha": "427a00253223c31a388737c34fb54c98ecdbd440",
+            "at": "2026-10-31T15:31:19Z",
+            "label": "carry",
+            "title": "sealhouse CI callers",
+            "pr": null
+          },
+          {
+            "sha": "54f0990741db5c2d4723946337a373f3346099ed",
+            "at": "2026-11-05T14:14:59Z",
+            "label": "carry",
+            "title": "Remove the Dependabot config",
+            "pr": null
+          },
+          {
+            "sha": "b4463b2de4f37b38e519ad28162cc1b555f85c22",
+            "at": "2026-11-06T00:09:27Z",
+            "label": "carry",
+            "title": "Hand the PR lane off to ci",
+            "pr": null
+          },
+          {
+            "sha": "80ae7101f8b3e15800aaced33975c84d51aaa5b2",
+            "at": "2026-11-23T15:20:56Z",
+            "label": "drop",
+            "title": "Pin ci e8906322470f",
+            "pr": null
+          },
+          {
+            "sha": "cd64854f4c4cd4369e45a9b1065f197d495ce4c9",
+            "at": "2026-11-26T01:25:11Z",
+            "label": "drop",
+            "title": "Pin ci 86fdae849402",
+            "pr": null
+          },
+          {
+            "sha": "9ffcf7e8e32785270b4cd46f5f8b5ff98f57b550",
+            "at": "2026-11-26T21:07:03Z",
+            "label": "drop",
+            "title": "Pin ci a3d140c92fc8",
+            "pr": null
+          },
+          {
+            "sha": "174817c4414be6da75125aaf84ebdd2320d77901",
+            "at": "2026-11-27T17:09:25Z",
+            "label": "drop",
+            "title": "Pin ci 660c206d818d",
+            "pr": null
+          },
+          {
+            "sha": "4c5aadb7d79be511dcf6cc3108f923eef4a70424",
+            "at": "2026-11-27T19:37:16Z",
+            "label": "drop",
+            "title": "Pin ci e9a060c93a69",
+            "pr": null
+          }
+        ]
+      },
+      {
+        "repo": "rekor-tiles",
+        "commits": [
+          {
+            "sha": "fa927c82579fea0733e08fc3627d11803d176c3c",
+            "at": "2026-10-31T15:26:12Z",
+            "label": "carry",
+            "title": "Hummingbird FIPS image build for rekor-server (POSIX) and sealhouse CI callers",
+            "pr": null
+          },
+          {
+            "sha": "5137aff11619649e5dce7815a83b95e5ed86aa4a",
+            "at": "2026-11-05T14:15:04Z",
+            "label": "carry",
+            "title": "Remove the Dependabot config",
+            "pr": null
+          },
+          {
+            "sha": "bec93d2c82081f15f5d8551646239cc861a016d2",
+            "at": "2026-11-06T00:09:31Z",
+            "label": "carry",
+            "title": "Hand the PR lane off to ci",
+            "pr": null
+          },
+          {
+            "sha": "220aa94c5bbc9253305085834b4a67c2b77c9246",
+            "at": "2026-11-23T15:23:40Z",
+            "label": "drop",
+            "title": "Pin ci e8906322470f",
+            "pr": null
+          },
+          {
+            "sha": "6f8c0bfba0947e87d63ada49d05642e30411a975",
+            "at": "2026-11-23T20:38:39Z",
+            "label": "drop",
+            "title": "Fix GO-2026-6865",
+            "pr": null
+          },
+          {
+            "sha": "30ecf354c459110b9add967fd719f5e02d28d069",
+            "at": "2026-11-26T14:51:32Z",
+            "label": "drop",
+            "title": "Pin ci 86fdae849402",
+            "pr": null
+          },
+          {
+            "sha": "3ac7858e6e7acb929dc4dd93d879499698279b3c",
+            "at": "2026-11-26T21:09:19Z",
+            "label": "drop",
+            "title": "Pin ci a3d140c92fc8",
+            "pr": null
+          },
+          {
+            "sha": "9f59e5aac364fb16bf978648490ad8772aa4d635",
+            "at": "2026-11-27T17:11:40Z",
+            "label": "drop",
+            "title": "Pin ci 660c206d818d",
+            "pr": null
+          },
+          {
+            "sha": "65630627df1a79112f51181c78be998a43b49786",
+            "at": "2026-11-27T18:11:39Z",
+            "label": "drop",
+            "title": "Replace modules as ci's replaces.lock asks",
+            "pr": null
+          },
+          {
+            "sha": "84f6b81c66c3987f97cfb7c471789320e1f5674b",
+            "at": "2026-11-27T19:40:16Z",
+            "label": "drop",
+            "title": "Pin ci e9a060c93a69",
+            "pr": null
+          },
+          {
+            "sha": "29c0ee990a3e798e5966c493f6a4fc6003e1daab",
+            "at": "2026-11-27T20:09:27Z",
+            "label": "1036",
+            "title": "Support ML-DSA signed OIDC tokens (#29)",
+            "pr": {
+              "state": "draft",
+              "head": "428557c81c1a8d27ccd4e8957d1d5c52313cb1e8",
+              "url": "https://github.com/sigstore/rekor-tiles/pull/1036",
+              "number": 1036,
+              "carried": "428557c81c1a8d27ccd4e8957d1d5c52313cb1e8",
+              "action": null,
+              "replaced_by": null,
+              "changed": false
+            }
+          }
+        ]
+      },
+      {
+        "repo": "sigstore",
+        "commits": [
+          {
+            "sha": "75451730c58f6e8f67bcc4b99ff8ea6e36c99062",
+            "at": "2026-10-31T15:30:39Z",
+            "label": "carry",
+            "title": "sealhouse CI callers",
+            "pr": null
+          },
+          {
+            "sha": "a8b4580f1c5c5b5f2da6661ac0b2250f521db5a8",
+            "at": "2026-10-31T15:30:39Z",
+            "label": "carry",
+            "title": "make test skips hack/tools, which has no packages to test",
+            "pr": null
+          },
+          {
+            "sha": "bc7e9d15b441a247a4d22a20cea930e695fb24bd",
+            "at": "2026-11-05T14:15:10Z",
+            "label": "carry",
+            "title": "Remove the Dependabot config",
+            "pr": null
+          },
+          {
+            "sha": "d88a58cab1c3625666d4edc68a0f714f95183605",
+            "at": "2026-11-06T00:09:36Z",
+            "label": "carry",
+            "title": "Hand the PR lane off to ci",
+            "pr": null
+          },
+          {
+            "sha": "4d2e29ed7d0a2a8f6de2dc6b26f69c043a1dcb55",
+            "at": "2026-11-23T15:23:47Z",
+            "label": "drop",
+            "title": "Pin ci e8906322470f",
+            "pr": null
+          },
+          {
+            "sha": "a27ddf39ee8186939c79867c6ca5f026af319230",
+            "at": "2026-11-26T01:27:20Z",
+            "label": "drop",
+            "title": "Pin ci 86fdae849402",
+            "pr": null
+          },
+          {
+            "sha": "4a0fd9a0e0a99b95a92ed7d4a2b61b377313bff1",
+            "at": "2026-11-26T21:08:50Z",
+            "label": "drop",
+            "title": "Pin ci a3d140c92fc8",
+            "pr": null
+          },
+          {
+            "sha": "342d94f59a4fceed72225a50d98a44bebbafeb6f",
+            "at": "2026-11-27T17:10:43Z",
+            "label": "drop",
+            "title": "Pin ci 660c206d818d",
+            "pr": null
+          },
+          {
+            "sha": "2cb439b6d0955e1b2bc01285d8fa8bec17eb93ac",
+            "at": "2026-11-27T18:11:10Z",
+            "label": "drop",
+            "title": "Replace modules as ci's replaces.lock asks",
+            "pr": null
+          },
+          {
+            "sha": "5f99e47c5ae6b83feddeee1d9c626b8fa4239cec",
+            "at": "2026-11-27T19:39:46Z",
+            "label": "drop",
+            "title": "Pin ci e9a060c93a69",
+            "pr": null
+          }
+        ]
+      },
+      {
+        "repo": "sigstore-go",
+        "commits": [
+          {
+            "sha": "54626610a9af0468525cb7c34298961c14255017",
+            "at": "2026-10-31T15:30:14Z",
+            "label": "carry",
+            "title": "sealhouse CI callers",
+            "pr": null
+          },
+          {
+            "sha": "aafad34fc3855c0e2506f1b2fcc2727f8e58dbbb",
+            "at": "2026-11-05T14:15:15Z",
+            "label": "carry",
+            "title": "Remove the Dependabot config",
+            "pr": null
+          },
+          {
+            "sha": "d1143632067376e8b4a5e6621b746ae19a521e3b",
+            "at": "2026-11-06T00:09:41Z",
+            "label": "carry",
+            "title": "Hand the PR lane off to ci",
+            "pr": null
+          },
+          {
+            "sha": "fe21baafec5c8d6306c240cfcdac67a13c3aa67d",
+            "at": "2026-11-23T20:38:46Z",
+            "label": "drop",
+            "title": "Fix GO-2026-6865",
+            "pr": null
+          },
+          {
+            "sha": "cd8fd386f536e2db6fe2dd05d63d8d166bfa8802",
+            "at": "2026-11-26T21:08:55Z",
+            "label": "drop",
+            "title": "Pin ci a3d140c92fc8",
+            "pr": null
+          },
+          {
+            "sha": "03e8dce82d7e668b6d375cf0e76fa30e20b3536e",
+            "at": "2026-11-27T17:10:49Z",
+            "label": "drop",
+            "title": "Pin ci 660c206d818d",
+            "pr": null
+          },
+          {
+            "sha": "1dd5635146cb3fadca34aa88ad9496cd56d8e0aa",
+            "at": "2026-11-27T18:11:17Z",
+            "label": "drop",
+            "title": "Replace modules as ci's replaces.lock asks",
+            "pr": null
+          },
+          {
+            "sha": "b2f26c5cdff3c4b65fc5e88ad03ab3c27022a5f0",
+            "at": "2026-11-27T19:39:52Z",
+            "label": "drop",
+            "title": "Pin ci e9a060c93a69",
+            "pr": null
+          }
+        ]
+      },
+      {
+        "repo": "timestamp-authority",
+        "commits": [
+          {
+            "sha": "0c9da35673750d3c2a4ba0f7db418b3e3786873e",
+            "at": "2026-10-31T15:09:07Z",
+            "label": "carry",
+            "title": "Hummingbird FIPS image build for timestamp-server",
+            "pr": null
+          },
+          {
+            "sha": "456046076c4daefd64a8c63b22ca516cd188a209",
+            "at": "2026-10-31T15:09:07Z",
+            "label": "carry",
+            "title": "sealhouse CI callers",
+            "pr": null
+          },
+          {
+            "sha": "18ff490b53fd25f3a987c7d19526165a197e81b2",
+            "at": "2026-11-05T14:15:21Z",
+            "label": "carry",
+            "title": "Remove the Dependabot config",
+            "pr": null
+          },
+          {
+            "sha": "ebd538bf0bf68c4f8e2cbe50af16748bf8b37dc4",
+            "at": "2026-11-06T00:09:45Z",
+            "label": "carry",
+            "title": "Hand the PR lane off to ci",
+            "pr": null
+          },
+          {
+            "sha": "1ba570bcca660777bcb903a15ec1942f715167c0",
+            "at": "2026-11-26T21:10:34Z",
+            "label": "drop",
+            "title": "Pin ci a3d140c92fc8",
+            "pr": null
+          },
+          {
+            "sha": "5ac97a75597f8fc10197ab803218d3df9ef48168",
+            "at": "2026-11-27T17:12:56Z",
+            "label": "drop",
+            "title": "Pin ci 660c206d818d",
+            "pr": null
+          },
+          {
+            "sha": "1fa52945322ff9fcd353288047881b42ee1ec70c",
+            "at": "2026-11-27T18:11:46Z",
+            "label": "drop",
+            "title": "Replace modules as ci's replaces.lock asks",
+            "pr": null
+          },
+          {
+            "sha": "120e67741b0309bb0c4941de58037a3b4b934174",
+            "at": "2026-11-27T19:40:54Z",
+            "label": "drop",
+            "title": "Pin ci e9a060c93a69",
+            "pr": null
+          }
+        ]
+      }
+    ],
+    "replaces": [
+      {
+        "module": "github.com/coreos/go-oidc/v3",
+        "fork_module": "github.com/sealhouse/go-oidc/v3",
+        "version": "v3.21.1-rhtas.1",
+        "drop": "upstream-pr=507",
+        "reason": "ML-DSA signed OIDC tokens (go-oidc#507)",
+        "condition": {
+          "kind": "pr",
+          "number": 507,
+          "state": "open",
+          "url": "https://github.com/coreos/go-oidc/pull/507",
+          "released": null
+        },
+        "consumers": [
+          {
+            "repo": "cosign",
+            "state": "applied",
+            "files": [
+              {
+                "path": "go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              }
+            ]
+          },
+          {
+            "repo": "dex",
+            "state": "applied",
+            "files": [
+              {
+                "path": "examples/go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              },
+              {
+                "path": "go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              }
+            ]
+          },
+          {
+            "repo": "fulcio",
+            "state": "applied",
+            "files": [
+              {
+                "path": "go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              }
+            ]
+          },
+          {
+            "repo": "go-tuf",
+            "state": "applied",
+            "files": [
+              {
+                "path": "go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              }
+            ]
+          },
+          {
+            "repo": "rekor-tiles",
+            "state": "applied",
+            "files": [
+              {
+                "path": "go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              }
+            ]
+          },
+          {
+            "repo": "sigstore",
+            "state": "applied",
+            "files": [
+              {
+                "path": "go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              },
+              {
+                "path": "pkg/signature/kms/aws/go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              },
+              {
+                "path": "pkg/signature/kms/azure/go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              },
+              {
+                "path": "pkg/signature/kms/gcp/go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              },
+              {
+                "path": "pkg/signature/kms/hashivault/go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              },
+              {
+                "path": "test/cliplugin/localkms/go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              },
+              {
+                "path": "test/fuzz/go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              }
+            ]
+          },
+          {
+            "repo": "sigstore-go",
+            "state": "applied",
+            "files": [
+              {
+                "path": "examples/oci-image-verification/go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              },
+              {
+                "path": "go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              }
+            ]
+          },
+          {
+            "repo": "timestamp-authority",
+            "state": "applied",
+            "files": [
+              {
+                "path": "go.mod",
+                "replaced": "github.com/sealhouse/go-oidc/v3 v3.21.1-rhtas.1",
+                "state": "applied"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "open_prs": []
+  }
+}
