@@ -2,8 +2,8 @@
   "schema": 1,
   "first": "2026-11-17",
   "last": "2026-11-28",
-  "last_collected_at": "2026-11-28T13:01:15Z",
-  "last_attempt_at": "2026-11-28T13:01:15Z",
+  "last_collected_at": "2026-11-28T17:01:13Z",
+  "last_attempt_at": "2026-11-28T17:01:13Z",
   "days": [
     {
       "date": "2026-11-17",
@@ -174,15 +174,15 @@
       "date": "2026-11-28",
       "status": "ok",
       "partial": true,
-      "run": "https://github.com/sealhouse/ci/actions/runs/46147400452",
+      "run": "https://github.com/sealhouse/ci/actions/runs/46168111981",
       "syncs": 1,
       "syncs_closed": 0,
       "upstream_commits": 3,
       "images": 0,
-      "alphas": 0,
-      "prs": 1,
+      "alphas": 1,
+      "prs": 2,
       "hands_off": 1,
-      "runs": 12,
+      "runs": 15,
       "runs_failed": 0
     }
   ],
@@ -411,6 +411,12 @@
           }
         }
       ]
+    },
+    {
+      "csv": "secure-sign-pqc-operator.v0.1.0-alpha.35",
+      "at": "2026-11-28T16:50:37Z",
+      "operator_commit": "a40d3d9e9351ff8c22823e8eba0e59c32aea7da1",
+      "components": []
     }
   ],
   "incidents": [
@@ -2429,5 +2435,5 @@
       ]
     }
   ],
-  "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.33"
+  "alpha": "secure-sign-pqc-operator.v0.1.0-alpha.35"
 }
